@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Portrait or character photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload a portrait or character image → apply the prompt → generate a desk display with a figurine, sculpting screen, and collectible box`
+
 ## 📝 Full Prompt
 
 ```text

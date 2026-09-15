@@ -5,9 +5,9 @@
   <a href="README_zh.md"><img src="assets/ui/language-zh-CN-active.svg" alt="简体中文 — 当前语言" width="128" height="32"></a>
 </p>
 
-用 Nano Banana 编辑你的图片。探索包含前后对比、清晰操作说明和完整中英文提示词的图片编辑案例，由 SeeAPI 整理。
+让你的照片拥有更多可能。这里收录 Nano Banana 图片编辑提示词，涵盖虚拟试衣、人像合照、产品场景、家居改造与照片修复。每个案例提供独立操作步骤和完整提示词，并逐步补充编辑前后对比，方便你用自己的图片尝试。由 SeeAPI 整理，提供完整中英文版本。
 
-**{{COUNT}} 个编辑提示词 · 示例图待补充 · 更新于 {{DATE}}**
+**{{COUNT}} 个编辑提示词 · {{IMAGE_COUNT}} 个案例附示例图 · 更新于 {{DATE}}**
 
 ⭐ Star 收藏这个仓库，为下一次图片编辑寻找灵感。
 
@@ -15,34 +15,26 @@
 
 ## ✨ 精选玩法
 
-| 完整 Look 换装 | 产品换背景 | 两张人像合成合照 |
-| :---: | :---: | :---: |
-| **Before**<br>人物原图 + 穿搭参考图 | **Before**<br>产品原图 | **Before**<br>人像 1 + 人像 2 |
-| **After**<br>服装、鞋子、包袋与配饰完整换装 | **After**<br>保留产品，更换背景与场景 | **After**<br>保留两人特征，合成自然合照 |
-| [查看案例](#p01-complete-look) | [查看案例](#p02-product-background) | [查看案例](#p03-shared-portrait) |
+{{FEATURED}}
 
 ## 📑 目录
 
 **仓库指南**
 
-- [精选玩法](#featured)
-- [使用方法与模型选择](#how-to-use)
+- [✨ 精选玩法](#featured)
+- [🧭 模型选择](#how-to-use)
 
 **提示词分类**
 
-- [人像与穿搭](#portraits-outfits)
-- [产品与商业图片](#products-commercial)
-- [家居与空间](#homes-spaces)
-- [风格转换与趣味创作](#style-transformations)
-- [照片修复与局部调整](#restoration-adjustments)
+- [👗 人像与穿搭](#portraits-outfits)
+- [🛍️ 产品与商业图片](#products-commercial)
+- [🏡 家居与空间](#homes-spaces)
+- [🎨 风格转换与趣味创作](#style-transformations)
+- [🪄 照片修复与局部调整](#restoration-adjustments)
 
 <a id="how-to-use"></a>
 
-## 🛠️ 使用方法与模型选择
-
-选择模型 → 上传 Before 中的原图与参考图 → 复制提示词并替换占位符 → 生成结果。
-
-多图输入按图片编号上传；需要继续调整时，在同一会话中描述修改。
+## 🧭 模型选择
 
 | 模型 | 适合 | 注意 |
 | --- | --- | --- |

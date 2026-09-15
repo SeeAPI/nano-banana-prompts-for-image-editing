@@ -5,15 +5,15 @@
       "id": "P01",
       "slug": "complete-look",
       "category": 1,
-      "title": "Complete Look Makeover",
-      "title_zh": "完整 Look 换装",
+      "title": "Virtual Clothes Try On",
+      "title_zh": "虚拟试衣",
       "inputs": "Image 1: person; Image 2 onward: complete outfit and accessories",
       "inputs_zh": "图 1：人物；图 2 起：完整穿搭及配饰",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "1.1",
       "readme_anchor": "p01-complete-look",
@@ -28,7 +28,43 @@
       },
       "case": "cases/complete-look.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [
+        {
+          "path": "assets/portraits/reference-man.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "bcf479f7e7eec168105164aedb650b979d0ac9f1b61341ae83a258b41ceaa99a",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518413.png",
+          "role": "reference",
+          "label": "Image 1",
+          "label_zh": "图 1"
+        },
+        {
+          "path": "assets/portraits/reference-outfit.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "5e22d5cfb07a77f73fdcb5c7388b33c25db02877f71c6909efc9c4a57c2ed0a6",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518410.png",
+          "role": "reference",
+          "label": "Image 2",
+          "label_zh": "图 2"
+        },
+        {
+          "path": "assets/portraits/result-virtual-try-on.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "3bdf4838e65842397f70feadedc7f6b97979efe9c9d9420b4957e3dc1ca957dd",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518415.jpg",
+          "role": "result",
+          "label": "Virtual Clothes Try On",
+          "label_zh": "虚拟试衣"
+        }
+      ],
+      "workflow": "Upload the person as Image 1 + outfit and accessory references as Image 2 onward → apply the prompt → generate a complete full-body look",
+      "workflow_zh": "上传人物为图 1，服装与配饰参考为图 2 起 → 输入提示词 → 生成完整全身穿搭"
     },
     {
       "id": "P04",
@@ -44,7 +80,7 @@
         "note": "HTML whitespace entity decoded; wording preserved.",
         "original_prompt": "docs/source-prompts/mini-me.original.txt"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "1.2",
       "readme_anchor": "p04-mini-me",
@@ -59,7 +95,32 @@
       },
       "case": "cases/mini-me.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [
+        {
+          "path": "assets/portraits/reference-boy.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "9c49a0d55e37516c80709d74caf4b85fb7bb1c99c4b26ea64b683d6240bc6bc9",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518450.png",
+          "role": "reference",
+          "label": "Image 1",
+          "label_zh": "图 1"
+        },
+        {
+          "path": "assets/portraits/result-mini-me.jpg",
+          "width": 768,
+          "height": 1376,
+          "sha256": "e33a5eaa8ebe7da62b71306c94073a1a385898f5765aec57a6faaf74fd26214e",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518452.jpg",
+          "role": "result",
+          "label": "Mini Me",
+          "label_zh": "Mini Me 迷你分身"
+        }
+      ],
+      "workflow": "Upload a portrait → apply the prompt → add matching miniatures and hand-drawn doodles around the original subject",
+      "workflow_zh": "上传人物原图 → 输入提示词 → 在原人物周围添加迷你分身与手绘涂鸦"
     },
     {
       "id": "P05",
@@ -75,7 +136,7 @@
         "note": "Reference-image binding and pet foreground clarified; age and gender generalized.",
         "original_prompt": "docs/source-prompts/pet-photobomb.original.txt"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "1.3",
       "readme_anchor": "p05-pet-photobomb",
@@ -90,7 +151,43 @@
       },
       "case": "cases/pet-photobomb.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [
+        {
+          "path": "assets/portraits/reference-woman.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "4707af868894062703e7e3042c5c5544ce13c7dca613c92039574d18ec0e9f98",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-20269151844.png",
+          "role": "reference",
+          "label": "Image 1",
+          "label_zh": "图 1"
+        },
+        {
+          "path": "assets/portraits/reference-cat.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "1a59a004a55af0d33430bdbb092d5d04992be9271f4360690acf3c653db97542",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-20269151846.png",
+          "role": "reference",
+          "label": "Image 2",
+          "label_zh": "图 2"
+        },
+        {
+          "path": "assets/portraits/result-pet-selfie.jpg",
+          "width": 768,
+          "height": 1376,
+          "sha256": "8b711b72483a8b37c2119e81b2ebcf59d4037fb7d525ed63578397e796ee93a3",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518513.jpg",
+          "role": "result",
+          "label": "Pet Photobomb Selfie",
+          "label_zh": "和宠物的搞怪合影"
+        }
+      ],
+      "workflow": "Upload the person as Image 1 + their pet as Image 2 → apply the prompt → generate a wide-angle café selfie with the pet in the foreground",
+      "workflow_zh": "上传人物为图 1、宠物为图 2 → 输入提示词 → 生成宠物前景抢镜的咖啡馆广角自拍"
     },
     {
       "id": "P06",
@@ -104,7 +201,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "1.4",
       "readme_anchor": "p06-hairstyle-grid",
@@ -119,7 +216,32 @@
       },
       "case": "cases/hairstyle-grid.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [
+        {
+          "path": "assets/portraits/reference-hairstyle.png",
+          "width": 1024,
+          "height": 1536,
+          "sha256": "f69d71a6ea9bc8082bf1969b5bba1a5ad5a7e207a30fd8de22cc53995fec28f2",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518558.png",
+          "role": "reference",
+          "label": "Image 1",
+          "label_zh": "图 1"
+        },
+        {
+          "path": "assets/portraits/result-hairstyle-grid.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "3bb97c8c76c16e56339996a4c8e7e1be1b6a14eedac3e3c161a3d462be330c9e",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-20269151861.jpg",
+          "role": "result",
+          "label": "3 × 3 Hairstyle Changer",
+          "label_zh": "3 × 3 发型九宫格"
+        }
+      ],
+      "workflow": "Upload a clear front-facing portrait → apply the prompt → generate one 3 × 3 grid with nine distinct hairstyles and the same face",
+      "workflow_zh": "上传清晰正面人像 → 输入提示词 → 生成同一张脸、九种不同发型的 3 × 3 九宫格"
     },
     {
       "id": "P07",
@@ -133,7 +255,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "1.5",
       "readme_anchor": "p07-linkedin-headshot",
@@ -148,21 +270,46 @@
       },
       "case": "cases/linkedin-headshot.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [
+        {
+          "path": "assets/portraits/reference-woman.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "4707af868894062703e7e3042c5c5544ce13c7dca613c92039574d18ec0e9f98",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-20269151844.png",
+          "role": "reference",
+          "label": "Image 1",
+          "label_zh": "图 1"
+        },
+        {
+          "path": "assets/portraits/result-linkedin.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "44f1f18cf56652ae286da85679fc3341c38545da4f9a0a8300e28e49b17503e6",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518611.jpg",
+          "role": "result",
+          "label": "LinkedIn Profile Picture",
+          "label_zh": "LinkedIn 职业头像"
+        }
+      ],
+      "workflow": "Upload a clear portrait → apply the prompt → generate a square professional headshot suitable for a circular profile crop",
+      "workflow_zh": "上传清晰人像 → 输入提示词 → 生成适合圆形头像裁切的正方形职业照"
     },
     {
       "id": "P03",
       "slug": "shared-portrait",
       "category": 1,
-      "title": "Two Portraits, One Photo",
-      "title_zh": "两张人像合成合照",
+      "title": "Group Photo",
+      "title_zh": "合照",
       "inputs": "Image 1: person A; Image 2: person B",
       "inputs_zh": "图 1：人物 A；图 2：人物 B",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "1.6",
       "readme_anchor": "p03-shared-portrait",
@@ -177,7 +324,43 @@
       },
       "case": "cases/shared-portrait.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [
+        {
+          "path": "assets/portraits/reference-man.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "bcf479f7e7eec168105164aedb650b979d0ac9f1b61341ae83a258b41ceaa99a",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518413.png",
+          "role": "reference",
+          "label": "Image 1",
+          "label_zh": "图 1"
+        },
+        {
+          "path": "assets/portraits/reference-woman.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "4707af868894062703e7e3042c5c5544ce13c7dca613c92039574d18ec0e9f98",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-20269151844.png",
+          "role": "reference",
+          "label": "Image 2",
+          "label_zh": "图 2"
+        },
+        {
+          "path": "assets/portraits/result-group-photo.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "b3fdbf2b1664e4cea968214bf9a99915ddcceab0574e58b045ffe9dd1d2915ff",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518619.jpg",
+          "role": "result",
+          "label": "Group Photo",
+          "label_zh": "合照"
+        }
+      ],
+      "workflow": "Upload person A as Image 1 + person B as Image 2 → apply the prompt → generate one natural photo of both people",
+      "workflow_zh": "上传人物 A 为图 1、人物 B 为图 2 → 输入提示词 → 生成自然双人合照"
     },
     {
       "id": "P02",
@@ -206,7 +389,9 @@
       },
       "case": "cases/product-background.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the product photo → set [background_description] → apply the prompt → generate the product in the new setting",
+      "workflow_zh": "上传产品原图 → 填写 [background_description] 背景描述 → 输入提示词 → 生成新场景产品图"
     },
     {
       "id": "P08",
@@ -235,7 +420,9 @@
       },
       "case": "cases/white-background-product.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the product photo → apply the prompt → isolate the product on white with a natural contact shadow",
+      "workflow_zh": "上传产品原图 → 输入提示词 → 生成保留自然接触阴影的白底产品图"
     },
     {
       "id": "P09",
@@ -268,7 +455,9 @@
       },
       "case": "cases/floating-food-ad.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the food photo → set [subject] and [ingredient_bits] → apply the prompt → generate a floating layered food advertisement",
+      "workflow_zh": "上传食品原图 → 填写 [subject] 食品主体和 [ingredient_bits] 食材点缀 → 输入提示词 → 生成分层悬浮食品广告"
     },
     {
       "id": "P10",
@@ -301,7 +490,9 @@
       },
       "case": "cases/low-angle-product-campaign.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the product as Image 1 + an optional person reference as Image 2 → set [product name] → apply the prompt → generate a low-angle product campaign",
+      "workflow_zh": "上传产品为图 1，可选人物参考为图 2 → 填写 [product name] 产品名称 → 输入提示词 → 生成低机位产品广告"
     },
     {
       "id": "P11",
@@ -334,7 +525,9 @@
       },
       "case": "cases/doodle-product-ad.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the product photo → set [product setup] and [character] → apply the prompt → generate a product photo with an interacting doodle character",
+      "workflow_zh": "上传产品原图 → 填写 [product setup] 产品摆放方式和 [character] 涂鸦角色 → 输入提示词 → 生成角色与产品互动的涂鸦广告"
     },
     {
       "id": "P12",
@@ -370,7 +563,9 @@
       },
       "case": "cases/packaging-dieline.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the packaging photo, adding other views if available → apply the prompt → generate an unfolded packaging concept for visual exploration",
+      "workflow_zh": "上传包装照片，可补充其他角度 → 输入提示词 → 生成用于视觉探索的包装展开概念图"
     },
     {
       "id": "P13",
@@ -399,7 +594,9 @@
       },
       "case": "cases/interior-design.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the room photo → set [interior_style] → apply the prompt → visualize a redesign within the existing room structure",
+      "workflow_zh": "上传房间原图 → 填写 [interior_style] 室内风格 → 输入提示词 → 在现有房间结构内生成设计效果"
     },
     {
       "id": "P14",
@@ -428,14 +625,16 @@
       },
       "case": "cases/landscape-design.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the garden or yard photo → set [landscape_style] and [climate_or_location] → apply the prompt → visualize the landscape redesign",
+      "workflow_zh": "上传花园或庭院原图 → 填写 [landscape_style] 景观风格和 [climate_or_location] 气候或地区 → 输入提示词 → 生成景观改造效果"
     },
     {
       "id": "P15",
       "slug": "furniture-replacement",
       "category": 3,
-      "title": "Furniture Makeover",
-      "title_zh": "家装与家具替换",
+      "title": "Furniture Replace",
+      "title_zh": "家具替换",
       "inputs": "Image 1: room; Image 2 onward: optional furniture references",
       "inputs_zh": "图 1：房间；图 2 起：可选家具参考图",
       "source": {
@@ -457,7 +656,9 @@
       },
       "case": "cases/furniture-replacement.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the room as Image 1 + optional furniture references as Image 2 onward → set [furniture_to_replace] and [new_furniture_description] → apply the prompt → replace the selected furniture",
+      "workflow_zh": "上传房间为图 1，可选家具参考为图 2 起 → 填写 [furniture_to_replace] 待替换家具和 [new_furniture_description] 新家具描述 → 输入提示词 → 替换指定家具"
     },
     {
       "id": "P16",
@@ -486,7 +687,9 @@
       },
       "case": "cases/material-swap.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the object photo → set [target_object] and [material] → apply the prompt → change only the selected surface material",
+      "workflow_zh": "上传物体原图 → 填写 [target_object] 目标物体和 [material] 材质 → 输入提示词 → 仅替换指定表面材质"
     },
     {
       "id": "P17",
@@ -515,7 +718,9 @@
       },
       "case": "cases/wall-paint.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the interior photo → set [wall_area] and [paint_color] → apply the prompt → preview the selected wall paint color",
+      "workflow_zh": "上传室内原图 → 填写 [wall_area] 墙面区域和 [paint_color] 墙漆颜色 → 输入提示词 → 预览指定墙面改色"
     },
     {
       "id": "P18",
@@ -544,7 +749,9 @@
       },
       "case": "cases/polaroid.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the photo → apply the prompt → generate an instant-film look with a Polaroid-style border",
+      "workflow_zh": "上传原图 → 输入提示词 → 生成带宝丽来式相纸边框的即时胶片效果"
     },
     {
       "id": "P19",
@@ -573,14 +780,16 @@
       },
       "case": "cases/lego-style.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the photo → apply the prompt → rebuild the same composition as a LEGO-style diorama",
+      "workflow_zh": "上传原图 → 输入提示词 → 将原构图重建为乐高风格积木场景"
     },
     {
       "id": "P20",
       "slug": "ghibli-anime",
       "category": 4,
-      "title": "Ghibli-Inspired Anime",
-      "title_zh": "吉卜力动漫风格",
+      "title": "Ghibli Anime",
+      "title_zh": "吉卜力动漫",
       "inputs": "Photo",
       "inputs_zh": "原图",
       "source": {
@@ -602,7 +811,9 @@
       },
       "case": "cases/ghibli-anime.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the photo → apply the prompt → reinterpret the original subjects and setting as a Ghibli-inspired illustration",
+      "workflow_zh": "上传原图 → 输入提示词 → 将原主体与场景转换为吉卜力风格插画"
     },
     {
       "id": "P21",
@@ -631,7 +842,9 @@
       },
       "case": "cases/miniature-figurine.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload a portrait or character image → apply the prompt → generate a desk display with a figurine, sculpting screen, and collectible box",
+      "workflow_zh": "上传人像或角色图 → 输入提示词 → 生成包含手办、建模屏幕和收藏包装盒的桌面展示"
     },
     {
       "id": "P22",
@@ -660,7 +873,9 @@
       },
       "case": "cases/oil-painting.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the photo → apply the prompt → transform the original composition into a textured oil painting",
+      "workflow_zh": "上传原图 → 输入提示词 → 将原构图转换为具有笔触纹理的油画"
     },
     {
       "id": "P23",
@@ -689,14 +904,16 @@
       },
       "case": "cases/old-photo-restoration.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the old or damaged photo → apply the prompt → repair damage while retaining identities and the original color treatment",
+      "workflow_zh": "上传老照片或受损照片 → 输入提示词 → 修复损伤并保留人物身份及原有黑白或彩色形式"
     },
     {
       "id": "P24",
       "slug": "add-text",
       "category": 5,
-      "title": "Add Custom Text",
-      "title_zh": "添加自定义文字",
+      "title": "Add Text to Image",
+      "title_zh": "在图片中添加文字",
       "inputs": "Photo",
       "inputs_zh": "原图",
       "source": {
@@ -718,7 +935,9 @@
       },
       "case": "cases/add-text.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the photo → set [text_content], [text_location], and [text_style] → apply the prompt → add the exact supplied wording",
+      "workflow_zh": "上传原图 → 填写 [text_content] 文字内容、[text_location] 位置和 [text_style] 样式 → 输入提示词 → 添加原样文字"
     },
     {
       "id": "P25",
@@ -747,14 +966,16 @@
       },
       "case": "cases/remove-object.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the photo → identify [object_to_remove], including its position if needed → apply the prompt → remove it and reconstruct the background",
+      "workflow_zh": "上传原图 → 填写 [object_to_remove] 待移除物体，必要时描述位置 → 输入提示词 → 移除物体并补全背景"
     },
     {
       "id": "P26",
       "slug": "relight-image",
       "category": 5,
-      "title": "Relight an Image",
-      "title_zh": "重新布光",
+      "title": "Relight Image",
+      "title_zh": "图片重新布光",
       "inputs": "Photo",
       "inputs_zh": "原图",
       "source": {
@@ -776,7 +997,9 @@
       },
       "case": "cases/relight-image.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the photo → set [lighting_description] with the desired light direction, softness, and color → apply the prompt → relight the scene",
+      "workflow_zh": "上传原图 → 在 [lighting_description] 中描述光照方向、柔硬和颜色 → 输入提示词 → 重新布光"
     },
     {
       "id": "P27",
@@ -805,7 +1028,26 @@
       },
       "case": "cases/replace-object.md",
       "updated": "2026-09-15",
-      "media": []
+      "media": [],
+      "workflow": "Upload the original as Image 1 + an optional replacement reference as Image 2 → set [object_to_replace] and [replacement_object] → apply the prompt → replace the selected object",
+      "workflow_zh": "上传原图为图 1，可选替换物参考为图 2 → 填写 [object_to_replace] 原物体和 [replacement_object] 替换物 → 输入提示词 → 替换指定物体"
+    }
+  ],
+  "featured": [
+    {
+      "id": "P01",
+      "workflow": "Person + outfit references → virtual try-on",
+      "workflow_zh": "人物 + 穿搭参考 → 虚拟试衣"
+    },
+    {
+      "id": "P02",
+      "workflow": "Product photo + new setting → background replacement",
+      "workflow_zh": "产品原图 + 新场景 → 背景替换"
+    },
+    {
+      "id": "P03",
+      "workflow": "Two portraits → one group photo",
+      "workflow_zh": "两张人像 → 一张合照"
     }
   ]
 }

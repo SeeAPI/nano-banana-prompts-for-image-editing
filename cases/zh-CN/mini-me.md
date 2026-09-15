@@ -4,7 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 人物原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/reference-boy.png"><img src="../../assets/portraits/reference-boy.png" width="320" height="320" alt="图 1"></a><br>人物原图 | <a href="../../assets/portraits/result-mini-me.jpg"><img src="../../assets/portraits/result-mini-me.jpg" width="179" height="320" alt="Mini Me 迷你分身"></a> |
+
+## 👇 工作流
+
+`上传人物原图 → 输入提示词 → 在原人物周围添加迷你分身与手绘涂鸦`
 
 ## 📝 完整提示词
 

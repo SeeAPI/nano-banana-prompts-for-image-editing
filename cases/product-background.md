@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Product photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the product photo → set [background_description] → apply the prompt → generate the product in the new setting`
+
 ## 📝 Full Prompt
 
 ```text

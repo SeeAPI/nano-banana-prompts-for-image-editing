@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the photo → apply the prompt → rebuild the same composition as a LEGO-style diorama`
+
 ## 📝 Full Prompt
 
 ```text

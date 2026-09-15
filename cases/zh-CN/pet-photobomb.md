@@ -4,7 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 图 1：人物；图 2：宠物<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/reference-woman.png"><img src="../../assets/portraits/reference-woman.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="../../assets/portraits/reference-cat.png"><img src="../../assets/portraits/reference-cat.png" width="150" height="150" alt="图 2"></a><br>图 1：人物；图 2：宠物 | <a href="../../assets/portraits/result-pet-selfie.jpg"><img src="../../assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="和宠物的搞怪合影"></a> |
+
+## 👇 工作流
+
+`上传人物为图 1、宠物为图 2 → 输入提示词 → 生成宠物前景抢镜的咖啡馆广角自拍`
 
 ## 📝 完整提示词
 

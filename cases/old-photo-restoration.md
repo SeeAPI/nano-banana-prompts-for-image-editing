@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Old or damaged photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the old or damaged photo → apply the prompt → repair damage while retaining identities and the original color treatment`
+
 ## 📝 Full Prompt
 
 ```text

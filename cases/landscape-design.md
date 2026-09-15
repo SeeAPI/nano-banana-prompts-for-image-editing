@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Garden or yard photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the garden or yard photo → set [landscape_style] and [climate_or_location] → apply the prompt → visualize the landscape redesign`
+
 ## 📝 Full Prompt
 
 ```text

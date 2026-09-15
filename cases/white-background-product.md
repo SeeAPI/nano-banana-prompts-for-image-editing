@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Product photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the product photo → apply the prompt → isolate the product on white with a natural contact shadow`
+
 ## 📝 Full Prompt
 
 ```text

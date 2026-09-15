@@ -1,10 +1,14 @@
-# P24 · Add Custom Text
+# P24 · Add Text to Image
 
 ## 🖼️ Preview
 
 | Before | After |
 | :---: | :---: |
 | Photo<br>Input image pending | Result image pending |
+
+## 👇 Workflow
+
+`Upload the photo → set [text_content], [text_location], and [text_style] → apply the prompt → add the exact supplied wording`
 
 ## 📝 Full Prompt
 

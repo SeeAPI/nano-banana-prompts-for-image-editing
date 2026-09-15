@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the photo → apply the prompt → transform the original composition into a textured oil painting`
+
 ## 📝 Full Prompt
 
 ```text

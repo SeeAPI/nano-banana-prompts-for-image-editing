@@ -1,10 +1,14 @@
-# P26 · Relight an Image
+# P26 · Relight Image
 
 ## 🖼️ Preview
 
 | Before | After |
 | :---: | :---: |
 | Photo<br>Input image pending | Result image pending |
+
+## 👇 Workflow
+
+`Upload the photo → set [lighting_description] with the desired light direction, softness, and color → apply the prompt → relight the scene`
 
 ## 📝 Full Prompt
 

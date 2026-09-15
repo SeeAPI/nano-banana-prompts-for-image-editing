@@ -4,7 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 人物原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/reference-woman.png"><img src="../../assets/portraits/reference-woman.png" width="320" height="320" alt="图 1"></a><br>人物原图 | <a href="../../assets/portraits/result-linkedin.jpg"><img src="../../assets/portraits/result-linkedin.jpg" width="320" height="320" alt="LinkedIn 职业头像"></a> |
+
+## 👇 工作流
+
+`上传清晰人像 → 输入提示词 → 生成适合圆形头像裁切的正方形职业照`
 
 ## 📝 完整提示词
 

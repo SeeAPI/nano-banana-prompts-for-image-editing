@@ -1,10 +1,14 @@
-# P01 · 完整 Look 换装
+# P01 · 虚拟试衣
 
 ## 🖼️ 预览
 
 | Before | After |
 | :---: | :---: |
-| 图 1：人物；图 2 起：完整穿搭及配饰<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/reference-man.png"><img src="../../assets/portraits/reference-man.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="../../assets/portraits/reference-outfit.png"><img src="../../assets/portraits/reference-outfit.png" width="150" height="150" alt="图 2"></a><br>图 1：人物；图 2 起：完整穿搭及配饰 | <a href="../../assets/portraits/result-virtual-try-on.jpg"><img src="../../assets/portraits/result-virtual-try-on.jpg" width="320" height="320" alt="虚拟试衣"></a> |
+
+## 👇 工作流
+
+`上传人物为图 1，服装与配饰参考为图 2 起 → 输入提示词 → 生成完整全身穿搭`
 
 ## 📝 完整提示词
 

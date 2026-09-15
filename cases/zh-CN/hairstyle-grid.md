@@ -4,7 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 正面人像<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/reference-hairstyle.png"><img src="../../assets/portraits/reference-hairstyle.png" width="213" height="320" alt="图 1"></a><br>正面人像 | <a href="../../assets/portraits/result-hairstyle-grid.jpg"><img src="../../assets/portraits/result-hairstyle-grid.jpg" width="320" height="320" alt="3 × 3 发型九宫格"></a> |
+
+## 👇 工作流
+
+`上传清晰正面人像 → 输入提示词 → 生成同一张脸、九种不同发型的 3 × 3 九宫格`
 
 ## 📝 完整提示词
 

@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the photo → apply the prompt → generate an instant-film look with a Polaroid-style border`
+
 ## 📝 Full Prompt
 
 ```text

@@ -1,10 +1,14 @@
-# P20 · Ghibli-Inspired Anime
+# P20 · Ghibli Anime
 
 ## 🖼️ Preview
 
 | Before | After |
 | :---: | :---: |
 | Photo<br>Input image pending | Result image pending |
+
+## 👇 Workflow
+
+`Upload the photo → apply the prompt → reinterpret the original subjects and setting as a Ghibli-inspired illustration`
 
 ## 📝 Full Prompt
 

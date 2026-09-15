@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Photo containing the target object<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the object photo → set [target_object] and [material] → apply the prompt → change only the selected surface material`
+
 ## 📝 Full Prompt
 
 ```text

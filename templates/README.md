@@ -5,9 +5,9 @@
   <a href="README_zh.md"><img src="assets/ui/language-zh-CN-inactive.svg" alt="简体中文" width="128" height="32"></a>
 </p>
 
-Transform your images with Nano Banana. Explore image-editing prompts with before-and-after examples, clear instructions, and complete prompts in English and Chinese. Curated by SeeAPI.
+Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room makeovers, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
 
-**{{COUNT}} editing prompts · Preview images coming soon · Updated {{DATE_EN}}**
+**{{COUNT}} editing prompts · {{IMAGE_COUNT}} cases with previews · Updated {{DATE_EN}}**
 
 ⭐ Star this collection to save ideas for your next image edit.
 
@@ -15,34 +15,26 @@ Transform your images with Nano Banana. Explore image-editing prompts with befor
 
 ## ✨ Featured Edits
 
-| Complete Look Makeover | Product Background Replacement | Two Portraits, One Photo |
-| :---: | :---: | :---: |
-| **Before**<br>Portrait + outfit reference images | **Before**<br>Original product image | **Before**<br>Portrait 1 + Portrait 2 |
-| **After**<br>A complete outfit, including shoes, bags, and accessories | **After**<br>Keep the product and replace its background | **After**<br>Combine two people into a natural shared portrait |
-| [View case](#p01-complete-look) | [View case](#p02-product-background) | [View case](#p03-shared-portrait) |
+{{FEATURED}}
 
 ## 📑 Contents
 
 **Repository Guide**
 
-- [Featured Edits](#featured)
-- [How to Use & Choose Your Model](#how-to-use)
+- [✨ Featured Edits](#featured)
+- [🧭 Choose Your Model](#how-to-use)
 
 **Prompt Categories**
 
-- [Portraits & Outfits](#portraits-outfits)
-- [Products & Commercial Images](#products-commercial)
-- [Homes & Spaces](#homes-spaces)
-- [Style Transformations & Playful Edits](#style-transformations)
-- [Photo Restoration & Local Adjustments](#restoration-adjustments)
+- [👗 Portraits & Outfits](#portraits-outfits)
+- [🛍️ Products & Commercial Images](#products-commercial)
+- [🏡 Homes & Spaces](#homes-spaces)
+- [🎨 Style Transformations & Playful Edits](#style-transformations)
+- [🪄 Photo Restoration & Local Adjustments](#restoration-adjustments)
 
 <a id="how-to-use"></a>
 
-## 🛠️ How to Use & Choose Your Model
-
-Choose a model → Upload the original and reference images shown under Before → Copy the prompt and replace its placeholders → Generate your edit.
-
-Upload multiple images in their numbered order. To refine the result, describe your next change in the same conversation.
+## 🧭 Choose Your Model
 
 | Model | Best for | Note |
 | --- | --- | --- |

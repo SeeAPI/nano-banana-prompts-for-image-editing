@@ -6,6 +6,10 @@
 | :---: | :---: |
 | Interior photo<br>Input image pending | Result image pending |
 
+## 👇 Workflow
+
+`Upload the interior photo → set [wall_area] and [paint_color] → apply the prompt → preview the selected wall paint color`
+
 ## 📝 Full Prompt
 
 ```text

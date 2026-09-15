@@ -1,10 +1,14 @@
-# P03 · 两张人像合成合照
+# P03 · 合照
 
 ## 🖼️ 预览
 
 | Before | After |
 | :---: | :---: |
-| 图 1：人物 A；图 2：人物 B<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/reference-man.png"><img src="../../assets/portraits/reference-man.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="../../assets/portraits/reference-woman.png"><img src="../../assets/portraits/reference-woman.png" width="150" height="150" alt="图 2"></a><br>图 1：人物 A；图 2：人物 B | <a href="../../assets/portraits/result-group-photo.jpg"><img src="../../assets/portraits/result-group-photo.jpg" width="320" height="320" alt="合照"></a> |
+
+## 👇 工作流
+
+`上传人物 A 为图 1、人物 B 为图 2 → 输入提示词 → 生成自然双人合照`
 
 ## 📝 完整提示词
 
