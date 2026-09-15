@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="144" viewBox="0 0 840 144" role="img" aria-label="在 SeeAPI 体验 Nano Banana">
+<title>在 SeeAPI 体验 Nano Banana</title>
+<desc>用你的图片，试试这些编辑提示词。 立即体验 — nanobanana.seeapi.com</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#202832"/><stop offset="1" stop-color="#11161D"/></linearGradient></defs>
+<rect x="1" y="1" width="838" height="142" rx="20" fill="url(#bg)" stroke="#39424E"/>
+<rect x="24" y="30" width="6" height="84" rx="3" fill="#F9D648"/>
+<circle cx="767" cy="13" r="91" fill="#F9D648" opacity=".045"/>
+<g font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<text x="50" y="34" font-size="10" letter-spacing="2.5" font-weight="700" fill="#F9D648">SEEAPI / IMAGE EDITING</text>
+<text x="50" y="72" font-size="27" font-weight="700" fill="#FFFFFF">在 SeeAPI 体验 Nano Banana</text>
+<text x="50" y="103" font-size="15" fill="#B8C3CE">用你的图片，试试这些编辑提示词。</text>
+<rect x="635" y="47" width="177" height="48" rx="24" fill="#F9D648"/>
+<text x="709" y="77" text-anchor="middle" font-size="16" font-weight="700" fill="#18212B">立即体验</text>
+</g>
+<path d="M772 65l6 6-6 6m-12-6h18" fill="none" stroke="#18212B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -5,9 +5,9 @@
   <a href="README_zh.md"><img src="assets/ui/language-zh-CN-inactive.svg" alt="简体中文" width="128" height="32"></a>
 </p>
 
-Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room makeovers, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
+Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room redesign, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
 
-**27 editing prompts · 6 cases with previews · Updated September 15, 2026**
+**27 editing prompts · 8 cases with previews · Updated September 15, 2026**
 
 ⭐ Star this collection to save ideas for your next image edit.
 
@@ -17,8 +17,8 @@ Discover what your photos can become. Explore Nano Banana editing prompts for vi
 
 | [Virtual Clothes Try On](#p01-complete-look) | [Product Background Replacement](#p02-product-background) | [Group Photo](#p03-shared-portrait) |
 | :---: | :---: | :---: |
-| <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="180" height="180" alt="Virtual Clothes Try On"></a> | Preview coming soon | <a href="assets/portraits/result-group-photo.jpg"><img src="assets/portraits/result-group-photo.jpg" width="180" height="180" alt="Group Photo"></a> |
-| `Person + outfit references → virtual try-on` | `Product photo + new setting → background replacement` | `Two portraits → one group photo` |
+| <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="Image 1"></a> <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="52" height="52" alt="Image 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="110" height="110" alt="Virtual Clothes Try On"></a> | <b>Before → After</b><br><a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="110" height="110" alt="Original product"></a> &nbsp;→&nbsp; <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="110" height="110" alt="Ice background"></a> | <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="Image 1"></a> <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="52" height="52" alt="Image 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="110" height="110" alt="Group Photo"></a> |
+| `Person + outfit → virtual try-on` | `Product + background description → new scene` | `Two portraits → group photo` |
 
 ## 📑 Contents
 
@@ -46,7 +46,9 @@ Discover what your photos can become. Explore Nano Banana editing prompts for vi
 | Nano Banana 2 Lite | Simple edits, low-cost batches | 1K only; weaker fit for multi-reference and sequential edits |
 | Nano Banana Pro | Complex refinement, brand consistency | Pick for demanding tasks |
 
-[Official model guide](https://ai.google.dev/gemini-api/docs/image-generation)
+<a href="https://nanobanana.seeapi.com/">
+  <img src="assets/ui/seeapi-nano-banana-en.svg" alt="Nano Banana on SeeAPI — Try it now" width="840" height="144">
+</a>
 
 <a id="portraits-outfits"></a>
 
@@ -60,11 +62,11 @@ Discover what your photos can become. Explore Nano Banana editing prompts for vi
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="150" height="150" alt="Image 2"></a><br>Image 1: person; Image 2 onward: complete outfit and accessories | <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="320" height="320" alt="Virtual Clothes Try On"></a> |
+| <a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="150" height="150" alt="Image 2"></a><br>Person + outfit | <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="320" height="320" alt="Virtual Clothes Try On"></a> |
 
 #### 👇 Workflow
 
-`Upload the person as Image 1 + outfit and accessory references as Image 2 onward → apply the prompt → generate a complete full-body look`
+`Person + outfit → virtual try-on`
 
 #### 📝 Full Prompt
 
@@ -84,11 +86,11 @@ Keep the person's face, identity, hairstyle, skin tone, body shape, and proporti
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-boy.png"><img src="assets/portraits/reference-boy.png" width="320" height="320" alt="Image 1"></a><br>Portrait photo | <a href="assets/portraits/result-mini-me.jpg"><img src="assets/portraits/result-mini-me.jpg" width="179" height="320" alt="Mini Me"></a> |
+| <a href="assets/portraits/reference-boy.png"><img src="assets/portraits/reference-boy.png" width="320" height="320" alt="Image 1"></a><br>Portrait | <a href="assets/portraits/result-mini-me.jpg"><img src="assets/portraits/result-mini-me.jpg" width="179" height="320" alt="Mini Me"></a> |
 
 #### 👇 Workflow
 
-`Upload a portrait → apply the prompt → add matching miniatures and hand-drawn doodles around the original subject`
+`Portrait → Mini Me`
 
 #### 📝 Full Prompt
 
@@ -112,11 +114,11 @@ Keep the original face, body shape, and proportions of the main subject unchange
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="assets/portraits/reference-cat.png"><img src="assets/portraits/reference-cat.png" width="150" height="150" alt="Image 2"></a><br>Image 1: person; Image 2: pet | <a href="assets/portraits/result-pet-selfie.jpg"><img src="assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="Pet Photobomb Selfie"></a> |
+| <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="assets/portraits/reference-cat.png"><img src="assets/portraits/reference-cat.png" width="150" height="150" alt="Image 2"></a><br>Person + pet | <a href="assets/portraits/result-pet-selfie.jpg"><img src="assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="Pet Photobomb Selfie"></a> |
 
 #### 👇 Workflow
 
-`Upload the person as Image 1 + their pet as Image 2 → apply the prompt → generate a wide-angle café selfie with the pet in the foreground`
+`Person + pet → playful selfie`
 
 #### 📝 Full Prompt
 
@@ -138,11 +140,11 @@ They are sitting inside a warm, aesthetic café filled with wooden furniture, ha
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-hairstyle.png"><img src="assets/portraits/reference-hairstyle.png" width="213" height="320" alt="Image 1"></a><br>Front-facing portrait | <a href="assets/portraits/result-hairstyle-grid.jpg"><img src="assets/portraits/result-hairstyle-grid.jpg" width="320" height="320" alt="3 × 3 Hairstyle Changer"></a> |
+| <a href="assets/portraits/reference-hairstyle.png"><img src="assets/portraits/reference-hairstyle.png" width="213" height="320" alt="Image 1"></a><br>Portrait | <a href="assets/portraits/result-hairstyle-grid.jpg"><img src="assets/portraits/result-hairstyle-grid.jpg" width="320" height="320" alt="3 × 3 Hairstyle Changer"></a> |
 
 #### 👇 Workflow
 
-`Upload a clear front-facing portrait → apply the prompt → generate one 3 × 3 grid with nine distinct hairstyles and the same face`
+`Portrait → 9 hairstyles`
 
 #### 📝 Full Prompt
 
@@ -164,11 +166,11 @@ Keep hair fully visible within each cell with consistent framing and narrow, eve
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="320" height="320" alt="Image 1"></a><br>Portrait photo | <a href="assets/portraits/result-linkedin.jpg"><img src="assets/portraits/result-linkedin.jpg" width="320" height="320" alt="LinkedIn Profile Picture"></a> |
+| <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="320" height="320" alt="Image 1"></a><br>Portrait | <a href="assets/portraits/result-linkedin.jpg"><img src="assets/portraits/result-linkedin.jpg" width="320" height="320" alt="LinkedIn Profile Picture"></a> |
 
 #### 👇 Workflow
 
-`Upload a clear portrait → apply the prompt → generate a square professional headshot suitable for a circular profile crop`
+`Portrait → professional headshot`
 
 #### 📝 Full Prompt
 
@@ -190,11 +192,11 @@ Output a square photorealistic image with comfortable headroom and enough space 
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="150" height="150" alt="Image 2"></a><br>Image 1: person A; Image 2: person B | <a href="assets/portraits/result-group-photo.jpg"><img src="assets/portraits/result-group-photo.jpg" width="320" height="320" alt="Group Photo"></a> |
+| <a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="150" height="150" alt="Image 2"></a><br>Person A + person B | <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="320" height="320" alt="Group Photo"></a> |
 
 #### 👇 Workflow
 
-`Upload person A as Image 1 + person B as Image 2 → apply the prompt → generate one natural photo of both people`
+`Two portraits → group photo`
 
 #### 📝 Full Prompt
 
@@ -218,11 +220,11 @@ Use a single camera viewpoint and consistent perspective, scale, lighting, color
 
 | Before | After |
 | :---: | :---: |
-| Product photo<br>Input image pending | Result image pending |
+| <a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="320" height="320" alt="Original product"></a><br>Product | <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="320" height="320" alt="Ice background"></a> |
 
 #### 👇 Workflow
 
-`Upload the product photo → set [background_description] → apply the prompt → generate the product in the new setting`
+`Product + background description → new scene`
 
 #### 📝 Full Prompt
 
@@ -242,11 +244,11 @@ Integrate the product naturally into the new setting with a believable scale, pe
 
 | Before | After |
 | :---: | :---: |
-| Product photo<br>Input image pending | Result image pending |
+| <a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="320" height="320" alt="Original product"></a><br>Product | <a href="assets/products/result-mug-white-background.jpg"><img src="assets/products/result-mug-white-background.jpg" width="320" height="320" alt="White background"></a> |
 
 #### 👇 Workflow
 
-`Upload the product photo → apply the prompt → isolate the product on white with a natural contact shadow`
+`Product → white background`
 
 #### 📝 Full Prompt
 
@@ -266,11 +268,11 @@ Center the product with even margins and keep it fully inside the frame. Use sof
 
 | Before | After |
 | :---: | :---: |
-| Food product photo<br>Input image pending | Result image pending |
+| Food<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the food photo → set [subject] and [ingredient_bits] → apply the prompt → generate a floating layered food advertisement`
+`Food + ingredient details → floating food ad`
 
 #### 📝 Full Prompt
 
@@ -290,11 +292,11 @@ Keep generous white space around the arrangement. Illuminate it with a large dif
 
 | Before | After |
 | :---: | :---: |
-| Image 1: product; Image 2: optional person reference<br>Input image pending | Result image pending |
+| Product + optional portrait<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the product as Image 1 + an optional person reference as Image 2 → set [product name] → apply the prompt → generate a low-angle product campaign`
+`Product + portrait → low-angle ad`
 
 #### 📝 Full Prompt
 
@@ -314,11 +316,11 @@ Retain the product's branding, legible label, geometry, and finish. Use a confid
 
 | Before | After |
 | :---: | :---: |
-| Product photo<br>Input image pending | Result image pending |
+| Product<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the product photo → set [product setup] and [character] → apply the prompt → generate a product photo with an interacting doodle character`
+`Product + doodle idea → creative ad`
 
 #### 📝 Full Prompt
 
@@ -338,11 +340,11 @@ Draw a playful [character] with thin white sketch lines so it appears to interac
 
 | Before | After |
 | :---: | :---: |
-| Packaging photo; extra views if available<br>Input image pending | Result image pending |
+| Packaging<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the packaging photo, adding other views if available → apply the prompt → generate an unfolded packaging concept for visual exploration`
+`Packaging → unfolded concept`
 
 #### 📝 Full Prompt
 
@@ -366,11 +368,11 @@ Treat any unseen flaps or panels as provisional design estimates, leaving unknow
 
 | Before | After |
 | :---: | :---: |
-| Room photo<br>Input image pending | Result image pending |
+| Room<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the room photo → set [interior_style] → apply the prompt → visualize a redesign within the existing room structure`
+`Room + style → interior redesign`
 
 #### 📝 Full Prompt
 
@@ -390,11 +392,11 @@ Use realistic furniture dimensions and coordinated materials and colors. Respect
 
 | Before | After |
 | :---: | :---: |
-| Garden or yard photo<br>Input image pending | Result image pending |
+| Garden / yard<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the garden or yard photo → set [landscape_style] and [climate_or_location] → apply the prompt → visualize the landscape redesign`
+`Yard + style + location → landscape design`
 
 #### 📝 Full Prompt
 
@@ -414,11 +416,11 @@ Choose a visually compatible planting palette for [climate_or_location], with be
 
 | Before | After |
 | :---: | :---: |
-| Image 1: room; Image 2 onward: optional furniture references<br>Input image pending | Result image pending |
+| Room + optional furniture reference<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the room as Image 1 + optional furniture references as Image 2 onward → set [furniture_to_replace] and [new_furniture_description] → apply the prompt → replace the selected furniture`
+`Room + new furniture → furniture replacement`
 
 #### 📝 Full Prompt
 
@@ -438,11 +440,11 @@ Keep the architecture, windows, doors, camera viewpoint, and all unselected furn
 
 | Before | After |
 | :---: | :---: |
-| Photo containing the target object<br>Input image pending | Result image pending |
+| Object<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the object photo → set [target_object] and [material] → apply the prompt → change only the selected surface material`
+`Object + material → material swap`
 
 #### 📝 Full Prompt
 
@@ -462,11 +464,11 @@ Render the new material with physically believable texture scale, grain directio
 
 | Before | After |
 | :---: | :---: |
-| Interior photo<br>Input image pending | Result image pending |
+| Room<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the interior photo → set [wall_area] and [paint_color] → apply the prompt → preview the selected wall paint color`
+`Wall + paint color → wall recolor`
 
 #### 📝 Full Prompt
 
@@ -494,7 +496,7 @@ Preserve the wall's original texture and architectural details. Show how the cho
 
 #### 👇 Workflow
 
-`Upload the photo → apply the prompt → generate an instant-film look with a Polaroid-style border`
+`Photo → Polaroid look`
 
 #### 📝 Full Prompt
 
@@ -518,7 +520,7 @@ Present the image inside a clean off-white instant-photo border with a slightly 
 
 #### 👇 Workflow
 
-`Upload the photo → apply the prompt → rebuild the same composition as a LEGO-style diorama`
+`Photo → LEGO world`
 
 #### 📝 Full Prompt
 
@@ -542,7 +544,7 @@ Use coherent brick scale, clean joins, subtle molded-plastic texture, and realis
 
 #### 👇 Workflow
 
-`Upload the photo → apply the prompt → reinterpret the original subjects and setting as a Ghibli-inspired illustration`
+`Photo → Ghibli anime`
 
 #### 📝 Full Prompt
 
@@ -562,11 +564,11 @@ Translate real details into a cohesive illustrated world with lush, carefully ob
 
 | Before | After |
 | :---: | :---: |
-| Portrait or character photo<br>Input image pending | Result image pending |
+| Portrait / character<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload a portrait or character image → apply the prompt → generate a desk display with a figurine, sculpting screen, and collectible box`
+`Character → collectible figurine`
 
 #### 📝 Full Prompt
 
@@ -590,7 +592,7 @@ Place the full figurine on a clear round acrylic base on a tidy desk. Behind it,
 
 #### 👇 Workflow
 
-`Upload the photo → apply the prompt → transform the original composition into a textured oil painting`
+`Photo → oil painting`
 
 #### 📝 Full Prompt
 
@@ -614,11 +616,11 @@ Use realistic light and shadow to maintain depth while simplifying minor photogr
 
 | Before | After |
 | :---: | :---: |
-| Old or damaged photo<br>Input image pending | Result image pending |
+| Old photo<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the old or damaged photo → apply the prompt → repair damage while retaining identities and the original color treatment`
+`Old photo → restored photo`
 
 #### 📝 Full Prompt
 
@@ -642,7 +644,7 @@ Preserve the original identities, age, expressions, clothing, background, compos
 
 #### 👇 Workflow
 
-`Upload the photo → set [text_content], [text_location], and [text_style] → apply the prompt → add the exact supplied wording`
+`Photo + text + placement → text overlay`
 
 #### 📝 Full Prompt
 
@@ -666,7 +668,7 @@ Make the text clearly legible and aesthetically balanced at the intended size. I
 
 #### 👇 Workflow
 
-`Upload the photo → identify [object_to_remove], including its position if needed → apply the prompt → remove it and reconstruct the background`
+`Photo + target object → object removal`
 
 #### 📝 Full Prompt
 
@@ -690,7 +692,7 @@ Preserve every other person, object, edge, and architectural feature. Do not rep
 
 #### 👇 Workflow
 
-`Upload the photo → set [lighting_description] with the desired light direction, softness, and color → apply the prompt → relight the scene`
+`Photo + lighting → relit image`
 
 #### 📝 Full Prompt
 
@@ -710,11 +712,11 @@ Apply a coherent light direction, source size, color temperature, intensity, and
 
 | Before | After |
 | :---: | :---: |
-| Image 1: original photo; Image 2: optional replacement reference<br>Input image pending | Result image pending |
+| Photo + optional object reference<br>Input image pending | Result image pending |
 
 #### 👇 Workflow
 
-`Upload the original as Image 1 + an optional replacement reference as Image 2 → set [object_to_replace] and [replacement_object] → apply the prompt → replace the selected object`
+`Photo + replacement object → object swap`
 
 #### 📝 Full Prompt
 

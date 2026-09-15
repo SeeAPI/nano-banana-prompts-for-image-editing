@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="../assets/portraits/reference-woman.png"><img src="../assets/portraits/reference-woman.png" width="320" height="320" alt="Image 1"></a><br>Portrait photo | <a href="../assets/portraits/result-linkedin.jpg"><img src="../assets/portraits/result-linkedin.jpg" width="320" height="320" alt="LinkedIn Profile Picture"></a> |
+| <a href="../assets/portraits/reference-woman.png"><img src="../assets/portraits/reference-woman.png" width="320" height="320" alt="Image 1"></a><br>Portrait | <a href="../assets/portraits/result-linkedin.jpg"><img src="../assets/portraits/result-linkedin.jpg" width="320" height="320" alt="LinkedIn Profile Picture"></a> |
 
 ## 👇 Workflow
 
-`Upload a clear portrait → apply the prompt → generate a square professional headshot suitable for a circular profile crop`
+`Portrait → professional headshot`
 
 ## 📝 Full Prompt
 

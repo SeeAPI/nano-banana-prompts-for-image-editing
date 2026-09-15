@@ -8,7 +8,7 @@
 
 ## 👇 Workflow
 
-`Upload the photo → apply the prompt → generate an instant-film look with a Polaroid-style border`
+`Photo → Polaroid look`
 
 ## 📝 Full Prompt
 

@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="../assets/portraits/reference-woman.png"><img src="../assets/portraits/reference-woman.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="../assets/portraits/reference-cat.png"><img src="../assets/portraits/reference-cat.png" width="150" height="150" alt="Image 2"></a><br>Image 1: person; Image 2: pet | <a href="../assets/portraits/result-pet-selfie.jpg"><img src="../assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="Pet Photobomb Selfie"></a> |
+| <a href="../assets/portraits/reference-woman.png"><img src="../assets/portraits/reference-woman.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="../assets/portraits/reference-cat.png"><img src="../assets/portraits/reference-cat.png" width="150" height="150" alt="Image 2"></a><br>Person + pet | <a href="../assets/portraits/result-pet-selfie.jpg"><img src="../assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="Pet Photobomb Selfie"></a> |
 
 ## 👇 Workflow
 
-`Upload the person as Image 1 + their pet as Image 2 → apply the prompt → generate a wide-angle café selfie with the pet in the foreground`
+`Person + pet → playful selfie`
 
 ## 📝 Full Prompt
 

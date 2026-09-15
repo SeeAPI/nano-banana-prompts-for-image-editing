@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 产品原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/products/reference-seeapi-mug.jpg"><img src="../../assets/products/reference-seeapi-mug.jpg" width="320" height="320" alt="产品原图"></a><br>产品 | <a href="../../assets/products/result-mug-white-background.jpg"><img src="../../assets/products/result-mug-white-background.jpg" width="320" height="320" alt="白底产品图"></a> |
 
 ## 👇 工作流
 
-`上传产品原图 → 输入提示词 → 生成保留自然接触阴影的白底产品图`
+`产品 → 白底产品图`
 
 ## 📝 完整提示词
 

@@ -8,7 +8,7 @@
 
 ## 👇 Workflow
 
-`Upload the photo → identify [object_to_remove], including its position if needed → apply the prompt → remove it and reconstruct the background`
+`Photo + target object → object removal`
 
 ## 📝 Full Prompt
 

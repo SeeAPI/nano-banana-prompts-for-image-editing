@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Product photo<br>Input image pending | Result image pending |
+| <a href="../assets/products/reference-seeapi-mug.jpg"><img src="../assets/products/reference-seeapi-mug.jpg" width="320" height="320" alt="Original product"></a><br>Product | <a href="../assets/products/result-mug-white-background.jpg"><img src="../assets/products/result-mug-white-background.jpg" width="320" height="320" alt="White background"></a> |
 
 ## 👇 Workflow
 
-`Upload the product photo → apply the prompt → isolate the product on white with a natural contact shadow`
+`Product → white background`
 
 ## 📝 Full Prompt
 

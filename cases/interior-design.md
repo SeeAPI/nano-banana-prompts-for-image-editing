@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Room photo<br>Input image pending | Result image pending |
+| Room<br>Input image pending | Result image pending |
 
 ## 👇 Workflow
 
-`Upload the room photo → set [interior_style] → apply the prompt → visualize a redesign within the existing room structure`
+`Room + style → interior redesign`
 
 ## 📝 Full Prompt
 

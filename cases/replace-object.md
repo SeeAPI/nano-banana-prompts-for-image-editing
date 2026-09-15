@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Image 1: original photo; Image 2: optional replacement reference<br>Input image pending | Result image pending |
+| Photo + optional object reference<br>Input image pending | Result image pending |
 
 ## 👇 Workflow
 
-`Upload the original as Image 1 + an optional replacement reference as Image 2 → set [object_to_replace] and [replacement_object] → apply the prompt → replace the selected object`
+`Photo + replacement object → object swap`
 
 ## 📝 Full Prompt
 

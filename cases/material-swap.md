@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Photo containing the target object<br>Input image pending | Result image pending |
+| Object<br>Input image pending | Result image pending |
 
 ## 👇 Workflow
 
-`Upload the object photo → set [target_object] and [material] → apply the prompt → change only the selected surface material`
+`Object + material → material swap`
 
 ## 📝 Full Prompt
 

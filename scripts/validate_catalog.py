@@ -34,7 +34,7 @@ for c in cases:
         assert 'prompt pending' not in original.lower()
         keys = set(re.findall(r'\[[^\]\n]+\]', original))
         for field in ['workflow', 'workflow_zh']:
-            assert set(re.findall(r'\[[^\]\n]+\]', c[field])) == keys, f'Workflow placeholder mismatch: {en}'
+            assert set(re.findall(r'\[[^\]\n]+\]', c[field])) <= keys, f'Workflow placeholder mismatch: {en}'
     if c['source']['kind']=='inspired':
         assert c['source']['platform']=='X' and c['source']['url'].startswith('https://x.com/')
         assert c['source']['prompt_url'].startswith('https://x.com/')

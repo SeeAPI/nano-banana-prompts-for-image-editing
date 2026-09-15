@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="../assets/portraits/reference-hairstyle.png"><img src="../assets/portraits/reference-hairstyle.png" width="213" height="320" alt="Image 1"></a><br>Front-facing portrait | <a href="../assets/portraits/result-hairstyle-grid.jpg"><img src="../assets/portraits/result-hairstyle-grid.jpg" width="320" height="320" alt="3 × 3 Hairstyle Changer"></a> |
+| <a href="../assets/portraits/reference-hairstyle.png"><img src="../assets/portraits/reference-hairstyle.png" width="213" height="320" alt="Image 1"></a><br>Portrait | <a href="../assets/portraits/result-hairstyle-grid.jpg"><img src="../assets/portraits/result-hairstyle-grid.jpg" width="320" height="320" alt="3 × 3 Hairstyle Changer"></a> |
 
 ## 👇 Workflow
 
-`Upload a clear front-facing portrait → apply the prompt → generate one 3 × 3 grid with nine distinct hairstyles and the same face`
+`Portrait → 9 hairstyles`
 
 ## 📝 Full Prompt
 

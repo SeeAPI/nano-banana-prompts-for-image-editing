@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="../assets/portraits/reference-man.png"><img src="../assets/portraits/reference-man.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="../assets/portraits/reference-woman.png"><img src="../assets/portraits/reference-woman.png" width="150" height="150" alt="Image 2"></a><br>Image 1: person A; Image 2: person B | <a href="../assets/portraits/result-group-photo.jpg"><img src="../assets/portraits/result-group-photo.jpg" width="320" height="320" alt="Group Photo"></a> |
+| <a href="../assets/portraits/reference-man.png"><img src="../assets/portraits/reference-man.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="../assets/portraits/reference-woman.png"><img src="../assets/portraits/reference-woman.png" width="150" height="150" alt="Image 2"></a><br>Person A + person B | <a href="../assets/portraits/result-group-photo-updated.jpg"><img src="../assets/portraits/result-group-photo-updated.jpg" width="320" height="320" alt="Group Photo"></a> |
 
 ## 👇 Workflow
 
-`Upload person A as Image 1 + person B as Image 2 → apply the prompt → generate one natural photo of both people`
+`Two portraits → group photo`
 
 ## 📝 Full Prompt
 

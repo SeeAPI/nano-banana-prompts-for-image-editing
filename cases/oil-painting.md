@@ -8,7 +8,7 @@
 
 ## 👇 Workflow
 
-`Upload the photo → apply the prompt → transform the original composition into a textured oil painting`
+`Photo → oil painting`
 
 ## 📝 Full Prompt
 

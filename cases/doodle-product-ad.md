@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Product photo<br>Input image pending | Result image pending |
+| Product<br>Input image pending | Result image pending |
 
 ## 👇 Workflow
 
-`Upload the product photo → set [product setup] and [character] → apply the prompt → generate a product photo with an interacting doodle character`
+`Product + doodle idea → creative ad`
 
 ## 📝 Full Prompt
 

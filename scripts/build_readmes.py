@@ -58,7 +58,11 @@ def featured(data, zh):
         c = by_id[item['id']]
         names.append(f"[{c['title_zh'] if zh else c['title']}](#{c['readme_anchor']})")
         results = [m for m in c['media'] if m['role']=='result']
-        images.append(media_tag(results[0],zh,max_size=180) if results else ('示例图待补充' if zh else 'Preview coming soon'))
+        refs = [m for m in c['media'] if m['role']=='reference']
+        ref_size = 52 if len(refs)>1 else 110
+        before = ' '.join(media_tag(m,zh,max_size=ref_size) for m in refs) if refs else ('原图待补充' if zh else 'Input pending')
+        after = media_tag(results[0],zh,max_size=110) if results else ('效果图待补充' if zh else 'Result pending')
+        images.append('<b>Before → After</b><br>' + before + ' &nbsp;→&nbsp; ' + after)
         workflows.append('`'+item['workflow_zh' if zh else 'workflow']+'`')
     return '\n'.join(['| '+' | '.join(names)+' |','| :---: | :---: | :---: |','| '+' | '.join(images)+' |','| '+' | '.join(workflows)+' |'])
 

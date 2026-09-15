@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Food product photo<br>Input image pending | Result image pending |
+| Food<br>Input image pending | Result image pending |
 
 ## 👇 Workflow
 
-`Upload the food photo → set [subject] and [ingredient_bits] → apply the prompt → generate a floating layered food advertisement`
+`Food + ingredient details → floating food ad`
 
 ## 📝 Full Prompt
 

@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="../assets/portraits/reference-man.png"><img src="../assets/portraits/reference-man.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="../assets/portraits/reference-outfit.png"><img src="../assets/portraits/reference-outfit.png" width="150" height="150" alt="Image 2"></a><br>Image 1: person; Image 2 onward: complete outfit and accessories | <a href="../assets/portraits/result-virtual-try-on.jpg"><img src="../assets/portraits/result-virtual-try-on.jpg" width="320" height="320" alt="Virtual Clothes Try On"></a> |
+| <a href="../assets/portraits/reference-man.png"><img src="../assets/portraits/reference-man.png" width="150" height="150" alt="Image 1"></a> &nbsp; <a href="../assets/portraits/reference-outfit.png"><img src="../assets/portraits/reference-outfit.png" width="150" height="150" alt="Image 2"></a><br>Person + outfit | <a href="../assets/portraits/result-virtual-try-on.jpg"><img src="../assets/portraits/result-virtual-try-on.jpg" width="320" height="320" alt="Virtual Clothes Try On"></a> |
 
 ## 👇 Workflow
 
-`Upload the person as Image 1 + outfit and accessory references as Image 2 onward → apply the prompt → generate a complete full-body look`
+`Person + outfit → virtual try-on`
 
 ## 📝 Full Prompt
 

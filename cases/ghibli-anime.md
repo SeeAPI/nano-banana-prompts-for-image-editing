@@ -8,7 +8,7 @@
 
 ## 👇 Workflow
 
-`Upload the photo → apply the prompt → reinterpret the original subjects and setting as a Ghibli-inspired illustration`
+`Photo → Ghibli anime`
 
 ## 📝 Full Prompt
 

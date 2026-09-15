@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Product photo<br>Input image pending | Result image pending |
+| <a href="../assets/products/reference-seeapi-mug.jpg"><img src="../assets/products/reference-seeapi-mug.jpg" width="320" height="320" alt="Original product"></a><br>Product | <a href="../assets/products/result-mug-ice-background.jpg"><img src="../assets/products/result-mug-ice-background.jpg" width="320" height="320" alt="Ice background"></a> |
 
 ## 👇 Workflow
 
-`Upload the product photo → set [background_description] → apply the prompt → generate the product in the new setting`
+`Product + background description → new scene`
 
 ## 📝 Full Prompt
 

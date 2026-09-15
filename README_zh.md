@@ -7,7 +7,7 @@
 
 让你的照片拥有更多可能。这里收录 Nano Banana 图片编辑提示词，涵盖虚拟试衣、人像合照、产品场景、家居改造与照片修复。每个案例提供独立操作步骤和完整提示词，并逐步补充编辑前后对比，方便你用自己的图片尝试。由 SeeAPI 整理，提供完整中英文版本。
 
-**27 个编辑提示词 · 6 个案例附示例图 · 更新于 2026-09-15**
+**27 个编辑提示词 · 8 个案例附示例图 · 更新于 2026-09-15**
 
 ⭐ Star 收藏这个仓库，为下一次图片编辑寻找灵感。
 
@@ -17,8 +17,8 @@
 
 | [虚拟试衣](#p01-complete-look) | [产品换背景](#p02-product-background) | [合照](#p03-shared-portrait) |
 | :---: | :---: | :---: |
-| <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="180" height="180" alt="虚拟试衣"></a> | 示例图待补充 | <a href="assets/portraits/result-group-photo.jpg"><img src="assets/portraits/result-group-photo.jpg" width="180" height="180" alt="合照"></a> |
-| `人物 + 穿搭参考 → 虚拟试衣` | `产品原图 + 新场景 → 背景替换` | `两张人像 → 一张合照` |
+| <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="图 1"></a> <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="52" height="52" alt="图 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="110" height="110" alt="虚拟试衣"></a> | <b>Before → After</b><br><a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="110" height="110" alt="产品原图"></a> &nbsp;→&nbsp; <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="110" height="110" alt="冰雪背景"></a> | <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="图 1"></a> <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="52" height="52" alt="图 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="110" height="110" alt="合照"></a> |
+| `人物 + 穿搭 → 虚拟试衣` | `产品 + 背景描述 → 新场景` | `两张人像 → 合照` |
 
 ## 📑 目录
 
@@ -46,7 +46,9 @@
 | Nano Banana 2 Lite | 简单编辑、低成本批量处理 | 仅 1K；不擅长多图与连续编辑 |
 | Nano Banana Pro | 复杂精修、品牌一致性 | 高要求任务首选 |
 
-[模型官方说明](https://ai.google.dev/gemini-api/docs/image-generation)
+<a href="https://nanobanana.seeapi.com/">
+  <img src="assets/ui/seeapi-nano-banana-zh-CN.svg" alt="在 SeeAPI 体验 Nano Banana — 立即体验" width="840" height="144">
+</a>
 
 <a id="portraits-outfits"></a>
 
@@ -60,11 +62,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="150" height="150" alt="图 2"></a><br>图 1：人物；图 2 起：完整穿搭及配饰 | <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="320" height="320" alt="虚拟试衣"></a> |
+| <a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="150" height="150" alt="图 2"></a><br>人物 + 穿搭 | <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="320" height="320" alt="虚拟试衣"></a> |
 
 #### 👇 工作流
 
-`上传人物为图 1，服装与配饰参考为图 2 起 → 输入提示词 → 生成完整全身穿搭`
+`人物 + 穿搭 → 虚拟试衣`
 
 #### 📝 完整提示词
 
@@ -84,11 +86,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-boy.png"><img src="assets/portraits/reference-boy.png" width="320" height="320" alt="图 1"></a><br>人物原图 | <a href="assets/portraits/result-mini-me.jpg"><img src="assets/portraits/result-mini-me.jpg" width="179" height="320" alt="Mini Me 迷你分身"></a> |
+| <a href="assets/portraits/reference-boy.png"><img src="assets/portraits/reference-boy.png" width="320" height="320" alt="图 1"></a><br>人像 | <a href="assets/portraits/result-mini-me.jpg"><img src="assets/portraits/result-mini-me.jpg" width="179" height="320" alt="Mini Me 迷你分身"></a> |
 
 #### 👇 工作流
 
-`上传人物原图 → 输入提示词 → 在原人物周围添加迷你分身与手绘涂鸦`
+`人像 → 迷你分身`
 
 #### 📝 完整提示词
 
@@ -112,11 +114,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="assets/portraits/reference-cat.png"><img src="assets/portraits/reference-cat.png" width="150" height="150" alt="图 2"></a><br>图 1：人物；图 2：宠物 | <a href="assets/portraits/result-pet-selfie.jpg"><img src="assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="和宠物的搞怪合影"></a> |
+| <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="assets/portraits/reference-cat.png"><img src="assets/portraits/reference-cat.png" width="150" height="150" alt="图 2"></a><br>人物 + 宠物 | <a href="assets/portraits/result-pet-selfie.jpg"><img src="assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="和宠物的搞怪合影"></a> |
 
 #### 👇 工作流
 
-`上传人物为图 1、宠物为图 2 → 输入提示词 → 生成宠物前景抢镜的咖啡馆广角自拍`
+`人物 + 宠物 → 搞怪自拍`
 
 #### 📝 完整提示词
 
@@ -138,11 +140,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-hairstyle.png"><img src="assets/portraits/reference-hairstyle.png" width="213" height="320" alt="图 1"></a><br>正面人像 | <a href="assets/portraits/result-hairstyle-grid.jpg"><img src="assets/portraits/result-hairstyle-grid.jpg" width="320" height="320" alt="3 × 3 发型九宫格"></a> |
+| <a href="assets/portraits/reference-hairstyle.png"><img src="assets/portraits/reference-hairstyle.png" width="213" height="320" alt="图 1"></a><br>人像 | <a href="assets/portraits/result-hairstyle-grid.jpg"><img src="assets/portraits/result-hairstyle-grid.jpg" width="320" height="320" alt="3 × 3 发型九宫格"></a> |
 
 #### 👇 工作流
 
-`上传清晰正面人像 → 输入提示词 → 生成同一张脸、九种不同发型的 3 × 3 九宫格`
+`人像 → 九种发型`
 
 #### 📝 完整提示词
 
@@ -164,11 +166,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="320" height="320" alt="图 1"></a><br>人物原图 | <a href="assets/portraits/result-linkedin.jpg"><img src="assets/portraits/result-linkedin.jpg" width="320" height="320" alt="LinkedIn 职业头像"></a> |
+| <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="320" height="320" alt="图 1"></a><br>人像 | <a href="assets/portraits/result-linkedin.jpg"><img src="assets/portraits/result-linkedin.jpg" width="320" height="320" alt="LinkedIn 职业头像"></a> |
 
 #### 👇 工作流
 
-`上传清晰人像 → 输入提示词 → 生成适合圆形头像裁切的正方形职业照`
+`人像 → 职业头像`
 
 #### 📝 完整提示词
 
@@ -190,11 +192,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="150" height="150" alt="图 2"></a><br>图 1：人物 A；图 2：人物 B | <a href="assets/portraits/result-group-photo.jpg"><img src="assets/portraits/result-group-photo.jpg" width="320" height="320" alt="合照"></a> |
+| <a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="150" height="150" alt="图 1"></a> &nbsp; <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="150" height="150" alt="图 2"></a><br>人物 A + 人物 B | <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="320" height="320" alt="合照"></a> |
 
 #### 👇 工作流
 
-`上传人物 A 为图 1、人物 B 为图 2 → 输入提示词 → 生成自然双人合照`
+`两张人像 → 合照`
 
 #### 📝 完整提示词
 
@@ -218,11 +220,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 产品原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="320" height="320" alt="产品原图"></a><br>产品 | <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="320" height="320" alt="冰雪背景"></a> |
 
 #### 👇 工作流
 
-`上传产品原图 → 填写 [background_description] 背景描述 → 输入提示词 → 生成新场景产品图`
+`产品 + 背景描述 → 新场景`
 
 #### 📝 完整提示词
 
@@ -242,11 +244,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 产品原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="320" height="320" alt="产品原图"></a><br>产品 | <a href="assets/products/result-mug-white-background.jpg"><img src="assets/products/result-mug-white-background.jpg" width="320" height="320" alt="白底产品图"></a> |
 
 #### 👇 工作流
 
-`上传产品原图 → 输入提示词 → 生成保留自然接触阴影的白底产品图`
+`产品 → 白底产品图`
 
 #### 📝 完整提示词
 
@@ -266,11 +268,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 食品原图<br>原图待补充 | 效果图待补充 |
+| 食品<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传食品原图 → 填写 [subject] 食品主体和 [ingredient_bits] 食材点缀 → 输入提示词 → 生成分层悬浮食品广告`
+`食品 + 食材描述 → 悬浮广告`
 
 #### 📝 完整提示词
 
@@ -290,11 +292,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 图 1：产品；图 2：可选人物参考图<br>原图待补充 | 效果图待补充 |
+| 产品 + 可选人像<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传产品为图 1，可选人物参考为图 2 → 填写 [product name] 产品名称 → 输入提示词 → 生成低机位产品广告`
+`产品 + 人像 → 低机位广告`
 
 #### 📝 完整提示词
 
@@ -314,11 +316,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 产品原图<br>原图待补充 | 效果图待补充 |
+| 产品<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传产品原图 → 填写 [product setup] 产品摆放方式和 [character] 涂鸦角色 → 输入提示词 → 生成角色与产品互动的涂鸦广告`
+`产品 + 涂鸦创意 → 创意广告`
 
 #### 📝 完整提示词
 
@@ -338,11 +340,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 包装照片；可补充其他角度<br>原图待补充 | 效果图待补充 |
+| 包装<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传包装照片，可补充其他角度 → 输入提示词 → 生成用于视觉探索的包装展开概念图`
+`包装 → 展开概念图`
 
 #### 📝 完整提示词
 
@@ -366,11 +368,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 房间原图<br>原图待补充 | 效果图待补充 |
+| 房间<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传房间原图 → 填写 [interior_style] 室内风格 → 输入提示词 → 在现有房间结构内生成设计效果`
+`房间 + 风格 → 室内改造`
 
 #### 📝 完整提示词
 
@@ -390,11 +392,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 庭院或花园原图<br>原图待补充 | 效果图待补充 |
+| 花园 / 庭院<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传花园或庭院原图 → 填写 [landscape_style] 景观风格和 [climate_or_location] 气候或地区 → 输入提示词 → 生成景观改造效果`
+`庭院 + 风格 + 地区 → 景观设计`
 
 #### 📝 完整提示词
 
@@ -414,11 +416,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 图 1：房间；图 2 起：可选家具参考图<br>原图待补充 | 效果图待补充 |
+| 房间 + 可选家具参考<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传房间为图 1，可选家具参考为图 2 起 → 填写 [furniture_to_replace] 待替换家具和 [new_furniture_description] 新家具描述 → 输入提示词 → 替换指定家具`
+`房间 + 新家具 → 家具替换`
 
 #### 📝 完整提示词
 
@@ -438,11 +440,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 包含目标物体的原图<br>原图待补充 | 效果图待补充 |
+| 物体<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传物体原图 → 填写 [target_object] 目标物体和 [material] 材质 → 输入提示词 → 仅替换指定表面材质`
+`物体 + 材质 → 材质替换`
 
 #### 📝 完整提示词
 
@@ -462,11 +464,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 室内原图<br>原图待补充 | 效果图待补充 |
+| 房间<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传室内原图 → 填写 [wall_area] 墙面区域和 [paint_color] 墙漆颜色 → 输入提示词 → 预览指定墙面改色`
+`墙面 + 颜色 → 墙漆改色`
 
 #### 📝 完整提示词
 
@@ -494,7 +496,7 @@
 
 #### 👇 工作流
 
-`上传原图 → 输入提示词 → 生成带宝丽来式相纸边框的即时胶片效果`
+`原图 → 宝丽来风格`
 
 #### 📝 完整提示词
 
@@ -518,7 +520,7 @@
 
 #### 👇 工作流
 
-`上传原图 → 输入提示词 → 将原构图重建为乐高风格积木场景`
+`原图 → 乐高世界`
 
 #### 📝 完整提示词
 
@@ -542,7 +544,7 @@
 
 #### 👇 工作流
 
-`上传原图 → 输入提示词 → 将原主体与场景转换为吉卜力风格插画`
+`原图 → 吉卜力动漫`
 
 #### 📝 完整提示词
 
@@ -562,11 +564,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 人像或角色原图<br>原图待补充 | 效果图待补充 |
+| 人像 / 角色<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传人像或角色图 → 输入提示词 → 生成包含手办、建模屏幕和收藏包装盒的桌面展示`
+`角色 → 收藏手办`
 
 #### 📝 完整提示词
 
@@ -590,7 +592,7 @@
 
 #### 👇 工作流
 
-`上传原图 → 输入提示词 → 将原构图转换为具有笔触纹理的油画`
+`原图 → 油画`
 
 #### 📝 完整提示词
 
@@ -614,11 +616,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 老照片或受损照片<br>原图待补充 | 效果图待补充 |
+| 老照片<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传老照片或受损照片 → 输入提示词 → 修复损伤并保留人物身份及原有黑白或彩色形式`
+`老照片 → 修复照片`
 
 #### 📝 完整提示词
 
@@ -642,7 +644,7 @@
 
 #### 👇 工作流
 
-`上传原图 → 填写 [text_content] 文字内容、[text_location] 位置和 [text_style] 样式 → 输入提示词 → 添加原样文字`
+`原图 + 文字 + 位置 → 添加文字`
 
 #### 📝 完整提示词
 
@@ -666,7 +668,7 @@
 
 #### 👇 工作流
 
-`上传原图 → 填写 [object_to_remove] 待移除物体，必要时描述位置 → 输入提示词 → 移除物体并补全背景`
+`原图 + 指定物体 → 移除物体`
 
 #### 📝 完整提示词
 
@@ -690,7 +692,7 @@
 
 #### 👇 工作流
 
-`上传原图 → 在 [lighting_description] 中描述光照方向、柔硬和颜色 → 输入提示词 → 重新布光`
+`原图 + 光线描述 → 重新布光`
 
 #### 📝 完整提示词
 
@@ -710,11 +712,11 @@
 
 | Before | After |
 | :---: | :---: |
-| 图 1：原图；图 2：可选替换物参考图<br>原图待补充 | 效果图待补充 |
+| 原图 + 可选物体参考<br>原图待补充 | 效果图待补充 |
 
 #### 👇 工作流
 
-`上传原图为图 1，可选替换物参考为图 2 → 填写 [object_to_replace] 原物体和 [replacement_object] 替换物 → 输入提示词 → 替换指定物体`
+`原图 + 新物体 → 物体替换`
 
 #### 📝 完整提示词
 

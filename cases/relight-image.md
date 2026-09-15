@@ -8,7 +8,7 @@
 
 ## 👇 Workflow
 
-`Upload the photo → set [lighting_description] with the desired light direction, softness, and color → apply the prompt → relight the scene`
+`Photo + lighting → relit image`
 
 ## 📝 Full Prompt
 

@@ -7,8 +7,8 @@
       "category": 1,
       "title": "Virtual Clothes Try On",
       "title_zh": "虚拟试衣",
-      "inputs": "Image 1: person; Image 2 onward: complete outfit and accessories",
-      "inputs_zh": "图 1：人物；图 2 起：完整穿搭及配饰",
+      "inputs": "Person + outfit",
+      "inputs_zh": "人物 + 穿搭",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -63,8 +63,8 @@
           "label_zh": "虚拟试衣"
         }
       ],
-      "workflow": "Upload the person as Image 1 + outfit and accessory references as Image 2 onward → apply the prompt → generate a complete full-body look",
-      "workflow_zh": "上传人物为图 1，服装与配饰参考为图 2 起 → 输入提示词 → 生成完整全身穿搭"
+      "workflow": "Person + outfit → virtual try-on",
+      "workflow_zh": "人物 + 穿搭 → 虚拟试衣"
     },
     {
       "id": "P04",
@@ -72,8 +72,8 @@
       "category": 1,
       "title": "Mini Me",
       "title_zh": "Mini Me 迷你分身",
-      "inputs": "Portrait photo",
-      "inputs_zh": "人物原图",
+      "inputs": "Portrait",
+      "inputs_zh": "人像",
       "source": {
         "kind": "user-supplied",
         "author": null,
@@ -119,8 +119,8 @@
           "label_zh": "Mini Me 迷你分身"
         }
       ],
-      "workflow": "Upload a portrait → apply the prompt → add matching miniatures and hand-drawn doodles around the original subject",
-      "workflow_zh": "上传人物原图 → 输入提示词 → 在原人物周围添加迷你分身与手绘涂鸦"
+      "workflow": "Portrait → Mini Me",
+      "workflow_zh": "人像 → 迷你分身"
     },
     {
       "id": "P05",
@@ -128,8 +128,8 @@
       "category": 1,
       "title": "Pet Photobomb Selfie",
       "title_zh": "和宠物的搞怪合影",
-      "inputs": "Image 1: person; Image 2: pet",
-      "inputs_zh": "图 1：人物；图 2：宠物",
+      "inputs": "Person + pet",
+      "inputs_zh": "人物 + 宠物",
       "source": {
         "kind": "user-adapted",
         "author": null,
@@ -186,8 +186,8 @@
           "label_zh": "和宠物的搞怪合影"
         }
       ],
-      "workflow": "Upload the person as Image 1 + their pet as Image 2 → apply the prompt → generate a wide-angle café selfie with the pet in the foreground",
-      "workflow_zh": "上传人物为图 1、宠物为图 2 → 输入提示词 → 生成宠物前景抢镜的咖啡馆广角自拍"
+      "workflow": "Person + pet → playful selfie",
+      "workflow_zh": "人物 + 宠物 → 搞怪自拍"
     },
     {
       "id": "P06",
@@ -195,8 +195,8 @@
       "category": 1,
       "title": "3 × 3 Hairstyle Changer",
       "title_zh": "3 × 3 发型九宫格",
-      "inputs": "Front-facing portrait",
-      "inputs_zh": "正面人像",
+      "inputs": "Portrait",
+      "inputs_zh": "人像",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -240,8 +240,8 @@
           "label_zh": "3 × 3 发型九宫格"
         }
       ],
-      "workflow": "Upload a clear front-facing portrait → apply the prompt → generate one 3 × 3 grid with nine distinct hairstyles and the same face",
-      "workflow_zh": "上传清晰正面人像 → 输入提示词 → 生成同一张脸、九种不同发型的 3 × 3 九宫格"
+      "workflow": "Portrait → 9 hairstyles",
+      "workflow_zh": "人像 → 九种发型"
     },
     {
       "id": "P07",
@@ -249,8 +249,8 @@
       "category": 1,
       "title": "LinkedIn Profile Picture",
       "title_zh": "LinkedIn 职业头像",
-      "inputs": "Portrait photo",
-      "inputs_zh": "人物原图",
+      "inputs": "Portrait",
+      "inputs_zh": "人像",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -294,8 +294,8 @@
           "label_zh": "LinkedIn 职业头像"
         }
       ],
-      "workflow": "Upload a clear portrait → apply the prompt → generate a square professional headshot suitable for a circular profile crop",
-      "workflow_zh": "上传清晰人像 → 输入提示词 → 生成适合圆形头像裁切的正方形职业照"
+      "workflow": "Portrait → professional headshot",
+      "workflow_zh": "人像 → 职业头像"
     },
     {
       "id": "P03",
@@ -303,8 +303,8 @@
       "category": 1,
       "title": "Group Photo",
       "title_zh": "合照",
-      "inputs": "Image 1: person A; Image 2: person B",
-      "inputs_zh": "图 1：人物 A；图 2：人物 B",
+      "inputs": "Person A + person B",
+      "inputs_zh": "人物 A + 人物 B",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -348,6 +348,21 @@
           "label_zh": "图 2"
         },
         {
+          "path": "assets/portraits/result-group-photo-updated.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "b65b5b9e6a1779f0796c0ce69f35c6a865f2c745fa659ff30c927c29ed3bce2d",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026915183658.jpg",
+          "role": "result",
+          "label": "Group Photo",
+          "label_zh": "合照"
+        }
+      ],
+      "workflow": "Two portraits → group photo",
+      "workflow_zh": "两张人像 → 合照",
+      "archived_media": [
+        {
           "path": "assets/portraits/result-group-photo.jpg",
           "width": 1024,
           "height": 1024,
@@ -358,9 +373,7 @@
           "label": "Group Photo",
           "label_zh": "合照"
         }
-      ],
-      "workflow": "Upload person A as Image 1 + person B as Image 2 → apply the prompt → generate one natural photo of both people",
-      "workflow_zh": "上传人物 A 为图 1、人物 B 为图 2 → 输入提示词 → 生成自然双人合照"
+      ]
     },
     {
       "id": "P02",
@@ -368,13 +381,13 @@
       "category": 2,
       "title": "Product Background Replacement",
       "title_zh": "产品换背景",
-      "inputs": "Product photo",
-      "inputs_zh": "产品原图",
+      "inputs": "Product",
+      "inputs_zh": "产品",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "2.1",
       "readme_anchor": "p02-product-background",
@@ -389,9 +402,32 @@
       },
       "case": "cases/product-background.md",
       "updated": "2026-09-15",
-      "media": [],
-      "workflow": "Upload the product photo → set [background_description] → apply the prompt → generate the product in the new setting",
-      "workflow_zh": "上传产品原图 → 填写 [background_description] 背景描述 → 输入提示词 → 生成新场景产品图"
+      "media": [
+        {
+          "path": "assets/products/reference-seeapi-mug.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "7b4c3f3b006bd094e9fe6c2502737ae898cf4076abf346312d08fdf1270c17a9",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026915183925.jpg",
+          "role": "reference",
+          "label": "Original product",
+          "label_zh": "产品原图"
+        },
+        {
+          "path": "assets/products/result-mug-ice-background.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "f9e28b3b81b18bab517a5c489eccc923d939bf1c0b0229eebcdd7ad0c78325f9",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026915183927.jpg",
+          "role": "result",
+          "label": "Ice background",
+          "label_zh": "冰雪背景"
+        }
+      ],
+      "workflow": "Product + background description → new scene",
+      "workflow_zh": "产品 + 背景描述 → 新场景"
     },
     {
       "id": "P08",
@@ -399,13 +435,13 @@
       "category": 2,
       "title": "White Background Product Photo",
       "title_zh": "白底产品图",
-      "inputs": "Product photo",
-      "inputs_zh": "产品原图",
+      "inputs": "Product",
+      "inputs_zh": "产品",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "2.2",
       "readme_anchor": "p08-white-background-product",
@@ -420,9 +456,32 @@
       },
       "case": "cases/white-background-product.md",
       "updated": "2026-09-15",
-      "media": [],
-      "workflow": "Upload the product photo → apply the prompt → isolate the product on white with a natural contact shadow",
-      "workflow_zh": "上传产品原图 → 输入提示词 → 生成保留自然接触阴影的白底产品图"
+      "media": [
+        {
+          "path": "assets/products/reference-seeapi-mug.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "7b4c3f3b006bd094e9fe6c2502737ae898cf4076abf346312d08fdf1270c17a9",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026915183925.jpg",
+          "role": "reference",
+          "label": "Original product",
+          "label_zh": "产品原图"
+        },
+        {
+          "path": "assets/products/result-mug-white-background.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "452c8f0fbf207e82a5b2fc879d868944f201fbd6dfb280109c1e42c50e73bea1",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026915183929.jpg",
+          "role": "result",
+          "label": "White background",
+          "label_zh": "白底产品图"
+        }
+      ],
+      "workflow": "Product → white background",
+      "workflow_zh": "产品 → 白底产品图"
     },
     {
       "id": "P09",
@@ -430,8 +489,8 @@
       "category": 2,
       "title": "Floating Food Advertisement",
       "title_zh": "悬浮食物广告",
-      "inputs": "Food product photo",
-      "inputs_zh": "食品原图",
+      "inputs": "Food",
+      "inputs_zh": "食品",
       "source": {
         "kind": "inspired",
         "author": "azed_ai",
@@ -456,8 +515,8 @@
       "case": "cases/floating-food-ad.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the food photo → set [subject] and [ingredient_bits] → apply the prompt → generate a floating layered food advertisement",
-      "workflow_zh": "上传食品原图 → 填写 [subject] 食品主体和 [ingredient_bits] 食材点缀 → 输入提示词 → 生成分层悬浮食品广告"
+      "workflow": "Food + ingredient details → floating food ad",
+      "workflow_zh": "食品 + 食材描述 → 悬浮广告"
     },
     {
       "id": "P10",
@@ -465,8 +524,8 @@
       "category": 2,
       "title": "Low-Angle Product Campaign",
       "title_zh": "低机位产品广告",
-      "inputs": "Image 1: product; Image 2: optional person reference",
-      "inputs_zh": "图 1：产品；图 2：可选人物参考图",
+      "inputs": "Product + optional portrait",
+      "inputs_zh": "产品 + 可选人像",
       "source": {
         "kind": "inspired",
         "author": "azed_ai",
@@ -491,8 +550,8 @@
       "case": "cases/low-angle-product-campaign.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the product as Image 1 + an optional person reference as Image 2 → set [product name] → apply the prompt → generate a low-angle product campaign",
-      "workflow_zh": "上传产品为图 1，可选人物参考为图 2 → 填写 [product name] 产品名称 → 输入提示词 → 生成低机位产品广告"
+      "workflow": "Product + portrait → low-angle ad",
+      "workflow_zh": "产品 + 人像 → 低机位广告"
     },
     {
       "id": "P11",
@@ -500,8 +559,8 @@
       "category": 2,
       "title": "Doodle Product Advertisement",
       "title_zh": "手绘涂鸦产品广告",
-      "inputs": "Product photo",
-      "inputs_zh": "产品原图",
+      "inputs": "Product",
+      "inputs_zh": "产品",
       "source": {
         "kind": "inspired",
         "author": "azed_ai",
@@ -526,8 +585,8 @@
       "case": "cases/doodle-product-ad.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the product photo → set [product setup] and [character] → apply the prompt → generate a product photo with an interacting doodle character",
-      "workflow_zh": "上传产品原图 → 填写 [product setup] 产品摆放方式和 [character] 涂鸦角色 → 输入提示词 → 生成角色与产品互动的涂鸦广告"
+      "workflow": "Product + doodle idea → creative ad",
+      "workflow_zh": "产品 + 涂鸦创意 → 创意广告"
     },
     {
       "id": "P12",
@@ -535,8 +594,8 @@
       "category": 2,
       "title": "Packaging Dieline Concept",
       "title_zh": "包装展开概念图",
-      "inputs": "Packaging photo; extra views if available",
-      "inputs_zh": "包装照片；可补充其他角度",
+      "inputs": "Packaging",
+      "inputs_zh": "包装",
       "source": {
         "kind": "inspired",
         "author": "AmirMushich",
@@ -564,8 +623,8 @@
       "case": "cases/packaging-dieline.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the packaging photo, adding other views if available → apply the prompt → generate an unfolded packaging concept for visual exploration",
-      "workflow_zh": "上传包装照片，可补充其他角度 → 输入提示词 → 生成用于视觉探索的包装展开概念图"
+      "workflow": "Packaging → unfolded concept",
+      "workflow_zh": "包装 → 展开概念图"
     },
     {
       "id": "P13",
@@ -573,8 +632,8 @@
       "category": 3,
       "title": "Interior Design",
       "title_zh": "室内设计",
-      "inputs": "Room photo",
-      "inputs_zh": "房间原图",
+      "inputs": "Room",
+      "inputs_zh": "房间",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -595,8 +654,8 @@
       "case": "cases/interior-design.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the room photo → set [interior_style] → apply the prompt → visualize a redesign within the existing room structure",
-      "workflow_zh": "上传房间原图 → 填写 [interior_style] 室内风格 → 输入提示词 → 在现有房间结构内生成设计效果"
+      "workflow": "Room + style → interior redesign",
+      "workflow_zh": "房间 + 风格 → 室内改造"
     },
     {
       "id": "P14",
@@ -604,8 +663,8 @@
       "category": 3,
       "title": "Landscape Design",
       "title_zh": "庭院景观设计",
-      "inputs": "Garden or yard photo",
-      "inputs_zh": "庭院或花园原图",
+      "inputs": "Garden / yard",
+      "inputs_zh": "花园 / 庭院",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -626,8 +685,8 @@
       "case": "cases/landscape-design.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the garden or yard photo → set [landscape_style] and [climate_or_location] → apply the prompt → visualize the landscape redesign",
-      "workflow_zh": "上传花园或庭院原图 → 填写 [landscape_style] 景观风格和 [climate_or_location] 气候或地区 → 输入提示词 → 生成景观改造效果"
+      "workflow": "Yard + style + location → landscape design",
+      "workflow_zh": "庭院 + 风格 + 地区 → 景观设计"
     },
     {
       "id": "P15",
@@ -635,8 +694,8 @@
       "category": 3,
       "title": "Furniture Replace",
       "title_zh": "家具替换",
-      "inputs": "Image 1: room; Image 2 onward: optional furniture references",
-      "inputs_zh": "图 1：房间；图 2 起：可选家具参考图",
+      "inputs": "Room + optional furniture reference",
+      "inputs_zh": "房间 + 可选家具参考",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -657,8 +716,8 @@
       "case": "cases/furniture-replacement.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the room as Image 1 + optional furniture references as Image 2 onward → set [furniture_to_replace] and [new_furniture_description] → apply the prompt → replace the selected furniture",
-      "workflow_zh": "上传房间为图 1，可选家具参考为图 2 起 → 填写 [furniture_to_replace] 待替换家具和 [new_furniture_description] 新家具描述 → 输入提示词 → 替换指定家具"
+      "workflow": "Room + new furniture → furniture replacement",
+      "workflow_zh": "房间 + 新家具 → 家具替换"
     },
     {
       "id": "P16",
@@ -666,8 +725,8 @@
       "category": 3,
       "title": "Custom Material Swap",
       "title_zh": "自定义材质替换",
-      "inputs": "Photo containing the target object",
-      "inputs_zh": "包含目标物体的原图",
+      "inputs": "Object",
+      "inputs_zh": "物体",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -688,8 +747,8 @@
       "case": "cases/material-swap.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the object photo → set [target_object] and [material] → apply the prompt → change only the selected surface material",
-      "workflow_zh": "上传物体原图 → 填写 [target_object] 目标物体和 [material] 材质 → 输入提示词 → 仅替换指定表面材质"
+      "workflow": "Object + material → material swap",
+      "workflow_zh": "物体 + 材质 → 材质替换"
     },
     {
       "id": "P17",
@@ -697,8 +756,8 @@
       "category": 3,
       "title": "Custom Wall Paint Color",
       "title_zh": "自定义墙漆颜色",
-      "inputs": "Interior photo",
-      "inputs_zh": "室内原图",
+      "inputs": "Room",
+      "inputs_zh": "房间",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -719,8 +778,8 @@
       "case": "cases/wall-paint.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the interior photo → set [wall_area] and [paint_color] → apply the prompt → preview the selected wall paint color",
-      "workflow_zh": "上传室内原图 → 填写 [wall_area] 墙面区域和 [paint_color] 墙漆颜色 → 输入提示词 → 预览指定墙面改色"
+      "workflow": "Wall + paint color → wall recolor",
+      "workflow_zh": "墙面 + 颜色 → 墙漆改色"
     },
     {
       "id": "P18",
@@ -750,8 +809,8 @@
       "case": "cases/polaroid.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the photo → apply the prompt → generate an instant-film look with a Polaroid-style border",
-      "workflow_zh": "上传原图 → 输入提示词 → 生成带宝丽来式相纸边框的即时胶片效果"
+      "workflow": "Photo → Polaroid look",
+      "workflow_zh": "原图 → 宝丽来风格"
     },
     {
       "id": "P19",
@@ -781,8 +840,8 @@
       "case": "cases/lego-style.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the photo → apply the prompt → rebuild the same composition as a LEGO-style diorama",
-      "workflow_zh": "上传原图 → 输入提示词 → 将原构图重建为乐高风格积木场景"
+      "workflow": "Photo → LEGO world",
+      "workflow_zh": "原图 → 乐高世界"
     },
     {
       "id": "P20",
@@ -812,8 +871,8 @@
       "case": "cases/ghibli-anime.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the photo → apply the prompt → reinterpret the original subjects and setting as a Ghibli-inspired illustration",
-      "workflow_zh": "上传原图 → 输入提示词 → 将原主体与场景转换为吉卜力风格插画"
+      "workflow": "Photo → Ghibli anime",
+      "workflow_zh": "原图 → 吉卜力动漫"
     },
     {
       "id": "P21",
@@ -821,8 +880,8 @@
       "category": 4,
       "title": "Collectible Miniature Figurine",
       "title_zh": "收藏级迷你手办",
-      "inputs": "Portrait or character photo",
-      "inputs_zh": "人像或角色原图",
+      "inputs": "Portrait / character",
+      "inputs_zh": "人像 / 角色",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -843,8 +902,8 @@
       "case": "cases/miniature-figurine.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload a portrait or character image → apply the prompt → generate a desk display with a figurine, sculpting screen, and collectible box",
-      "workflow_zh": "上传人像或角色图 → 输入提示词 → 生成包含手办、建模屏幕和收藏包装盒的桌面展示"
+      "workflow": "Character → collectible figurine",
+      "workflow_zh": "角色 → 收藏手办"
     },
     {
       "id": "P22",
@@ -874,8 +933,8 @@
       "case": "cases/oil-painting.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the photo → apply the prompt → transform the original composition into a textured oil painting",
-      "workflow_zh": "上传原图 → 输入提示词 → 将原构图转换为具有笔触纹理的油画"
+      "workflow": "Photo → oil painting",
+      "workflow_zh": "原图 → 油画"
     },
     {
       "id": "P23",
@@ -883,8 +942,8 @@
       "category": 5,
       "title": "Old Photo Restoration",
       "title_zh": "老照片修复",
-      "inputs": "Old or damaged photo",
-      "inputs_zh": "老照片或受损照片",
+      "inputs": "Old photo",
+      "inputs_zh": "老照片",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -905,8 +964,8 @@
       "case": "cases/old-photo-restoration.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the old or damaged photo → apply the prompt → repair damage while retaining identities and the original color treatment",
-      "workflow_zh": "上传老照片或受损照片 → 输入提示词 → 修复损伤并保留人物身份及原有黑白或彩色形式"
+      "workflow": "Old photo → restored photo",
+      "workflow_zh": "老照片 → 修复照片"
     },
     {
       "id": "P24",
@@ -936,8 +995,8 @@
       "case": "cases/add-text.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the photo → set [text_content], [text_location], and [text_style] → apply the prompt → add the exact supplied wording",
-      "workflow_zh": "上传原图 → 填写 [text_content] 文字内容、[text_location] 位置和 [text_style] 样式 → 输入提示词 → 添加原样文字"
+      "workflow": "Photo + text + placement → text overlay",
+      "workflow_zh": "原图 + 文字 + 位置 → 添加文字"
     },
     {
       "id": "P25",
@@ -967,8 +1026,8 @@
       "case": "cases/remove-object.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the photo → identify [object_to_remove], including its position if needed → apply the prompt → remove it and reconstruct the background",
-      "workflow_zh": "上传原图 → 填写 [object_to_remove] 待移除物体，必要时描述位置 → 输入提示词 → 移除物体并补全背景"
+      "workflow": "Photo + target object → object removal",
+      "workflow_zh": "原图 + 指定物体 → 移除物体"
     },
     {
       "id": "P26",
@@ -998,8 +1057,8 @@
       "case": "cases/relight-image.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the photo → set [lighting_description] with the desired light direction, softness, and color → apply the prompt → relight the scene",
-      "workflow_zh": "上传原图 → 在 [lighting_description] 中描述光照方向、柔硬和颜色 → 输入提示词 → 重新布光"
+      "workflow": "Photo + lighting → relit image",
+      "workflow_zh": "原图 + 光线描述 → 重新布光"
     },
     {
       "id": "P27",
@@ -1007,8 +1066,8 @@
       "category": 5,
       "title": "Replace an Object",
       "title_zh": "替换指定物体",
-      "inputs": "Image 1: original photo; Image 2: optional replacement reference",
-      "inputs_zh": "图 1：原图；图 2：可选替换物参考图",
+      "inputs": "Photo + optional object reference",
+      "inputs_zh": "原图 + 可选物体参考",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
@@ -1029,25 +1088,25 @@
       "case": "cases/replace-object.md",
       "updated": "2026-09-15",
       "media": [],
-      "workflow": "Upload the original as Image 1 + an optional replacement reference as Image 2 → set [object_to_replace] and [replacement_object] → apply the prompt → replace the selected object",
-      "workflow_zh": "上传原图为图 1，可选替换物参考为图 2 → 填写 [object_to_replace] 原物体和 [replacement_object] 替换物 → 输入提示词 → 替换指定物体"
+      "workflow": "Photo + replacement object → object swap",
+      "workflow_zh": "原图 + 新物体 → 物体替换"
     }
   ],
   "featured": [
     {
       "id": "P01",
-      "workflow": "Person + outfit references → virtual try-on",
-      "workflow_zh": "人物 + 穿搭参考 → 虚拟试衣"
+      "workflow": "Person + outfit → virtual try-on",
+      "workflow_zh": "人物 + 穿搭 → 虚拟试衣"
     },
     {
       "id": "P02",
-      "workflow": "Product photo + new setting → background replacement",
-      "workflow_zh": "产品原图 + 新场景 → 背景替换"
+      "workflow": "Product + background description → new scene",
+      "workflow_zh": "产品 + 背景描述 → 新场景"
     },
     {
       "id": "P03",
-      "workflow": "Two portraits → one group photo",
-      "workflow_zh": "两张人像 → 一张合照"
+      "workflow": "Two portraits → group photo",
+      "workflow_zh": "两张人像 → 合照"
     }
   ]
 }

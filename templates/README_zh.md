@@ -43,4 +43,6 @@
 | Nano Banana 2 Lite | 简单编辑、低成本批量处理 | 仅 1K；不擅长多图与连续编辑 |
 | Nano Banana Pro | 复杂精修、品牌一致性 | 高要求任务首选 |
 
-[模型官方说明](https://ai.google.dev/gemini-api/docs/image-generation)
+<a href="https://nanobanana.seeapi.com/">
+  <img src="assets/ui/seeapi-nano-banana-zh-CN.svg" alt="在 SeeAPI 体验 Nano Banana — 立即体验" width="840" height="144">
+</a>

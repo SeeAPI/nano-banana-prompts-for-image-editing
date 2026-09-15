@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Image 1: product; Image 2: optional person reference<br>Input image pending | Result image pending |
+| Product + optional portrait<br>Input image pending | Result image pending |
 
 ## 👇 Workflow
 
-`Upload the product as Image 1 + an optional person reference as Image 2 → set [product name] → apply the prompt → generate a low-angle product campaign`
+`Product + portrait → low-angle ad`
 
 ## 📝 Full Prompt
 

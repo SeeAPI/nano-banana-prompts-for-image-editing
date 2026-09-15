@@ -8,7 +8,7 @@
 
 ## 👇 Workflow
 
-`Upload the photo → apply the prompt → rebuild the same composition as a LEGO-style diorama`
+`Photo → LEGO world`
 
 ## 📝 Full Prompt
 

@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Image 1: room; Image 2 onward: optional furniture references<br>Input image pending | Result image pending |
+| Room + optional furniture reference<br>Input image pending | Result image pending |
 
 ## 👇 Workflow
 
-`Upload the room as Image 1 + optional furniture references as Image 2 onward → set [furniture_to_replace] and [new_furniture_description] → apply the prompt → replace the selected furniture`
+`Room + new furniture → furniture replacement`
 
 ## 📝 Full Prompt
 

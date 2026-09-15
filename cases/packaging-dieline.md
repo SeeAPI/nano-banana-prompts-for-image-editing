@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| Packaging photo; extra views if available<br>Input image pending | Result image pending |
+| Packaging<br>Input image pending | Result image pending |
 
 ## 👇 Workflow
 
-`Upload the packaging photo, adding other views if available → apply the prompt → generate an unfolded packaging concept for visual exploration`
+`Packaging → unfolded concept`
 
 ## 📝 Full Prompt
 

@@ -4,11 +4,11 @@
 
 | Before | After |
 | :---: | :---: |
-| <a href="../assets/portraits/reference-boy.png"><img src="../assets/portraits/reference-boy.png" width="320" height="320" alt="Image 1"></a><br>Portrait photo | <a href="../assets/portraits/result-mini-me.jpg"><img src="../assets/portraits/result-mini-me.jpg" width="179" height="320" alt="Mini Me"></a> |
+| <a href="../assets/portraits/reference-boy.png"><img src="../assets/portraits/reference-boy.png" width="320" height="320" alt="Image 1"></a><br>Portrait | <a href="../assets/portraits/result-mini-me.jpg"><img src="../assets/portraits/result-mini-me.jpg" width="179" height="320" alt="Mini Me"></a> |
 
 ## 👇 Workflow
 
-`Upload a portrait → apply the prompt → add matching miniatures and hand-drawn doodles around the original subject`
+`Portrait → Mini Me`
 
 ## 📝 Full Prompt
 

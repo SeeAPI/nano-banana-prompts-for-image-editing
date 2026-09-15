@@ -8,7 +8,7 @@
 
 ## 👇 Workflow
 
-`Upload the photo → set [text_content], [text_location], and [text_style] → apply the prompt → add the exact supplied wording`
+`Photo + text + placement → text overlay`
 
 ## 📝 Full Prompt
 
