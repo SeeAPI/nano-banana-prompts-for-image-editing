@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="32" viewBox="0 0 128 32" role="img" aria-label="简体中文">
+<title>简体中文</title>
+<rect x="0.5" y="0.5" width="127" height="31" rx="15.5" fill="#F9D648" stroke="#E3BF2C"/>
+<path d="m12 16 3 3 6-7" fill="none" stroke="#24292F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74.0" y="16" fill="#24292F" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="600" text-anchor="middle" dominant-baseline="central">简体中文</text>
+</svg>

@@ -1,6 +1,9 @@
 # Nano Banana Prompts for Image Editing 🍌
 
-[English](README.md) | [简体中文](README_zh.md)
+<p>
+  <a href="README.md"><img src="assets/ui/language-en-active.svg" alt="English — current language" width="112" height="32"></a>&nbsp;
+  <a href="README_zh.md"><img src="assets/ui/language-zh-CN-inactive.svg" alt="简体中文" width="128" height="32"></a>
+</p>
 
 Transform your images with Nano Banana. Explore image-editing prompts with before-and-after examples, clear instructions, and complete prompts in English and Chinese. Curated by SeeAPI.
 

@@ -1,6 +1,9 @@
 # Nano Banana 图片编辑提示词 🍌
 
-[English](README.md) | [简体中文](README_zh.md)
+<p>
+  <a href="README.md"><img src="assets/ui/language-en-inactive.svg" alt="English" width="112" height="32"></a>&nbsp;
+  <a href="README_zh.md"><img src="assets/ui/language-zh-CN-active.svg" alt="简体中文 — 当前语言" width="128" height="32"></a>
+</p>
 
 用 Nano Banana 编辑你的图片。探索包含前后对比、清晰操作说明和完整中英文提示词的图片编辑案例，由 SeeAPI 整理。
 
