@@ -1,0 +1,17 @@
+# P18 · Polaroid Photo
+
+## 🖼️ Preview
+
+| Before | After |
+| :---: | :---: |
+| Photo<br>Input image pending | Result image pending |
+
+## 📝 Full Prompt
+
+```text
+Transform the uploaded image into a believable vintage Polaroid instant photograph. Preserve the identities, expressions, subject arrangement, and main scene. Apply soft direct-flash illumination, gently muted colors, warm highlights, slightly faded shadows, subtle film grain, mild lens softness, and natural instant-film imperfections without obscuring faces.
+
+Present the image inside a clean off-white instant-photo border with a slightly deeper bottom margin. Fit the full main subject within the photo area; do not crop out important features. Keep the effect restrained and photographic. Do not add handwriting, dates, captions, extra people, or heavy damage.
+```
+
+<sub>Prompt by SeeAPI</sub>

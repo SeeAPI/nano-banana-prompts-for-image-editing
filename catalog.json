@@ -1,0 +1,811 @@
+{
+  "updated": "2026-09-15",
+  "cases": [
+    {
+      "id": "P01",
+      "slug": "complete-look",
+      "category": 1,
+      "title": "Complete Look Makeover",
+      "title_zh": "完整 Look 换装",
+      "inputs": "Image 1: person; Image 2 onward: complete outfit and accessories",
+      "inputs_zh": "图 1：人物；图 2 起：完整穿搭及配饰",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "1.1",
+      "readme_anchor": "p01-complete-look",
+      "prompts": [
+        "prompts/complete-look/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/complete-look/prompt.txt": "prompts/complete-look/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/complete-look/prompt.txt": "a3456f82c990b6e003dfd2383754208eb98b3f0b6f31f59bc828842437ac3e55"
+      },
+      "case": "cases/complete-look.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P04",
+      "slug": "mini-me",
+      "category": 1,
+      "title": "Mini Me",
+      "title_zh": "Mini Me 迷你分身",
+      "inputs": "Portrait photo",
+      "inputs_zh": "人物原图",
+      "source": {
+        "kind": "user-supplied",
+        "author": null,
+        "note": "HTML whitespace entity decoded; wording preserved.",
+        "original_prompt": "docs/source-prompts/mini-me.original.txt"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "1.2",
+      "readme_anchor": "p04-mini-me",
+      "prompts": [
+        "prompts/mini-me/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/mini-me/prompt.txt": "prompts/mini-me/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/mini-me/prompt.txt": "6a13bdb79786fb3325158480ef842a64be557182623da29591079d9b7ff94f89"
+      },
+      "case": "cases/mini-me.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P05",
+      "slug": "pet-photobomb",
+      "category": 1,
+      "title": "Pet Photobomb Selfie",
+      "title_zh": "和宠物的搞怪合影",
+      "inputs": "Image 1: person; Image 2: pet",
+      "inputs_zh": "图 1：人物；图 2：宠物",
+      "source": {
+        "kind": "user-adapted",
+        "author": null,
+        "note": "Reference-image binding and pet foreground clarified; age and gender generalized.",
+        "original_prompt": "docs/source-prompts/pet-photobomb.original.txt"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "1.3",
+      "readme_anchor": "p05-pet-photobomb",
+      "prompts": [
+        "prompts/pet-photobomb/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/pet-photobomb/prompt.txt": "prompts/pet-photobomb/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/pet-photobomb/prompt.txt": "6af2f383789c93800fdf70e53ec000fd6d9e7b8c784ca16d17528744ca2884d8"
+      },
+      "case": "cases/pet-photobomb.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P06",
+      "slug": "hairstyle-grid",
+      "category": 1,
+      "title": "3 × 3 Hairstyle Changer",
+      "title_zh": "3 × 3 发型九宫格",
+      "inputs": "Front-facing portrait",
+      "inputs_zh": "正面人像",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "1.4",
+      "readme_anchor": "p06-hairstyle-grid",
+      "prompts": [
+        "prompts/hairstyle-grid/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/hairstyle-grid/prompt.txt": "prompts/hairstyle-grid/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/hairstyle-grid/prompt.txt": "8663eb6e9fa69b65bf4ccb90a2eb4a00ebc85c0d47ed6779e604d7626576f128"
+      },
+      "case": "cases/hairstyle-grid.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P07",
+      "slug": "linkedin-headshot",
+      "category": 1,
+      "title": "LinkedIn Profile Picture",
+      "title_zh": "LinkedIn 职业头像",
+      "inputs": "Portrait photo",
+      "inputs_zh": "人物原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "1.5",
+      "readme_anchor": "p07-linkedin-headshot",
+      "prompts": [
+        "prompts/linkedin-headshot/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/linkedin-headshot/prompt.txt": "prompts/linkedin-headshot/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/linkedin-headshot/prompt.txt": "0a4257f7fb27637deb8fd49db13d05a1f97c1642f3bc0a2a9045c2d82b60cdb6"
+      },
+      "case": "cases/linkedin-headshot.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P03",
+      "slug": "shared-portrait",
+      "category": 1,
+      "title": "Two Portraits, One Photo",
+      "title_zh": "两张人像合成合照",
+      "inputs": "Image 1: person A; Image 2: person B",
+      "inputs_zh": "图 1：人物 A；图 2：人物 B",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "1.6",
+      "readme_anchor": "p03-shared-portrait",
+      "prompts": [
+        "prompts/shared-portrait/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/shared-portrait/prompt.txt": "prompts/shared-portrait/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/shared-portrait/prompt.txt": "5b5f8fe63bcd4598ffbff9f0c1ef4a075d4ec6a7bf6f42178cb32782c9609326"
+      },
+      "case": "cases/shared-portrait.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P02",
+      "slug": "product-background",
+      "category": 2,
+      "title": "Product Background Replacement",
+      "title_zh": "产品换背景",
+      "inputs": "Product photo",
+      "inputs_zh": "产品原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "2.1",
+      "readme_anchor": "p02-product-background",
+      "prompts": [
+        "prompts/product-background/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/product-background/prompt.txt": "prompts/product-background/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/product-background/prompt.txt": "1e7a04ba4e04ccf65be0cb73d4dee504cada0fe8e3992d1bc6addcac7573baaf"
+      },
+      "case": "cases/product-background.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P08",
+      "slug": "white-background-product",
+      "category": 2,
+      "title": "White Background Product Photo",
+      "title_zh": "白底产品图",
+      "inputs": "Product photo",
+      "inputs_zh": "产品原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "2.2",
+      "readme_anchor": "p08-white-background-product",
+      "prompts": [
+        "prompts/white-background-product/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/white-background-product/prompt.txt": "prompts/white-background-product/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/white-background-product/prompt.txt": "bc89e0bcb1dea02d0e8342c232227809a20b539f893768ca9b8301ee606b6355"
+      },
+      "case": "cases/white-background-product.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P09",
+      "slug": "floating-food-ad",
+      "category": 2,
+      "title": "Floating Food Advertisement",
+      "title_zh": "悬浮食物广告",
+      "inputs": "Food product photo",
+      "inputs_zh": "食品原图",
+      "source": {
+        "kind": "inspired",
+        "author": "azed_ai",
+        "platform": "X",
+        "url": "https://x.com/azed_ai/status/2073769875940786430",
+        "prompt_url": "https://x.com/azed_ai/status/2073769888691441721",
+        "adapted_by": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "2.3",
+      "readme_anchor": "p09-floating-food-ad",
+      "prompts": [
+        "prompts/floating-food-ad/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/floating-food-ad/prompt.txt": "prompts/floating-food-ad/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/floating-food-ad/prompt.txt": "1d2219eba97c2785e16056e9cb68c9ac938cdd4f11db39735a03fc2b021503ac"
+      },
+      "case": "cases/floating-food-ad.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P10",
+      "slug": "low-angle-product-campaign",
+      "category": 2,
+      "title": "Low-Angle Product Campaign",
+      "title_zh": "低机位产品广告",
+      "inputs": "Image 1: product; Image 2: optional person reference",
+      "inputs_zh": "图 1：产品；图 2：可选人物参考图",
+      "source": {
+        "kind": "inspired",
+        "author": "azed_ai",
+        "platform": "X",
+        "url": "https://x.com/azed_ai/status/2037168464801259602",
+        "prompt_url": "https://x.com/azed_ai/status/2037168488754929910",
+        "adapted_by": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "2.4",
+      "readme_anchor": "p10-low-angle-product-campaign",
+      "prompts": [
+        "prompts/low-angle-product-campaign/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/low-angle-product-campaign/prompt.txt": "prompts/low-angle-product-campaign/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/low-angle-product-campaign/prompt.txt": "870a6acfcd2d85d30d44291e777dcf3fe83a856ab70d4a5460cbb0e8a30d655f"
+      },
+      "case": "cases/low-angle-product-campaign.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P11",
+      "slug": "doodle-product-ad",
+      "category": 2,
+      "title": "Doodle Product Advertisement",
+      "title_zh": "手绘涂鸦产品广告",
+      "inputs": "Product photo",
+      "inputs_zh": "产品原图",
+      "source": {
+        "kind": "inspired",
+        "author": "azed_ai",
+        "platform": "X",
+        "url": "https://x.com/azed_ai/status/2053142448533377048",
+        "prompt_url": "https://x.com/azed_ai/status/2053142472222802430",
+        "adapted_by": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "2.5",
+      "readme_anchor": "p11-doodle-product-ad",
+      "prompts": [
+        "prompts/doodle-product-ad/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/doodle-product-ad/prompt.txt": "prompts/doodle-product-ad/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/doodle-product-ad/prompt.txt": "be3da0654c51e54242a3ed040796842655d2205f154cf83c49f02c44cfa7b574"
+      },
+      "case": "cases/doodle-product-ad.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P12",
+      "slug": "packaging-dieline",
+      "category": 2,
+      "title": "Packaging Dieline Concept",
+      "title_zh": "包装展开概念图",
+      "inputs": "Packaging photo; extra views if available",
+      "inputs_zh": "包装照片；可补充其他角度",
+      "source": {
+        "kind": "inspired",
+        "author": "AmirMushich",
+        "platform": "X",
+        "url": "https://x.com/AmirMushich/status/2003849723837616489",
+        "prompt_url": "https://x.com/AmirMushich/status/2003849730355236967",
+        "adapted_by": "SeeAPI",
+        "context_url": "https://x.com/AmirMushich/status/2003973666078331060",
+        "inspiration_author": "Salma Aboukar",
+        "inspiration_url": "https://x.com/Salmaaboukarr/status/1994017531699278056"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "2.6",
+      "readme_anchor": "p12-packaging-dieline",
+      "prompts": [
+        "prompts/packaging-dieline/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/packaging-dieline/prompt.txt": "prompts/packaging-dieline/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/packaging-dieline/prompt.txt": "2d5b1991cba73b12ead95a88b5208c254f449c58619bbc7a4e9e4d2ce70e1bd3"
+      },
+      "case": "cases/packaging-dieline.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P13",
+      "slug": "interior-design",
+      "category": 3,
+      "title": "Interior Design",
+      "title_zh": "室内设计",
+      "inputs": "Room photo",
+      "inputs_zh": "房间原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "3.1",
+      "readme_anchor": "p13-interior-design",
+      "prompts": [
+        "prompts/interior-design/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/interior-design/prompt.txt": "prompts/interior-design/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/interior-design/prompt.txt": "be35edfc36eab8e425084de6faab92c47050b5d1c9eda198fbe5e8a95cfa500d"
+      },
+      "case": "cases/interior-design.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P14",
+      "slug": "landscape-design",
+      "category": 3,
+      "title": "Landscape Design",
+      "title_zh": "庭院景观设计",
+      "inputs": "Garden or yard photo",
+      "inputs_zh": "庭院或花园原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "3.2",
+      "readme_anchor": "p14-landscape-design",
+      "prompts": [
+        "prompts/landscape-design/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/landscape-design/prompt.txt": "prompts/landscape-design/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/landscape-design/prompt.txt": "cbc144e49a4fed3716e4e09aa17739ff023b8bed43f32fdd5bb01afbbf060bd4"
+      },
+      "case": "cases/landscape-design.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P15",
+      "slug": "furniture-replacement",
+      "category": 3,
+      "title": "Furniture Makeover",
+      "title_zh": "家装与家具替换",
+      "inputs": "Image 1: room; Image 2 onward: optional furniture references",
+      "inputs_zh": "图 1：房间；图 2 起：可选家具参考图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "3.3",
+      "readme_anchor": "p15-furniture-replacement",
+      "prompts": [
+        "prompts/furniture-replacement/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/furniture-replacement/prompt.txt": "prompts/furniture-replacement/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/furniture-replacement/prompt.txt": "4c85341e83eeadcf3c80c269156d09ba90f018f6e06eb5d267a47efd26af92fc"
+      },
+      "case": "cases/furniture-replacement.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P16",
+      "slug": "material-swap",
+      "category": 3,
+      "title": "Custom Material Swap",
+      "title_zh": "自定义材质替换",
+      "inputs": "Photo containing the target object",
+      "inputs_zh": "包含目标物体的原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "3.4",
+      "readme_anchor": "p16-material-swap",
+      "prompts": [
+        "prompts/material-swap/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/material-swap/prompt.txt": "prompts/material-swap/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/material-swap/prompt.txt": "5060df16e521d86b5c5451e7f9df3485986c79dfe76b21f577796c5347f029a5"
+      },
+      "case": "cases/material-swap.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P17",
+      "slug": "wall-paint",
+      "category": 3,
+      "title": "Custom Wall Paint Color",
+      "title_zh": "自定义墙漆颜色",
+      "inputs": "Interior photo",
+      "inputs_zh": "室内原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "3.5",
+      "readme_anchor": "p17-wall-paint",
+      "prompts": [
+        "prompts/wall-paint/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/wall-paint/prompt.txt": "prompts/wall-paint/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/wall-paint/prompt.txt": "cdd2cab0236d2b0af35f7055dec0fc1f811564872d6a54be0dbef3b014d28e32"
+      },
+      "case": "cases/wall-paint.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P18",
+      "slug": "polaroid",
+      "category": 4,
+      "title": "Polaroid Photo",
+      "title_zh": "宝丽来照片风格",
+      "inputs": "Photo",
+      "inputs_zh": "原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "4.1",
+      "readme_anchor": "p18-polaroid",
+      "prompts": [
+        "prompts/polaroid/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/polaroid/prompt.txt": "prompts/polaroid/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/polaroid/prompt.txt": "b6558725f9197c7081340ec7573a90ab98b2acf10bc4e2eff580d8a4907f2f3a"
+      },
+      "case": "cases/polaroid.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P19",
+      "slug": "lego-style",
+      "category": 4,
+      "title": "LEGO Brick World",
+      "title_zh": "乐高积木世界",
+      "inputs": "Photo",
+      "inputs_zh": "原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "4.2",
+      "readme_anchor": "p19-lego-style",
+      "prompts": [
+        "prompts/lego-style/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/lego-style/prompt.txt": "prompts/lego-style/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/lego-style/prompt.txt": "0b9ae66f7024bbe376cf2e4912b93b4a0e2ac523a82258f711a5e4af78a93c9d"
+      },
+      "case": "cases/lego-style.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P20",
+      "slug": "ghibli-anime",
+      "category": 4,
+      "title": "Ghibli-Inspired Anime",
+      "title_zh": "吉卜力动漫风格",
+      "inputs": "Photo",
+      "inputs_zh": "原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "4.3",
+      "readme_anchor": "p20-ghibli-anime",
+      "prompts": [
+        "prompts/ghibli-anime/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/ghibli-anime/prompt.txt": "prompts/ghibli-anime/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/ghibli-anime/prompt.txt": "a19e4af2056b038ca3c0bbb20386ff60e755dec303399d2d7248ad6fd4316270"
+      },
+      "case": "cases/ghibli-anime.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P21",
+      "slug": "miniature-figurine",
+      "category": 4,
+      "title": "Collectible Miniature Figurine",
+      "title_zh": "收藏级迷你手办",
+      "inputs": "Portrait or character photo",
+      "inputs_zh": "人像或角色原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "4.4",
+      "readme_anchor": "p21-miniature-figurine",
+      "prompts": [
+        "prompts/miniature-figurine/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/miniature-figurine/prompt.txt": "prompts/miniature-figurine/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/miniature-figurine/prompt.txt": "a379726e5e61dabac32624ef5539f6b7d9e650588019f051c1cdb9119e9a7bcc"
+      },
+      "case": "cases/miniature-figurine.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P22",
+      "slug": "oil-painting",
+      "category": 4,
+      "title": "Oil Painting",
+      "title_zh": "油画风格",
+      "inputs": "Photo",
+      "inputs_zh": "原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "4.5",
+      "readme_anchor": "p22-oil-painting",
+      "prompts": [
+        "prompts/oil-painting/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/oil-painting/prompt.txt": "prompts/oil-painting/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/oil-painting/prompt.txt": "6083165aa145ef5a1944cf812e7a11d650603c850d75ba6cd731218fcd265c30"
+      },
+      "case": "cases/oil-painting.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P23",
+      "slug": "old-photo-restoration",
+      "category": 5,
+      "title": "Old Photo Restoration",
+      "title_zh": "老照片修复",
+      "inputs": "Old or damaged photo",
+      "inputs_zh": "老照片或受损照片",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "5.1",
+      "readme_anchor": "p23-old-photo-restoration",
+      "prompts": [
+        "prompts/old-photo-restoration/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/old-photo-restoration/prompt.txt": "prompts/old-photo-restoration/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/old-photo-restoration/prompt.txt": "ca71cfc8ccbf3eadd1a6db5ffb63aab85dac2a2b70912a9f2d24b9723e0ef5d4"
+      },
+      "case": "cases/old-photo-restoration.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P24",
+      "slug": "add-text",
+      "category": 5,
+      "title": "Add Custom Text",
+      "title_zh": "添加自定义文字",
+      "inputs": "Photo",
+      "inputs_zh": "原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "5.2",
+      "readme_anchor": "p24-add-text",
+      "prompts": [
+        "prompts/add-text/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/add-text/prompt.txt": "prompts/add-text/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/add-text/prompt.txt": "975242ad2972e9cfb369c691ba3a8b9a31efb55962248c77804b20a3479f7d2f"
+      },
+      "case": "cases/add-text.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P25",
+      "slug": "remove-object",
+      "category": 5,
+      "title": "Remove Unwanted Objects",
+      "title_zh": "移除指定物体",
+      "inputs": "Photo",
+      "inputs_zh": "原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "5.3",
+      "readme_anchor": "p25-remove-object",
+      "prompts": [
+        "prompts/remove-object/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/remove-object/prompt.txt": "prompts/remove-object/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/remove-object/prompt.txt": "80fe7d72170976594c73df075aa9164530e2055ac5653a41af5c7946746d45d5"
+      },
+      "case": "cases/remove-object.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P26",
+      "slug": "relight-image",
+      "category": 5,
+      "title": "Relight an Image",
+      "title_zh": "重新布光",
+      "inputs": "Photo",
+      "inputs_zh": "原图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "5.4",
+      "readme_anchor": "p26-relight-image",
+      "prompts": [
+        "prompts/relight-image/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/relight-image/prompt.txt": "prompts/relight-image/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/relight-image/prompt.txt": "286d42813c5e107aa4070941dd0432281088d5b74e0d88d1d0a7b42c0dbb3a5c"
+      },
+      "case": "cases/relight-image.md",
+      "updated": "2026-09-15",
+      "media": []
+    },
+    {
+      "id": "P27",
+      "slug": "replace-object",
+      "category": 5,
+      "title": "Replace an Object",
+      "title_zh": "替换指定物体",
+      "inputs": "Image 1: original photo; Image 2: optional replacement reference",
+      "inputs_zh": "图 1：原图；图 2：可选替换物参考图",
+      "source": {
+        "kind": "original",
+        "author": "SeeAPI"
+      },
+      "status": "prompt-only",
+      "tested": false,
+      "display_number": "5.5",
+      "readme_anchor": "p27-replace-object",
+      "prompts": [
+        "prompts/replace-object/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/replace-object/prompt.txt": "prompts/replace-object/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/replace-object/prompt.txt": "9b5510501af73cf8001ae938e442980f9cdc47a46570abada8ef0ad71dfa4d09"
+      },
+      "case": "cases/replace-object.md",
+      "updated": "2026-09-15",
+      "media": []
+    }
+  ]
+}
