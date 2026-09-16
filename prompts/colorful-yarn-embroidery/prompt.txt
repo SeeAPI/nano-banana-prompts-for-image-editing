@@ -1,0 +1,5 @@
+Create a vertical comparison from the uploaded photo: the original above, a colorful yarn-embroidery reinterpretation below. Give both halves the same dimensions; keep the upper image unchanged and avoid borders or labels.
+
+Rebuild the lower scene as a tactile handmade patch on ivory woven cloth. Use chunky stitched contours, looped yarn, layered thread, and small relief shadows. Retain the people, poses, clothing colors, distinctive objects, and main action; simplify background clutter. Faces turned away must remain turned away. Every illustrated element should look sewn, not printed. Photograph the needlework straight on under gentle studio light.
+
+Beneath the stitched scene, embroider three centered lines: [TITLE], [EDITION], and [CAPTION]. Use bold raised lettering for the title and smaller stitching below. Reproduce supplied text exactly. For omitted fields, invent a short English title and warm caption; use PATCH NO. 01 as the default edition. Never print placeholder brackets. Return only the completed comparison.

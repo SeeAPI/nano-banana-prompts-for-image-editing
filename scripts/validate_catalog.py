@@ -16,11 +16,13 @@ for c in cases:
     assert c['tested'] is False, c['id']
     assert c['status'] == ('image-included' if c['media'] else 'prompt-only'), c['id']
     if c['media']:
-        assert any(m['role']=='reference' for m in c['media'])
-        assert any(m['role']=='result' for m in c['media'])
+        roles = {m['role'] for m in c['media']}
+        assert 'comparison' in roles or {'reference','result'} <= roles
     for m in c['media']:
-        assert m['role'] in ['reference','result']
-        assert m['provenance']=='user-supplied'
+        assert m['role'] in ['reference','result','comparison']
+        assert m['provenance'] in ['user-supplied','source-example']
+        if m['provenance']=='source-example':
+            assert m['source_url']==c['source']['url']
         assert m['width']>0 and m['height']>0
         assert hashlib.sha256((ROOT/m['path']).read_bytes()).hexdigest()==m['sha256'], m['path']
     assert c['updated']<=data['updated']

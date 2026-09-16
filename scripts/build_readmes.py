@@ -29,6 +29,8 @@ def credit(c, zh):
         if s.get('context_url'):
             value += f" · [{'作者补充：用于概念探索' if zh else 'Author clarification: concept exploration'}]({s['context_url']})"
             value += f" · {'上游灵感' if zh else 'Earlier inspiration'}: [{s['inspiration_author']}]({s['inspiration_url']})"
+    if s.get('media_note'):
+        value += ' · ' + (s['media_note_zh'] if zh else s['media_note'])
     return f'<sub>{value}</sub>'
 
 def media_tag(item, zh, page_dir='.', max_size=320):
@@ -40,6 +42,14 @@ def media_tag(item, zh, page_dir='.', max_size=320):
 
 def preview(c, zh, standalone):
     page_dir = ('cases/zh-CN' if zh else 'cases') if standalone else '.'
+    comparisons = [m for m in c['media'] if m['role']=='comparison']
+    if comparisons:
+        rows = ['| Before ↓ After | Before ↓ After |', '| :---: | :---: |']
+        for i in range(0, len(comparisons), 2):
+            cells = [media_tag(m,zh,page_dir,400) for m in comparisons[i:i+2]]
+            cells += [''] * (2-len(cells))
+            rows.append('| '+' | '.join(cells)+' |')
+        return '\n'.join(rows)
     refs = [m for m in c['media'] if m['role']=='reference']
     results = [m for m in c['media'] if m['role']=='result']
     if refs:
@@ -62,7 +72,11 @@ def featured(data, zh):
         ref_size = 52 if len(refs)>1 else 110
         before = ' '.join(media_tag(m,zh,max_size=ref_size) for m in refs) if refs else ('原图待补充' if zh else 'Input pending')
         after = media_tag(results[0],zh,max_size=110) if results else ('效果图待补充' if zh else 'Result pending')
-        images.append('<b>Before → After</b><br>' + before + ' &nbsp;→&nbsp; ' + after)
+        comparisons = [m for m in c['media'] if m['role']=='comparison']
+        if comparisons:
+            images.append('<b>Before ↓ After</b><br>' + media_tag(comparisons[0],zh,max_size=220))
+        else:
+            images.append('<b>Before → After</b><br>' + before + ' &nbsp;→&nbsp; ' + after)
         workflows.append('`'+item['workflow_zh' if zh else 'workflow']+'`')
     return '\n'.join(['| '+' | '.join(names)+' |','| :---: | :---: | :---: |','| '+' | '.join(images)+' |','| '+' | '.join(workflows)+' |'])
 

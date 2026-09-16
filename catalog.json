@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "cases": [
     {
       "id": "P01",
@@ -937,6 +937,93 @@
       "workflow_zh": "原图 → 油画"
     },
     {
+      "id": "P28",
+      "slug": "colorful-yarn-embroidery",
+      "category": 4,
+      "title": "Colorful Yarn Embroidery",
+      "title_zh": "彩色毛线刺绣",
+      "inputs": "Photo",
+      "inputs_zh": "原图",
+      "source": {
+        "kind": "inspired",
+        "author": "ai_suxiaole",
+        "author_name": "苏乐",
+        "platform": "X",
+        "url": "https://x.com/ai_suxiaole/status/2099824477173690831",
+        "prompt_url": "https://x.com/ai_suxiaole/status/2099824480772374956",
+        "adapted_by": "SeeAPI",
+        "media_note": "Original-post examples; not tests of the rewritten prompt.",
+        "media_note_zh": "原帖示例，非改写提示词的实测结果。"
+      },
+      "status": "image-included",
+      "tested": false,
+      "display_number": "4.6",
+      "readme_anchor": "p28-colorful-yarn-embroidery",
+      "prompts": [
+        "prompts/colorful-yarn-embroidery/prompt.txt"
+      ],
+      "prompts_zh": {
+        "prompts/colorful-yarn-embroidery/prompt.txt": "prompts/colorful-yarn-embroidery/prompt.zh-CN.txt"
+      },
+      "translation_source_sha256": {
+        "prompts/colorful-yarn-embroidery/prompt.txt": "734cd6f702965ab0f6abe59a9f0b927ba729c6425d9b56b6a46bdd689c845e82"
+      },
+      "case": "cases/colorful-yarn-embroidery.md",
+      "updated": "2026-09-16",
+      "media": [
+        {
+          "path": "assets/colorful-yarn-embroidery/source-example-01.webp",
+          "width": 600,
+          "height": 1200,
+          "sha256": "b62a41760a8abfddc22842e7fea004774fa63f29ffe5aff81a3e6224f7f695ab",
+          "role": "comparison",
+          "provenance": "source-example",
+          "source_url": "https://x.com/ai_suxiaole/status/2099824477173690831",
+          "download_url": "https://pbs.twimg.com/media/HSQSf4wagAAxx5O?format=webp&name=medium",
+          "label": "Yarn embroidery — source comparison 1",
+          "label_zh": "毛线刺绣 — 原帖对比图 1"
+        },
+        {
+          "path": "assets/colorful-yarn-embroidery/source-example-02.webp",
+          "width": 600,
+          "height": 1200,
+          "sha256": "231459c865bb748081a07b4bf75f3c94e502f9350a85f899ad1f38768b38bcd4",
+          "role": "comparison",
+          "provenance": "source-example",
+          "source_url": "https://x.com/ai_suxiaole/status/2099824477173690831",
+          "download_url": "https://pbs.twimg.com/media/HSQShnybAAAUKi2?format=webp&name=medium",
+          "label": "Yarn embroidery — source comparison 2",
+          "label_zh": "毛线刺绣 — 原帖对比图 2"
+        },
+        {
+          "path": "assets/colorful-yarn-embroidery/source-example-03.webp",
+          "width": 600,
+          "height": 1200,
+          "sha256": "a2360211b9d22a4b0a084c4d2a9d06d42c33f5c98c3e2f08f5fa83494164d9b5",
+          "role": "comparison",
+          "provenance": "source-example",
+          "source_url": "https://x.com/ai_suxiaole/status/2099824477173690831",
+          "download_url": "https://pbs.twimg.com/media/HSQSiMsb0AAldxg?format=webp&name=medium",
+          "label": "Yarn embroidery — source comparison 3",
+          "label_zh": "毛线刺绣 — 原帖对比图 3"
+        },
+        {
+          "path": "assets/colorful-yarn-embroidery/source-example-04.webp",
+          "width": 600,
+          "height": 1200,
+          "sha256": "01fb496aad9fe8ad8004c65c4e33d086adc2ba3332d95d62124a3d9c9722b305",
+          "role": "comparison",
+          "provenance": "source-example",
+          "source_url": "https://x.com/ai_suxiaole/status/2099824477173690831",
+          "download_url": "https://pbs.twimg.com/media/HSQSi9saMAEl10D?format=webp&name=medium",
+          "label": "Yarn embroidery — source comparison 4",
+          "label_zh": "毛线刺绣 — 原帖对比图 4"
+        }
+      ],
+      "workflow": "Photo → colorful embroidery",
+      "workflow_zh": "原图 → 彩色刺绣"
+    },
+    {
       "id": "P23",
       "slug": "old-photo-restoration",
       "category": 5,
@@ -1104,9 +1191,9 @@
       "workflow_zh": "产品 + 背景描述 → 新场景"
     },
     {
-      "id": "P03",
-      "workflow": "Two portraits → group photo",
-      "workflow_zh": "两张人像 → 合照"
+      "id": "P28",
+      "workflow": "Photo → colorful embroidery",
+      "workflow_zh": "原图 → 彩色刺绣"
     }
   ]
 }

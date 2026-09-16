@@ -7,7 +7,7 @@
 
 Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room redesign, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
 
-**27 editing prompts · 8 cases with previews · Updated September 15, 2026**
+**28 editing prompts · 9 cases with previews · Updated September 16, 2026**
 
 ⭐ Star this collection to save ideas for your next image edit.
 
@@ -15,10 +15,10 @@ Discover what your photos can become. Explore Nano Banana editing prompts for vi
 
 ## ✨ Featured Edits
 
-| [Virtual Clothes Try On](#p01-complete-look) | [Product Background Replacement](#p02-product-background) | [Group Photo](#p03-shared-portrait) |
+| [Virtual Clothes Try On](#p01-complete-look) | [Product Background Replacement](#p02-product-background) | [Colorful Yarn Embroidery](#p28-colorful-yarn-embroidery) |
 | :---: | :---: | :---: |
-| <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="Image 1"></a> <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="52" height="52" alt="Image 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="110" height="110" alt="Virtual Clothes Try On"></a> | <b>Before → After</b><br><a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="110" height="110" alt="Original product"></a> &nbsp;→&nbsp; <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="110" height="110" alt="Ice background"></a> | <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="Image 1"></a> <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="52" height="52" alt="Image 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="110" height="110" alt="Group Photo"></a> |
-| `Person + outfit → virtual try-on` | `Product + background description → new scene` | `Two portraits → group photo` |
+| <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="Image 1"></a> <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="52" height="52" alt="Image 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="110" height="110" alt="Virtual Clothes Try On"></a> | <b>Before → After</b><br><a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="110" height="110" alt="Original product"></a> &nbsp;→&nbsp; <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="110" height="110" alt="Ice background"></a> | <b>Before ↓ After</b><br><a href="assets/colorful-yarn-embroidery/source-example-01.webp"><img src="assets/colorful-yarn-embroidery/source-example-01.webp" width="110" height="220" alt="Yarn embroidery — source comparison 1"></a> |
+| `Person + outfit → virtual try-on` | `Product + background description → new scene` | `Photo → colorful embroidery` |
 
 ## 📑 Contents
 
@@ -603,6 +603,33 @@ Use realistic light and shadow to maintain depth while simplifying minor photogr
 ```
 
 <sub>Prompt by SeeAPI</sub>
+
+<a id="p28-colorful-yarn-embroidery"></a>
+
+### 4.6. Colorful Yarn Embroidery
+
+#### 🖼️ Preview
+
+| Before ↓ After | Before ↓ After |
+| :---: | :---: |
+| <a href="assets/colorful-yarn-embroidery/source-example-01.webp"><img src="assets/colorful-yarn-embroidery/source-example-01.webp" width="200" height="400" alt="Yarn embroidery — source comparison 1"></a> | <a href="assets/colorful-yarn-embroidery/source-example-02.webp"><img src="assets/colorful-yarn-embroidery/source-example-02.webp" width="200" height="400" alt="Yarn embroidery — source comparison 2"></a> |
+| <a href="assets/colorful-yarn-embroidery/source-example-03.webp"><img src="assets/colorful-yarn-embroidery/source-example-03.webp" width="200" height="400" alt="Yarn embroidery — source comparison 3"></a> | <a href="assets/colorful-yarn-embroidery/source-example-04.webp"><img src="assets/colorful-yarn-embroidery/source-example-04.webp" width="200" height="400" alt="Yarn embroidery — source comparison 4"></a> |
+
+#### 👇 Workflow
+
+`Photo → colorful embroidery`
+
+#### 📝 Full Prompt
+
+```text
+Create a vertical comparison from the uploaded photo: the original above, a colorful yarn-embroidery reinterpretation below. Give both halves the same dimensions; keep the upper image unchanged and avoid borders or labels.
+
+Rebuild the lower scene as a tactile handmade patch on ivory woven cloth. Use chunky stitched contours, looped yarn, layered thread, and small relief shadows. Retain the people, poses, clothing colors, distinctive objects, and main action; simplify background clutter. Faces turned away must remain turned away. Every illustrated element should look sewn, not printed. Photograph the needlework straight on under gentle studio light.
+
+Beneath the stitched scene, embroider three centered lines: [TITLE], [EDITION], and [CAPTION]. Use bold raised lettering for the title and smaller stitching below. Reproduce supplied text exactly. For omitted fields, invent a short English title and warm caption; use PATCH NO. 01 as the default edition. Never print placeholder brackets. Return only the completed comparison.
+```
+
+<sub>Inspired by [@ai_suxiaole](https://x.com/ai_suxiaole/status/2099824477173690831) · [Source: X](https://x.com/ai_suxiaole/status/2099824477173690831) · [Source prompt](https://x.com/ai_suxiaole/status/2099824480772374956) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · Original-post examples; not tests of the rewritten prompt.</sub>
 
 <a id="restoration-adjustments"></a>
 
