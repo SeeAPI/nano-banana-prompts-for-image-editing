@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Garden / yard<br>Input image pending | Result image pending |
+| <a href="../assets/landscape-design/reference-yard.png"><img src="../assets/landscape-design/reference-yard.png" width="320" height="320" alt="Original yard"></a><br>Garden / yard | <a href="../assets/landscape-design/result-landscape.jpg"><img src="../assets/landscape-design/result-landscape.jpg" width="320" height="320" alt="Landscaped yard"></a> |
 
 ## 👇 Workflow
 

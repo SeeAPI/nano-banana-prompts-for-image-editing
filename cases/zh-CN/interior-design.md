@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 房间<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/interior-design/reference-room.png"><img src="../../assets/interior-design/reference-room.png" width="320" height="320" alt="毛坯房间"></a><br>房间 | <a href="../../assets/interior-design/result-interior.jpg"><img src="../../assets/interior-design/result-interior.jpg" width="320" height="320" alt="装修后的房间"></a> |
 
 ## 👇 工作流
 

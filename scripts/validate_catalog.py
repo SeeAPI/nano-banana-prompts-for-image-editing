@@ -17,9 +17,9 @@ for c in cases:
     assert c['status'] == ('image-included' if c['media'] else 'prompt-only'), c['id']
     if c['media']:
         roles = {m['role'] for m in c['media']}
-        assert 'comparison' in roles or {'reference','result'} <= roles
+        assert roles & {'comparison','source-preview'} or {'reference','result'} <= roles
     for m in c['media']:
-        assert m['role'] in ['reference','result','comparison']
+        assert m['role'] in ['reference','result','comparison','source-preview']
         assert m['provenance'] in ['user-supplied','source-example']
         if m['provenance']=='source-example':
             assert m['source_url']==c['source']['url']

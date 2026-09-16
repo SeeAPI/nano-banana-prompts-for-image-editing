@@ -2,9 +2,9 @@
 
 ## 🖼️ 预览
 
-| Before | After |
-| :---: | :---: |
-| 食品<br>原图待补充 | 效果图待补充 |
+原帖示例
+
+<a href="../../assets/floating-food-ad/source-example-01.webp"><img src="../../assets/floating-food-ad/source-example-01.webp" width="500" height="500" alt="悬浮食物广告 — 原帖示例"></a>
 
 ## 👇 工作流
 
@@ -18,4 +18,4 @@
 在排列周围留出充足白色空间。使用大型柔光光源照明，清楚呈现湿润表面、碎屑和切面细节。各层应具有可信的厚度与一致透视，在构图下方保留轻微阴影。输出精致的食品广告图片，不新增文字或无关包装。
 ```
 
-<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2073769875940786430) · [Source: X](https://x.com/azed_ai/status/2073769875940786430) · [原帖提示词](https://x.com/azed_ai/status/2073769888691441721) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测</sub>
+<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2073769875940786430) · [Source: X](https://x.com/azed_ai/status/2073769875940786430) · [原帖提示词](https://x.com/azed_ai/status/2073769888691441721) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · 原帖示例，非改写提示词的实测结果。</sub>

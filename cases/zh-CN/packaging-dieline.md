@@ -2,9 +2,9 @@
 
 ## 🖼️ 预览
 
-| Before | After |
-| :---: | :---: |
-| 包装<br>原图待补充 | 效果图待补充 |
+原帖示例
+
+<a href="../../assets/packaging-dieline/source-example-01.webp"><img src="../../assets/packaging-dieline/source-example-01.webp" width="500" height="281" alt="包装展开概念图 — 原帖示例"></a>
 
 ## 👇 工作流
 
@@ -18,4 +18,4 @@
 将不可见的折翼和面板视为暂定设计推测，未知图案区域留白。面板连接关系应合理，但不要编造尺寸或宣称制造精度。输出用于讨论包装结构的清晰概念插图，不作为生产裁切文件。
 ```
 
-<sub>创意参考 [@AmirMushich](https://x.com/AmirMushich/status/2003849723837616489) · [Source: X](https://x.com/AmirMushich/status/2003849723837616489) · [原帖提示词](https://x.com/AmirMushich/status/2003849730355236967) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · [作者补充：用于概念探索](https://x.com/AmirMushich/status/2003973666078331060) · 上游灵感: [Salma Aboukar](https://x.com/Salmaaboukarr/status/1994017531699278056)</sub>
+<sub>创意参考 [@AmirMushich](https://x.com/AmirMushich/status/2003849723837616489) · [Source: X](https://x.com/AmirMushich/status/2003849723837616489) · [原帖提示词](https://x.com/AmirMushich/status/2003849730355236967) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · [作者补充：用于概念探索](https://x.com/AmirMushich/status/2003973666078331060) · 上游灵感: [Salma Aboukar](https://x.com/Salmaaboukarr/status/1994017531699278056) · 原帖示例，非改写提示词的实测结果。</sub>

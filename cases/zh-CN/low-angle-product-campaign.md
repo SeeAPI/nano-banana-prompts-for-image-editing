@@ -2,9 +2,9 @@
 
 ## 🖼️ 预览
 
-| Before | After |
-| :---: | :---: |
-| 产品 + 可选人像<br>原图待补充 | 效果图待补充 |
+原帖示例
+
+<a href="../../assets/low-angle-product-campaign/source-example-01.webp"><img src="../../assets/low-angle-product-campaign/source-example-01.webp" width="500" height="500" alt="低机位产品广告 — 原帖示例"></a>
 
 ## 👇 工作流
 
@@ -18,4 +18,4 @@
 保留产品品牌、清晰标签、几何形状和表面质感。采用自信姿势、鲜明服装和明亮柔光，握持自然、手指正确。通过相机透视制造大小对比，不拉伸包装。人物略虚于产品，不添加广告文案。
 ```
 
-<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2037168464801259602) · [Source: X](https://x.com/azed_ai/status/2037168464801259602) · [原帖提示词](https://x.com/azed_ai/status/2037168488754929910) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测</sub>
+<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2037168464801259602) · [Source: X](https://x.com/azed_ai/status/2037168464801259602) · [原帖提示词](https://x.com/azed_ai/status/2037168488754929910) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · 原帖示例，非改写提示词的实测结果。</sub>

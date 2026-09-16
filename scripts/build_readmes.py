@@ -41,7 +41,22 @@ def media_tag(item, zh, page_dir='.', max_size=320):
     return f'<a href="{url}"><img src="{url}" width="{width}" height="{height}" alt="{alt}"></a>'
 
 def preview(c, zh, standalone):
+    if c.get('preview_groups'):
+        blocks = []
+        by_path = {m['path']: m for m in c['media']}
+        for group in c['preview_groups']:
+            grouped = dict(c)
+            grouped.pop('preview_groups')
+            grouped['media'] = [by_path[path] for path in group['paths']]
+            grouped['inputs'], grouped['inputs_zh'] = group['inputs'], group['inputs_zh']
+            title = group['title_zh'] if zh else group['title']
+            blocks.append('**' + title + '**\n\n' + preview(grouped, zh, standalone))
+        return '\n\n'.join(blocks)
     page_dir = ('cases/zh-CN' if zh else 'cases') if standalone else '.'
+    source_previews = [m for m in c['media'] if m['role']=='source-preview']
+    if source_previews:
+        label = '原帖示例' if zh else 'Original post example'
+        return label + '\n\n' + ' '.join(media_tag(m,zh,page_dir,500) for m in source_previews)
     comparisons = [m for m in c['media'] if m['role']=='comparison']
     if comparisons:
         rows = ['| Before ↓ After | Before ↓ After |', '| :---: | :---: |']
@@ -69,16 +84,16 @@ def featured(data, zh):
         names.append(f"[{c['title_zh'] if zh else c['title']}](#{c['readme_anchor']})")
         results = [m for m in c['media'] if m['role']=='result']
         refs = [m for m in c['media'] if m['role']=='reference']
-        ref_size = 52 if len(refs)>1 else 110
+        ref_size = 42 if len(refs)>1 else 90
         before = ' '.join(media_tag(m,zh,max_size=ref_size) for m in refs) if refs else ('原图待补充' if zh else 'Input pending')
-        after = media_tag(results[0],zh,max_size=110) if results else ('效果图待补充' if zh else 'Result pending')
+        after = media_tag(results[0],zh,max_size=90) if results else ('效果图待补充' if zh else 'Result pending')
         comparisons = [m for m in c['media'] if m['role']=='comparison']
         if comparisons:
-            images.append('<b>Before ↓ After</b><br>' + media_tag(comparisons[0],zh,max_size=220))
+            images.append('<b>Before ↓ After</b><br>' + media_tag(comparisons[0],zh,max_size=180))
         else:
             images.append('<b>Before → After</b><br>' + before + ' &nbsp;→&nbsp; ' + after)
         workflows.append('`'+item['workflow_zh' if zh else 'workflow']+'`')
-    return '\n'.join(['| '+' | '.join(names)+' |','| :---: | :---: | :---: |','| '+' | '.join(images)+' |','| '+' | '.join(workflows)+' |'])
+    return '\n'.join(['| '+' | '.join(names)+' |','| '+' | '.join([':---:']*len(names))+' |','| '+' | '.join(images)+' |','| '+' | '.join(workflows)+' |'])
 
 def body(c, zh, standalone=False):
     level = '##' if standalone else '####'

@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Room<br>Input image pending | Result image pending |
+| <a href="../assets/interior-design/reference-room.png"><img src="../assets/interior-design/reference-room.png" width="320" height="320" alt="Unfinished room"></a><br>Room | <a href="../assets/interior-design/result-interior.jpg"><img src="../assets/interior-design/result-interior.jpg" width="320" height="320" alt="Redesigned room"></a> |
 
 ## 👇 Workflow
 

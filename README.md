@@ -7,7 +7,7 @@
 
 Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room redesign, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
 
-**28 editing prompts · 9 cases with previews · Updated September 16, 2026**
+**28 editing prompts · 16 cases with previews · Updated September 16, 2026**
 
 ⭐ Star this collection to save ideas for your next image edit.
 
@@ -15,10 +15,10 @@ Discover what your photos can become. Explore Nano Banana editing prompts for vi
 
 ## ✨ Featured Edits
 
-| [Virtual Clothes Try On](#p01-complete-look) | [Product Background Replacement](#p02-product-background) | [Colorful Yarn Embroidery](#p28-colorful-yarn-embroidery) |
-| :---: | :---: | :---: |
-| <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="Image 1"></a> <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="52" height="52" alt="Image 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="110" height="110" alt="Virtual Clothes Try On"></a> | <b>Before → After</b><br><a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="110" height="110" alt="Original product"></a> &nbsp;→&nbsp; <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="110" height="110" alt="Ice background"></a> | <b>Before ↓ After</b><br><a href="assets/colorful-yarn-embroidery/source-example-01.webp"><img src="assets/colorful-yarn-embroidery/source-example-01.webp" width="110" height="220" alt="Yarn embroidery — source comparison 1"></a> |
-| `Person + outfit → virtual try-on` | `Product + background description → new scene` | `Photo → colorful embroidery` |
+| [Virtual Clothes Try On](#p01-complete-look) | [Product Background Replacement](#p02-product-background) | [Colorful Yarn Embroidery](#p28-colorful-yarn-embroidery) | [Group Photo](#p03-shared-portrait) |
+| :---: | :---: | :---: | :---: |
+| <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="42" height="42" alt="Image 1"></a> <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="42" height="42" alt="Image 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="90" height="90" alt="Virtual Clothes Try On"></a> | <b>Before → After</b><br><a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="90" height="90" alt="Original product"></a> &nbsp;→&nbsp; <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="90" height="90" alt="Ice background"></a> | <b>Before ↓ After</b><br><a href="assets/colorful-yarn-embroidery/source-example-01.webp"><img src="assets/colorful-yarn-embroidery/source-example-01.webp" width="90" height="180" alt="Yarn embroidery — source comparison 1"></a> | <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="42" height="42" alt="Image 1"></a> <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="42" height="42" alt="Image 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="90" height="90" alt="Group Photo"></a> |
+| `Person + outfit → virtual try-on` | `Product + background description → new scene` | `Photo → colorful embroidery` | `Two portraits → group photo` |
 
 ## 📑 Contents
 
@@ -266,9 +266,9 @@ Center the product with even margins and keep it fully inside the frame. Use sof
 
 #### 🖼️ Preview
 
-| Before | After |
-| :---: | :---: |
-| Food<br>Input image pending | Result image pending |
+Original post example
+
+<a href="assets/floating-food-ad/source-example-01.webp"><img src="assets/floating-food-ad/source-example-01.webp" width="500" height="500" alt="Floating Food Advertisement — original post example"></a>
 
 #### 👇 Workflow
 
@@ -282,7 +282,7 @@ Use the uploaded food photo as the reference for [subject]. Separate its recogni
 Keep generous white space around the arrangement. Illuminate it with a large diffused studio light so moist surfaces, crumbs, and cut edges remain detailed. Give each layer believable depth and a consistent perspective, with a faint shadow below the composition. Produce a polished food campaign image with no added lettering or unrelated packaging.
 ```
 
-<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2073769875940786430) · [Source: X](https://x.com/azed_ai/status/2073769875940786430) · [Source prompt](https://x.com/azed_ai/status/2073769888691441721) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested</sub>
+<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2073769875940786430) · [Source: X](https://x.com/azed_ai/status/2073769875940786430) · [Source prompt](https://x.com/azed_ai/status/2073769888691441721) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · Original-post examples; not tests of the rewritten prompt.</sub>
 
 <a id="p10-low-angle-product-campaign"></a>
 
@@ -290,9 +290,9 @@ Keep generous white space around the arrangement. Illuminate it with a large dif
 
 #### 🖼️ Preview
 
-| Before | After |
-| :---: | :---: |
-| Product + optional portrait<br>Input image pending | Result image pending |
+Original post example
+
+<a href="assets/low-angle-product-campaign/source-example-01.webp"><img src="assets/low-angle-product-campaign/source-example-01.webp" width="500" height="500" alt="Low-Angle Product Campaign — original post example"></a>
 
 #### 👇 Workflow
 
@@ -306,7 +306,7 @@ Build a fashion advertisement around the [product name] shown in Image 1. Place 
 Retain the product's branding, legible label, geometry, and finish. Use a confident pose, vivid clothing, bright diffused illumination, and a natural grip with correct fingers. Let camera perspective create the size contrast without stretching the package. Keep the figure slightly softer than the product and add no advertising copy.
 ```
 
-<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2037168464801259602) · [Source: X](https://x.com/azed_ai/status/2037168464801259602) · [Source prompt](https://x.com/azed_ai/status/2037168488754929910) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested</sub>
+<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2037168464801259602) · [Source: X](https://x.com/azed_ai/status/2037168464801259602) · [Source prompt](https://x.com/azed_ai/status/2037168488754929910) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · Original-post examples; not tests of the rewritten prompt.</sub>
 
 <a id="p11-doodle-product-ad"></a>
 
@@ -314,9 +314,9 @@ Retain the product's branding, legible label, geometry, and finish. Use a confid
 
 #### 🖼️ Preview
 
-| Before | After |
-| :---: | :---: |
-| Product<br>Input image pending | Result image pending |
+Original post example
+
+<a href="assets/doodle-product-ad/source-example-01.webp"><img src="assets/doodle-product-ad/source-example-01.webp" width="500" height="500" alt="Doodle Product Advertisement — original post example"></a>
 
 #### 👇 Workflow
 
@@ -330,7 +330,7 @@ Recompose the product in the uploaded photograph into [product setup] on a simpl
 Draw a playful [character] with thin white sketch lines so it appears to interact with the actual product: leaning on it, carrying it, or peeking around it where the composition allows. Keep the product photographic and the character clearly hand drawn. Do not obscure the label. Use a square composition with breathing room, restrained props, and no additional words.
 ```
 
-<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2053142448533377048) · [Source: X](https://x.com/azed_ai/status/2053142448533377048) · [Source prompt](https://x.com/azed_ai/status/2053142472222802430) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested</sub>
+<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2053142448533377048) · [Source: X](https://x.com/azed_ai/status/2053142448533377048) · [Source prompt](https://x.com/azed_ai/status/2053142472222802430) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · Original-post examples; not tests of the rewritten prompt.</sub>
 
 <a id="p12-packaging-dieline"></a>
 
@@ -338,9 +338,9 @@ Draw a playful [character] with thin white sketch lines so it appears to interac
 
 #### 🖼️ Preview
 
-| Before | After |
-| :---: | :---: |
-| Packaging<br>Input image pending | Result image pending |
+Original post example
+
+<a href="assets/packaging-dieline/source-example-01.webp"><img src="assets/packaging-dieline/source-example-01.webp" width="500" height="281" alt="Packaging Dieline Concept — original post example"></a>
 
 #### 👇 Workflow
 
@@ -354,7 +354,7 @@ Use the uploaded box photograph to visualize a possible unfolded packaging layou
 Treat any unseen flaps or panels as provisional design estimates, leaving unknown artwork blank. Keep panel relationships plausible, but do not invent measurements or claim manufacturing accuracy. Produce a clean concept illustration for discussing packaging structure, not a production cutting file.
 ```
 
-<sub>Inspired by [@AmirMushich](https://x.com/AmirMushich/status/2003849723837616489) · [Source: X](https://x.com/AmirMushich/status/2003849723837616489) · [Source prompt](https://x.com/AmirMushich/status/2003849730355236967) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · [Author clarification: concept exploration](https://x.com/AmirMushich/status/2003973666078331060) · Earlier inspiration: [Salma Aboukar](https://x.com/Salmaaboukarr/status/1994017531699278056)</sub>
+<sub>Inspired by [@AmirMushich](https://x.com/AmirMushich/status/2003849723837616489) · [Source: X](https://x.com/AmirMushich/status/2003849723837616489) · [Source prompt](https://x.com/AmirMushich/status/2003849730355236967) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · [Author clarification: concept exploration](https://x.com/AmirMushich/status/2003973666078331060) · Earlier inspiration: [Salma Aboukar](https://x.com/Salmaaboukarr/status/1994017531699278056) · Original-post examples; not tests of the rewritten prompt.</sub>
 
 <a id="homes-spaces"></a>
 
@@ -368,7 +368,7 @@ Treat any unseen flaps or panels as provisional design estimates, leaving unknow
 
 | Before | After |
 | :---: | :---: |
-| Room<br>Input image pending | Result image pending |
+| <a href="assets/interior-design/reference-room.png"><img src="assets/interior-design/reference-room.png" width="320" height="320" alt="Unfinished room"></a><br>Room | <a href="assets/interior-design/result-interior.jpg"><img src="assets/interior-design/result-interior.jpg" width="320" height="320" alt="Redesigned room"></a> |
 
 #### 👇 Workflow
 
@@ -392,7 +392,7 @@ Use realistic furniture dimensions and coordinated materials and colors. Respect
 
 | Before | After |
 | :---: | :---: |
-| Garden / yard<br>Input image pending | Result image pending |
+| <a href="assets/landscape-design/reference-yard.png"><img src="assets/landscape-design/reference-yard.png" width="320" height="320" alt="Original yard"></a><br>Garden / yard | <a href="assets/landscape-design/result-landscape.jpg"><img src="assets/landscape-design/result-landscape.jpg" width="320" height="320" alt="Landscaped yard"></a> |
 
 #### 👇 Workflow
 
@@ -414,20 +414,28 @@ Choose a visually compatible planting palette for [climate_or_location], with be
 
 #### 🖼️ Preview
 
+**Sofa replacement**
+
 | Before | After |
 | :---: | :---: |
-| Room + optional furniture reference<br>Input image pending | Result image pending |
+| <a href="assets/interior-design/result-interior.jpg"><img src="assets/interior-design/result-interior.jpg" width="150" height="150" alt="Room"></a> &nbsp; <a href="assets/furniture-replacement/reference-sofa.png"><img src="assets/furniture-replacement/reference-sofa.png" width="150" height="150" alt="Sofa reference"></a><br>Room + sofa | <a href="assets/furniture-replacement/result-sofa.jpg"><img src="assets/furniture-replacement/result-sofa.jpg" width="320" height="320" alt="Replaced sofa"></a> |
+
+**Artwork replacement**
+
+| Before | After |
+| :---: | :---: |
+| <a href="assets/interior-design/result-interior.jpg"><img src="assets/interior-design/result-interior.jpg" width="150" height="150" alt="Room"></a> &nbsp; <a href="assets/furniture-replacement/reference-artwork.png"><img src="assets/furniture-replacement/reference-artwork.png" width="150" height="150" alt="Artwork reference"></a><br>Room + artwork | <a href="assets/furniture-replacement/result-artwork.jpg"><img src="assets/furniture-replacement/result-artwork.jpg" width="320" height="320" alt="Replaced artwork"></a> |
 
 #### 👇 Workflow
 
-`Room + new furniture → furniture replacement`
+`Room + new furniture / decor → replacement`
 
 #### 📝 Full Prompt
 
 ```text
-Edit Image 1 by replacing [furniture_to_replace] with [new_furniture_description]. If additional furniture reference images are supplied, use their exact designs, materials, colors, and distinctive details for the replacement pieces.
+Edit Image 1 by replacing [furniture_to_replace] with [new_furniture_description]. These fields can describe furniture or decorative items, such as a sofa or wall artwork. If additional reference images are supplied, match the selected replacement item’s design, materials, colors, and distinctive details; do not copy its surrounding scene.
 
-Keep the architecture, windows, doors, camera viewpoint, and all unselected furniture unchanged. Fit the new items naturally into the room with realistic dimensions, perspective, floor contact, reflections, and shadows. Remove the old selected furniture cleanly and reconstruct any newly revealed background. Coordinate the new pieces without redesigning the rest of the room. Keep walking routes clear and output one photorealistic edited room image.
+Keep the architecture, windows, doors, camera viewpoint, and all unselected furniture and decor unchanged. Fit the replacement naturally into the room with realistic scale, perspective, placement, reflections, and shadows. For wall artwork, preserve the reference composition and fit it to the wall plane. Remove the selected old item cleanly and reconstruct any newly revealed background. Do not redesign the rest of the room. Keep walking routes clear and output one photorealistic edited room image.
 ```
 
 <sub>Prompt by SeeAPI</sub>

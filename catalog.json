@@ -497,9 +497,11 @@
         "platform": "X",
         "url": "https://x.com/azed_ai/status/2073769875940786430",
         "prompt_url": "https://x.com/azed_ai/status/2073769888691441721",
-        "adapted_by": "SeeAPI"
+        "adapted_by": "SeeAPI",
+        "media_note": "Original-post examples; not tests of the rewritten prompt.",
+        "media_note_zh": "原帖示例，非改写提示词的实测结果。"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "2.3",
       "readme_anchor": "p09-floating-food-ad",
@@ -513,8 +515,21 @@
         "prompts/floating-food-ad/prompt.txt": "1d2219eba97c2785e16056e9cb68c9ac938cdd4f11db39735a03fc2b021503ac"
       },
       "case": "cases/floating-food-ad.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-16",
+      "media": [
+        {
+          "path": "assets/floating-food-ad/source-example-01.webp",
+          "width": 1080,
+          "height": 1080,
+          "sha256": "deaf545292d80ebca7d9c7466d4c20038d20dcb17bc93fca8b254e5541f48c20",
+          "role": "source-preview",
+          "provenance": "source-example",
+          "source_url": "https://x.com/azed_ai/status/2073769875940786430",
+          "download_url": "https://pbs.twimg.com/media/HMeCtk3aUAANqEb?format=webp&name=medium",
+          "label": "Floating Food Advertisement — original post example",
+          "label_zh": "悬浮食物广告 — 原帖示例"
+        }
+      ],
       "workflow": "Food + ingredient details → floating food ad",
       "workflow_zh": "食品 + 食材描述 → 悬浮广告"
     },
@@ -532,9 +547,11 @@
         "platform": "X",
         "url": "https://x.com/azed_ai/status/2037168464801259602",
         "prompt_url": "https://x.com/azed_ai/status/2037168488754929910",
-        "adapted_by": "SeeAPI"
+        "adapted_by": "SeeAPI",
+        "media_note": "Original-post examples; not tests of the rewritten prompt.",
+        "media_note_zh": "原帖示例，非改写提示词的实测结果。"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "2.4",
       "readme_anchor": "p10-low-angle-product-campaign",
@@ -548,8 +565,21 @@
         "prompts/low-angle-product-campaign/prompt.txt": "870a6acfcd2d85d30d44291e777dcf3fe83a856ab70d4a5460cbb0e8a30d655f"
       },
       "case": "cases/low-angle-product-campaign.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-16",
+      "media": [
+        {
+          "path": "assets/low-angle-product-campaign/source-example-01.webp",
+          "width": 1080,
+          "height": 1080,
+          "sha256": "2a28ba64c1f26a031ec68d5b26893daa35ad1498bc327e71659b7176ff90bd68",
+          "role": "source-preview",
+          "provenance": "source-example",
+          "source_url": "https://x.com/azed_ai/status/2037168464801259602",
+          "download_url": "https://pbs.twimg.com/media/HEV57BxbYAcfjvD?format=webp&name=medium",
+          "label": "Low-Angle Product Campaign — original post example",
+          "label_zh": "低机位产品广告 — 原帖示例"
+        }
+      ],
       "workflow": "Product + portrait → low-angle ad",
       "workflow_zh": "产品 + 人像 → 低机位广告"
     },
@@ -567,9 +597,11 @@
         "platform": "X",
         "url": "https://x.com/azed_ai/status/2053142448533377048",
         "prompt_url": "https://x.com/azed_ai/status/2053142472222802430",
-        "adapted_by": "SeeAPI"
+        "adapted_by": "SeeAPI",
+        "media_note": "Original-post examples; not tests of the rewritten prompt.",
+        "media_note_zh": "原帖示例，非改写提示词的实测结果。"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "2.5",
       "readme_anchor": "p11-doodle-product-ad",
@@ -583,8 +615,21 @@
         "prompts/doodle-product-ad/prompt.txt": "be3da0654c51e54242a3ed040796842655d2205f154cf83c49f02c44cfa7b574"
       },
       "case": "cases/doodle-product-ad.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-16",
+      "media": [
+        {
+          "path": "assets/doodle-product-ad/source-example-01.webp",
+          "width": 1080,
+          "height": 1080,
+          "sha256": "b1b9aee60366020167fb20fdbf2a3b639f2353c1d6823e4e20d29abdae112d22",
+          "role": "source-preview",
+          "provenance": "source-example",
+          "source_url": "https://x.com/azed_ai/status/2053142448533377048",
+          "download_url": "https://pbs.twimg.com/media/HH46LQ-aMAA9l64?format=webp&name=medium",
+          "label": "Doodle Product Advertisement — original post example",
+          "label_zh": "手绘涂鸦产品广告 — 原帖示例"
+        }
+      ],
       "workflow": "Product + doodle idea → creative ad",
       "workflow_zh": "产品 + 涂鸦创意 → 创意广告"
     },
@@ -605,9 +650,11 @@
         "adapted_by": "SeeAPI",
         "context_url": "https://x.com/AmirMushich/status/2003973666078331060",
         "inspiration_author": "Salma Aboukar",
-        "inspiration_url": "https://x.com/Salmaaboukarr/status/1994017531699278056"
+        "inspiration_url": "https://x.com/Salmaaboukarr/status/1994017531699278056",
+        "media_note": "Original-post examples; not tests of the rewritten prompt.",
+        "media_note_zh": "原帖示例，非改写提示词的实测结果。"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "2.6",
       "readme_anchor": "p12-packaging-dieline",
@@ -621,8 +668,21 @@
         "prompts/packaging-dieline/prompt.txt": "2d5b1991cba73b12ead95a88b5208c254f449c58619bbc7a4e9e4d2ce70e1bd3"
       },
       "case": "cases/packaging-dieline.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-16",
+      "media": [
+        {
+          "path": "assets/packaging-dieline/source-example-01.webp",
+          "width": 1200,
+          "height": 675,
+          "sha256": "cf5f6ee165ca7b1254c0ad5388127f3e9cdc3d18b20661528dcce4faaf6ddb84",
+          "role": "source-preview",
+          "provenance": "source-example",
+          "source_url": "https://x.com/AmirMushich/status/2003849723837616489",
+          "download_url": "https://pbs.twimg.com/media/G88VeAwXIAAsSO4?format=webp&name=medium",
+          "label": "Packaging Dieline Concept — original post example",
+          "label_zh": "包装展开概念图 — 原帖示例"
+        }
+      ],
       "workflow": "Packaging → unfolded concept",
       "workflow_zh": "包装 → 展开概念图"
     },
@@ -638,7 +698,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "3.1",
       "readme_anchor": "p13-interior-design",
@@ -652,8 +712,31 @@
         "prompts/interior-design/prompt.txt": "be35edfc36eab8e425084de6faab92c47050b5d1c9eda198fbe5e8a95cfa500d"
       },
       "case": "cases/interior-design.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-16",
+      "media": [
+        {
+          "path": "assets/interior-design/reference-room.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "8c822c577671536f07ed2da74ce3f204d7d062c9bad17ff47bf66ba452bc64d2",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916184740.png",
+          "role": "reference",
+          "label": "Unfinished room",
+          "label_zh": "毛坯房间"
+        },
+        {
+          "path": "assets/interior-design/result-interior.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "cce7c4472a26f127a75ee115a2df55ec6626b69613f062b175f7ea57636c9018",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916184744.jpg",
+          "role": "result",
+          "label": "Redesigned room",
+          "label_zh": "装修后的房间"
+        }
+      ],
       "workflow": "Room + style → interior redesign",
       "workflow_zh": "房间 + 风格 → 室内改造"
     },
@@ -669,7 +752,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "3.2",
       "readme_anchor": "p14-landscape-design",
@@ -683,8 +766,31 @@
         "prompts/landscape-design/prompt.txt": "cbc144e49a4fed3716e4e09aa17739ff023b8bed43f32fdd5bb01afbbf060bd4"
       },
       "case": "cases/landscape-design.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-16",
+      "media": [
+        {
+          "path": "assets/landscape-design/reference-yard.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "9bf5523598206f3d2ca47ca9f474808cfa0d70bce6fe9d009d899d5aa614c4b6",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916184750.png",
+          "role": "reference",
+          "label": "Original yard",
+          "label_zh": "原庭院"
+        },
+        {
+          "path": "assets/landscape-design/result-landscape.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "4b24f18b7c78a18a09f2d7d8943ac830a0b24d3b285058295426006afb647974",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916184752.jpg",
+          "role": "result",
+          "label": "Landscaped yard",
+          "label_zh": "改造后的庭院"
+        }
+      ],
       "workflow": "Yard + style + location → landscape design",
       "workflow_zh": "庭院 + 风格 + 地区 → 景观设计"
     },
@@ -694,13 +800,13 @@
       "category": 3,
       "title": "Furniture Replace",
       "title_zh": "家具替换",
-      "inputs": "Room + optional furniture reference",
-      "inputs_zh": "房间 + 可选家具参考",
+      "inputs": "Room + furniture / decor reference",
+      "inputs_zh": "房间 + 家具 / 装饰参考",
       "source": {
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "3.3",
       "readme_anchor": "p15-furniture-replacement",
@@ -711,13 +817,93 @@
         "prompts/furniture-replacement/prompt.txt": "prompts/furniture-replacement/prompt.zh-CN.txt"
       },
       "translation_source_sha256": {
-        "prompts/furniture-replacement/prompt.txt": "4c85341e83eeadcf3c80c269156d09ba90f018f6e06eb5d267a47efd26af92fc"
+        "prompts/furniture-replacement/prompt.txt": "43be0d9bc253edffc9b3b297b822802f5984b742568725636611dcb4da239653"
       },
       "case": "cases/furniture-replacement.md",
-      "updated": "2026-09-15",
-      "media": [],
-      "workflow": "Room + new furniture → furniture replacement",
-      "workflow_zh": "房间 + 新家具 → 家具替换"
+      "updated": "2026-09-16",
+      "media": [
+        {
+          "path": "assets/interior-design/result-interior.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "cce7c4472a26f127a75ee115a2df55ec6626b69613f062b175f7ea57636c9018",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916184744.jpg",
+          "role": "reference",
+          "label": "Room",
+          "label_zh": "房间"
+        },
+        {
+          "path": "assets/furniture-replacement/reference-sofa.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "4d1311bde6499406422728d55bc133d2f268f542b3024f872cd3655cae5c13d4",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916185341.png",
+          "role": "reference",
+          "label": "Sofa reference",
+          "label_zh": "沙发参考"
+        },
+        {
+          "path": "assets/furniture-replacement/result-sofa.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "b4933ab25669cd214fa8dec9d29741c5d7393e32a0d9a0970641f09f348fc099",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916185337.jpg",
+          "role": "result",
+          "label": "Replaced sofa",
+          "label_zh": "沙发替换效果"
+        },
+        {
+          "path": "assets/furniture-replacement/reference-artwork.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "77155f9bb404b75a43180b1a4d4abdd96829e167d11c4fb7c0c044aa1b0b5403",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916185120.png",
+          "role": "reference",
+          "label": "Artwork reference",
+          "label_zh": "挂画参考"
+        },
+        {
+          "path": "assets/furniture-replacement/result-artwork.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "0f9c89aed61287e0553f8694c6093dc729620aa9b050eea0be798487181504de",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691618516.jpg",
+          "role": "result",
+          "label": "Replaced artwork",
+          "label_zh": "挂画替换效果"
+        }
+      ],
+      "workflow": "Room + new furniture / decor → replacement",
+      "workflow_zh": "房间 + 新家具 / 装饰 → 替换",
+      "preview_groups": [
+        {
+          "title": "Sofa replacement",
+          "title_zh": "沙发替换",
+          "paths": [
+            "assets/interior-design/result-interior.jpg",
+            "assets/furniture-replacement/reference-sofa.png",
+            "assets/furniture-replacement/result-sofa.jpg"
+          ],
+          "inputs": "Room + sofa",
+          "inputs_zh": "房间 + 沙发"
+        },
+        {
+          "title": "Artwork replacement",
+          "title_zh": "挂画替换",
+          "paths": [
+            "assets/interior-design/result-interior.jpg",
+            "assets/furniture-replacement/reference-artwork.png",
+            "assets/furniture-replacement/result-artwork.jpg"
+          ],
+          "inputs": "Room + artwork",
+          "inputs_zh": "房间 + 挂画"
+        }
+      ]
     },
     {
       "id": "P16",
@@ -1194,6 +1380,11 @@
       "id": "P28",
       "workflow": "Photo → colorful embroidery",
       "workflow_zh": "原图 → 彩色刺绣"
+    },
+    {
+      "id": "P03",
+      "workflow": "Two portraits → group photo",
+      "workflow_zh": "两张人像 → 合照"
     }
   ]
 }

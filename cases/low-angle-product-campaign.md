@@ -2,9 +2,9 @@
 
 ## 🖼️ Preview
 
-| Before | After |
-| :---: | :---: |
-| Product + optional portrait<br>Input image pending | Result image pending |
+Original post example
+
+<a href="../assets/low-angle-product-campaign/source-example-01.webp"><img src="../assets/low-angle-product-campaign/source-example-01.webp" width="500" height="500" alt="Low-Angle Product Campaign — original post example"></a>
 
 ## 👇 Workflow
 
@@ -18,4 +18,4 @@ Build a fashion advertisement around the [product name] shown in Image 1. Place 
 Retain the product's branding, legible label, geometry, and finish. Use a confident pose, vivid clothing, bright diffused illumination, and a natural grip with correct fingers. Let camera perspective create the size contrast without stretching the package. Keep the figure slightly softer than the product and add no advertising copy.
 ```
 
-<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2037168464801259602) · [Source: X](https://x.com/azed_ai/status/2037168464801259602) · [Source prompt](https://x.com/azed_ai/status/2037168488754929910) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested</sub>
+<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2037168464801259602) · [Source: X](https://x.com/azed_ai/status/2037168464801259602) · [Source prompt](https://x.com/azed_ai/status/2037168488754929910) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · Original-post examples; not tests of the rewritten prompt.</sub>

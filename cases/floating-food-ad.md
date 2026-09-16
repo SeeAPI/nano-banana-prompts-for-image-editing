@@ -2,9 +2,9 @@
 
 ## 🖼️ Preview
 
-| Before | After |
-| :---: | :---: |
-| Food<br>Input image pending | Result image pending |
+Original post example
+
+<a href="../assets/floating-food-ad/source-example-01.webp"><img src="../assets/floating-food-ad/source-example-01.webp" width="500" height="500" alt="Floating Food Advertisement — original post example"></a>
 
 ## 👇 Workflow
 
@@ -18,4 +18,4 @@ Use the uploaded food photo as the reference for [subject]. Separate its recogni
 Keep generous white space around the arrangement. Illuminate it with a large diffused studio light so moist surfaces, crumbs, and cut edges remain detailed. Give each layer believable depth and a consistent perspective, with a faint shadow below the composition. Produce a polished food campaign image with no added lettering or unrelated packaging.
 ```
 
-<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2073769875940786430) · [Source: X](https://x.com/azed_ai/status/2073769875940786430) · [Source prompt](https://x.com/azed_ai/status/2073769888691441721) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested</sub>
+<sub>Inspired by [@azed_ai](https://x.com/azed_ai/status/2073769875940786430) · [Source: X](https://x.com/azed_ai/status/2073769875940786430) · [Source prompt](https://x.com/azed_ai/status/2073769888691441721) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · Original-post examples; not tests of the rewritten prompt.</sub>

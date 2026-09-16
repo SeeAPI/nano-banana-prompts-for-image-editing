@@ -2,9 +2,9 @@
 
 ## 🖼️ Preview
 
-| Before | After |
-| :---: | :---: |
-| Packaging<br>Input image pending | Result image pending |
+Original post example
+
+<a href="../assets/packaging-dieline/source-example-01.webp"><img src="../assets/packaging-dieline/source-example-01.webp" width="500" height="281" alt="Packaging Dieline Concept — original post example"></a>
 
 ## 👇 Workflow
 
@@ -18,4 +18,4 @@ Use the uploaded box photograph to visualize a possible unfolded packaging layou
 Treat any unseen flaps or panels as provisional design estimates, leaving unknown artwork blank. Keep panel relationships plausible, but do not invent measurements or claim manufacturing accuracy. Produce a clean concept illustration for discussing packaging structure, not a production cutting file.
 ```
 
-<sub>Inspired by [@AmirMushich](https://x.com/AmirMushich/status/2003849723837616489) · [Source: X](https://x.com/AmirMushich/status/2003849723837616489) · [Source prompt](https://x.com/AmirMushich/status/2003849730355236967) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · [Author clarification: concept exploration](https://x.com/AmirMushich/status/2003973666078331060) · Earlier inspiration: [Salma Aboukar](https://x.com/Salmaaboukarr/status/1994017531699278056)</sub>
+<sub>Inspired by [@AmirMushich](https://x.com/AmirMushich/status/2003849723837616489) · [Source: X](https://x.com/AmirMushich/status/2003849723837616489) · [Source prompt](https://x.com/AmirMushich/status/2003849730355236967) · Reference-image editing prompt rewritten by SeeAPI; not a verbatim copy; untested · [Author clarification: concept exploration](https://x.com/AmirMushich/status/2003973666078331060) · Earlier inspiration: [Salma Aboukar](https://x.com/Salmaaboukarr/status/1994017531699278056) · Original-post examples; not tests of the rewritten prompt.</sub>

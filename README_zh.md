@@ -7,7 +7,7 @@
 
 让你的照片拥有更多可能。这里收录 Nano Banana 图片编辑提示词，涵盖虚拟试衣、人像合照、产品场景、家居改造与照片修复。每个案例提供独立操作步骤和完整提示词，并逐步补充编辑前后对比，方便你用自己的图片尝试。由 SeeAPI 整理，提供完整中英文版本。
 
-**28 个编辑提示词 · 9 个案例附示例图 · 更新于 2026-09-16**
+**28 个编辑提示词 · 16 个案例附示例图 · 更新于 2026-09-16**
 
 ⭐ Star 收藏这个仓库，为下一次图片编辑寻找灵感。
 
@@ -15,10 +15,10 @@
 
 ## ✨ 精选玩法
 
-| [虚拟试衣](#p01-complete-look) | [产品换背景](#p02-product-background) | [彩色毛线刺绣](#p28-colorful-yarn-embroidery) |
-| :---: | :---: | :---: |
-| <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="52" height="52" alt="图 1"></a> <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="52" height="52" alt="图 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="110" height="110" alt="虚拟试衣"></a> | <b>Before → After</b><br><a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="110" height="110" alt="产品原图"></a> &nbsp;→&nbsp; <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="110" height="110" alt="冰雪背景"></a> | <b>Before ↓ After</b><br><a href="assets/colorful-yarn-embroidery/source-example-01.webp"><img src="assets/colorful-yarn-embroidery/source-example-01.webp" width="110" height="220" alt="毛线刺绣 — 原帖对比图 1"></a> |
-| `人物 + 穿搭 → 虚拟试衣` | `产品 + 背景描述 → 新场景` | `原图 → 彩色刺绣` |
+| [虚拟试衣](#p01-complete-look) | [产品换背景](#p02-product-background) | [彩色毛线刺绣](#p28-colorful-yarn-embroidery) | [合照](#p03-shared-portrait) |
+| :---: | :---: | :---: | :---: |
+| <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="42" height="42" alt="图 1"></a> <a href="assets/portraits/reference-outfit.png"><img src="assets/portraits/reference-outfit.png" width="42" height="42" alt="图 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-virtual-try-on.jpg"><img src="assets/portraits/result-virtual-try-on.jpg" width="90" height="90" alt="虚拟试衣"></a> | <b>Before → After</b><br><a href="assets/products/reference-seeapi-mug.jpg"><img src="assets/products/reference-seeapi-mug.jpg" width="90" height="90" alt="产品原图"></a> &nbsp;→&nbsp; <a href="assets/products/result-mug-ice-background.jpg"><img src="assets/products/result-mug-ice-background.jpg" width="90" height="90" alt="冰雪背景"></a> | <b>Before ↓ After</b><br><a href="assets/colorful-yarn-embroidery/source-example-01.webp"><img src="assets/colorful-yarn-embroidery/source-example-01.webp" width="90" height="180" alt="毛线刺绣 — 原帖对比图 1"></a> | <b>Before → After</b><br><a href="assets/portraits/reference-man.png"><img src="assets/portraits/reference-man.png" width="42" height="42" alt="图 1"></a> <a href="assets/portraits/reference-woman.png"><img src="assets/portraits/reference-woman.png" width="42" height="42" alt="图 2"></a> &nbsp;→&nbsp; <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="90" height="90" alt="合照"></a> |
+| `人物 + 穿搭 → 虚拟试衣` | `产品 + 背景描述 → 新场景` | `原图 → 彩色刺绣` | `两张人像 → 合照` |
 
 ## 📑 目录
 
@@ -266,9 +266,9 @@
 
 #### 🖼️ 预览
 
-| Before | After |
-| :---: | :---: |
-| 食品<br>原图待补充 | 效果图待补充 |
+原帖示例
+
+<a href="assets/floating-food-ad/source-example-01.webp"><img src="assets/floating-food-ad/source-example-01.webp" width="500" height="500" alt="悬浮食物广告 — 原帖示例"></a>
 
 #### 👇 工作流
 
@@ -282,7 +282,7 @@
 在排列周围留出充足白色空间。使用大型柔光光源照明，清楚呈现湿润表面、碎屑和切面细节。各层应具有可信的厚度与一致透视，在构图下方保留轻微阴影。输出精致的食品广告图片，不新增文字或无关包装。
 ```
 
-<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2073769875940786430) · [Source: X](https://x.com/azed_ai/status/2073769875940786430) · [原帖提示词](https://x.com/azed_ai/status/2073769888691441721) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测</sub>
+<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2073769875940786430) · [Source: X](https://x.com/azed_ai/status/2073769875940786430) · [原帖提示词](https://x.com/azed_ai/status/2073769888691441721) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · 原帖示例，非改写提示词的实测结果。</sub>
 
 <a id="p10-low-angle-product-campaign"></a>
 
@@ -290,9 +290,9 @@
 
 #### 🖼️ 预览
 
-| Before | After |
-| :---: | :---: |
-| 产品 + 可选人像<br>原图待补充 | 效果图待补充 |
+原帖示例
+
+<a href="assets/low-angle-product-campaign/source-example-01.webp"><img src="assets/low-angle-product-campaign/source-example-01.webp" width="500" height="500" alt="低机位产品广告 — 原帖示例"></a>
 
 #### 👇 工作流
 
@@ -306,7 +306,7 @@
 保留产品品牌、清晰标签、几何形状和表面质感。采用自信姿势、鲜明服装和明亮柔光，握持自然、手指正确。通过相机透视制造大小对比，不拉伸包装。人物略虚于产品，不添加广告文案。
 ```
 
-<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2037168464801259602) · [Source: X](https://x.com/azed_ai/status/2037168464801259602) · [原帖提示词](https://x.com/azed_ai/status/2037168488754929910) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测</sub>
+<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2037168464801259602) · [Source: X](https://x.com/azed_ai/status/2037168464801259602) · [原帖提示词](https://x.com/azed_ai/status/2037168488754929910) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · 原帖示例，非改写提示词的实测结果。</sub>
 
 <a id="p11-doodle-product-ad"></a>
 
@@ -314,9 +314,9 @@
 
 #### 🖼️ 预览
 
-| Before | After |
-| :---: | :---: |
-| 产品<br>原图待补充 | 效果图待补充 |
+原帖示例
+
+<a href="assets/doodle-product-ad/source-example-01.webp"><img src="assets/doodle-product-ad/source-example-01.webp" width="500" height="500" alt="手绘涂鸦产品广告 — 原帖示例"></a>
 
 #### 👇 工作流
 
@@ -330,7 +330,7 @@
 用细白色速写线条画出俏皮的 [character]，让它根据构图与真实产品互动，例如倚靠、搬动或从产品后方探头。产品保持摄影质感，角色则明确呈现手绘效果。不要遮挡标签。采用留白充足的正方形构图，道具克制，不添加其他文字。
 ```
 
-<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2053142448533377048) · [Source: X](https://x.com/azed_ai/status/2053142448533377048) · [原帖提示词](https://x.com/azed_ai/status/2053142472222802430) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测</sub>
+<sub>创意参考 [@azed_ai](https://x.com/azed_ai/status/2053142448533377048) · [Source: X](https://x.com/azed_ai/status/2053142448533377048) · [原帖提示词](https://x.com/azed_ai/status/2053142472222802430) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · 原帖示例，非改写提示词的实测结果。</sub>
 
 <a id="p12-packaging-dieline"></a>
 
@@ -338,9 +338,9 @@
 
 #### 🖼️ 预览
 
-| Before | After |
-| :---: | :---: |
-| 包装<br>原图待补充 | 效果图待补充 |
+原帖示例
+
+<a href="assets/packaging-dieline/source-example-01.webp"><img src="assets/packaging-dieline/source-example-01.webp" width="500" height="281" alt="包装展开概念图 — 原帖示例"></a>
 
 #### 👇 工作流
 
@@ -354,7 +354,7 @@
 将不可见的折翼和面板视为暂定设计推测，未知图案区域留白。面板连接关系应合理，但不要编造尺寸或宣称制造精度。输出用于讨论包装结构的清晰概念插图，不作为生产裁切文件。
 ```
 
-<sub>创意参考 [@AmirMushich](https://x.com/AmirMushich/status/2003849723837616489) · [Source: X](https://x.com/AmirMushich/status/2003849723837616489) · [原帖提示词](https://x.com/AmirMushich/status/2003849730355236967) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · [作者补充：用于概念探索](https://x.com/AmirMushich/status/2003973666078331060) · 上游灵感: [Salma Aboukar](https://x.com/Salmaaboukarr/status/1994017531699278056)</sub>
+<sub>创意参考 [@AmirMushich](https://x.com/AmirMushich/status/2003849723837616489) · [Source: X](https://x.com/AmirMushich/status/2003849723837616489) · [原帖提示词](https://x.com/AmirMushich/status/2003849730355236967) · SeeAPI 重新编写为参考图编辑提示词，非原文转载；未实测 · [作者补充：用于概念探索](https://x.com/AmirMushich/status/2003973666078331060) · 上游灵感: [Salma Aboukar](https://x.com/Salmaaboukarr/status/1994017531699278056) · 原帖示例，非改写提示词的实测结果。</sub>
 
 <a id="homes-spaces"></a>
 
@@ -368,7 +368,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 房间<br>原图待补充 | 效果图待补充 |
+| <a href="assets/interior-design/reference-room.png"><img src="assets/interior-design/reference-room.png" width="320" height="320" alt="毛坯房间"></a><br>房间 | <a href="assets/interior-design/result-interior.jpg"><img src="assets/interior-design/result-interior.jpg" width="320" height="320" alt="装修后的房间"></a> |
 
 #### 👇 工作流
 
@@ -392,7 +392,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 花园 / 庭院<br>原图待补充 | 效果图待补充 |
+| <a href="assets/landscape-design/reference-yard.png"><img src="assets/landscape-design/reference-yard.png" width="320" height="320" alt="原庭院"></a><br>花园 / 庭院 | <a href="assets/landscape-design/result-landscape.jpg"><img src="assets/landscape-design/result-landscape.jpg" width="320" height="320" alt="改造后的庭院"></a> |
 
 #### 👇 工作流
 
@@ -414,20 +414,28 @@
 
 #### 🖼️ 预览
 
+**沙发替换**
+
 | Before | After |
 | :---: | :---: |
-| 房间 + 可选家具参考<br>原图待补充 | 效果图待补充 |
+| <a href="assets/interior-design/result-interior.jpg"><img src="assets/interior-design/result-interior.jpg" width="150" height="150" alt="房间"></a> &nbsp; <a href="assets/furniture-replacement/reference-sofa.png"><img src="assets/furniture-replacement/reference-sofa.png" width="150" height="150" alt="沙发参考"></a><br>房间 + 沙发 | <a href="assets/furniture-replacement/result-sofa.jpg"><img src="assets/furniture-replacement/result-sofa.jpg" width="320" height="320" alt="沙发替换效果"></a> |
+
+**挂画替换**
+
+| Before | After |
+| :---: | :---: |
+| <a href="assets/interior-design/result-interior.jpg"><img src="assets/interior-design/result-interior.jpg" width="150" height="150" alt="房间"></a> &nbsp; <a href="assets/furniture-replacement/reference-artwork.png"><img src="assets/furniture-replacement/reference-artwork.png" width="150" height="150" alt="挂画参考"></a><br>房间 + 挂画 | <a href="assets/furniture-replacement/result-artwork.jpg"><img src="assets/furniture-replacement/result-artwork.jpg" width="320" height="320" alt="挂画替换效果"></a> |
 
 #### 👇 工作流
 
-`房间 + 新家具 → 家具替换`
+`房间 + 新家具 / 装饰 → 替换`
 
 #### 📝 完整提示词
 
 ```text
-编辑图 1，将 [furniture_to_replace] 替换为 [new_furniture_description]。如果提供了其他家具参考图，替换家具应采用参考图中的准确设计、材质、颜色和独特细节。
+编辑图 1，将 [furniture_to_replace] 替换为 [new_furniture_description]。这两个字段可描述家具或装饰品，例如沙发或墙上挂画。如果提供了额外参考图，替换物品应匹配参考物品的设计、材质、颜色和独特细节，不要复制参考图中的周围场景。
 
-保持建筑结构、窗户、门、相机视角以及所有未选中的家具不变。让新家具以真实尺寸、透视、落地接触关系、反射与阴影自然融入房间。干净移除被选中的旧家具，并补全新露出的背景。让新家具相互协调，但不要重新设计房间其他部分。保持行走路线畅通，输出一张写实的房间编辑图。
+保持建筑结构、窗户、门、相机视角以及所有未选中的家具和装饰不变。让替换物品以真实的比例、透视、位置、反射与阴影自然融入房间。替换挂画时，保留参考画作的构图，并使其贴合墙面透视。干净移除选中的旧物品，补全新露出的背景。不要重新设计房间其他部分。保持行走路线畅通，输出一张写实的房间编辑图。
 ```
 
 <sub>提示词：SeeAPI</sub>

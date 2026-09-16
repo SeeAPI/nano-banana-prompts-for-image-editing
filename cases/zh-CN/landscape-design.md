@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 花园 / 庭院<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/landscape-design/reference-yard.png"><img src="../../assets/landscape-design/reference-yard.png" width="320" height="320" alt="原庭院"></a><br>花园 / 庭院 | <a href="../../assets/landscape-design/result-landscape.jpg"><img src="../../assets/landscape-design/result-landscape.jpg" width="320" height="320" alt="改造后的庭院"></a> |
 
 ## 👇 工作流
 
