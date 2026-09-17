@@ -5,7 +5,9 @@
   <a href="README_zh.md"><img src="assets/ui/language-zh-CN-inactive.svg" alt="简体中文" width="128" height="32"></a>
 </p>
 
-Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room redesign, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
+Try on a new outfit before buying it, turn a product snapshot into a shop-ready image, preview furniture in your room, or give an old photo a fresh look. This collection helps you explore what you can do with your own images using Nano Banana—from practical touch-ups to playful style transformations.
+
+Browse the before-and-after examples to find an edit you want to try. Each case gives you a short workflow and a complete prompt to adapt to your images, so you can get started without writing from scratch. Curated by SeeAPI, with English and Simplified Chinese versions.
 
 **{{COUNT}} editing prompts · {{IMAGE_COUNT}} cases with previews · Updated {{DATE_EN}}**
 

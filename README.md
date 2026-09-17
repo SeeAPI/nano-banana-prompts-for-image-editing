@@ -5,7 +5,9 @@
   <a href="README_zh.md"><img src="assets/ui/language-zh-CN-inactive.svg" alt="简体中文" width="128" height="32"></a>
 </p>
 
-Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room redesign, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
+Try on a new outfit before buying it, turn a product snapshot into a shop-ready image, preview furniture in your room, or give an old photo a fresh look. This collection helps you explore what you can do with your own images using Nano Banana—from practical touch-ups to playful style transformations.
+
+Browse the before-and-after examples to find an edit you want to try. Each case gives you a short workflow and a complete prompt to adapt to your images, so you can get started without writing from scratch. Curated by SeeAPI, with English and Simplified Chinese versions.
 
 **27 editing prompts · 27 cases with previews · Updated September 17, 2026**
 
@@ -606,12 +608,10 @@ Place the full figurine on a clear round acrylic base on a tidy desk. Behind it,
 #### 📝 Full Prompt
 
 ```text
-Transform the uploaded image into a richly textured oil painting on canvas. Preserve the main subjects' identities, expressions, proportions, pose, composition, and important scene details. Interpret forms with deliberate visible brushwork, layered pigment, subtle impasto highlights, and a cohesive painterly color palette.
-
-Use realistic light and shadow to maintain depth while simplifying minor photographic noise into expressive strokes. Keep faces and key objects recognizable; avoid warping features or applying a uniform digital texture over the photograph. Show the painting itself edge to edge, without an added frame, signature, label, or gallery setting.
+Convert the uploaded image into a traditional hand-painted oil painting. Preserve the original subject and composition, but reinterpret the entire image with thick, expressive brushstrokes, layered oil pigments, subtle impasto texture, visible canvas grain, rich color depth, and painterly highlights and shadows. Use soft edge transitions and natural tonal variation to create the appearance of an authentic physical painting. Detailed, artistic, timeless fine art aesthetic, realistic proportions, harmonious colors, gallery-quality oil painting.
 ```
 
-<sub>Prompt by SeeAPI</sub>
+<sub>User-supplied prompt · Original author and source pending</sub>
 
 <a id="p28-colorful-yarn-embroidery"></a>
 

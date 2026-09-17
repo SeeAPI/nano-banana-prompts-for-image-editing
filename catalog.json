@@ -1238,8 +1238,8 @@
       "inputs": "Photo",
       "inputs_zh": "原图",
       "source": {
-        "kind": "original",
-        "author": "SeeAPI"
+        "kind": "user-supplied",
+        "author": null
       },
       "status": "image-included",
       "tested": false,
@@ -1252,7 +1252,7 @@
         "prompts/oil-painting/prompt.txt": "prompts/oil-painting/prompt.zh-CN.txt"
       },
       "translation_source_sha256": {
-        "prompts/oil-painting/prompt.txt": "6083165aa145ef5a1944cf812e7a11d650603c850d75ba6cd731218fcd265c30"
+        "prompts/oil-painting/prompt.txt": "d52a42e9c196491f2deedc21bc96ae7a821a5e63f993a7b652962cb39ccedc7f"
       },
       "case": "cases/oil-painting.md",
       "updated": "2026-09-17",
