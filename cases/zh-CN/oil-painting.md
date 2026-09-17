@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/landscape-design/reference-yard.png"><img src="../../assets/landscape-design/reference-yard.png" width="320" height="320" alt="庭院原图"></a><br>原图 | <a href="../../assets/oil-painting/result-oil-painting.jpg"><img src="../../assets/oil-painting/result-oil-painting.jpg" width="320" height="320" alt="油画效果"></a> |
 
 ## 👇 工作流
 

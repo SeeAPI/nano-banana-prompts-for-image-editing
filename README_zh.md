@@ -7,7 +7,7 @@
 
 让你的照片拥有更多可能。这里收录 Nano Banana 图片编辑提示词，涵盖虚拟试衣、人像合照、产品场景、家居改造与照片修复。每个案例提供独立操作步骤和完整提示词，并逐步补充编辑前后对比，方便你用自己的图片尝试。由 SeeAPI 整理，提供完整中英文版本。
 
-**28 个编辑提示词 · 23 个案例附示例图 · 更新于 2026-09-17**
+**27 个编辑提示词 · 27 个案例附示例图 · 更新于 2026-09-17**
 
 ⭐ Star 收藏这个仓库，为下一次图片编辑寻找灵感。
 
@@ -597,7 +597,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/landscape-design/reference-yard.png"><img src="assets/landscape-design/reference-yard.png" width="320" height="320" alt="庭院原图"></a><br>原图 | <a href="assets/oil-painting/result-oil-painting.jpg"><img src="assets/oil-painting/result-oil-painting.jpg" width="320" height="320" alt="油画效果"></a> |
 
 #### 👇 工作流
 
@@ -650,7 +650,7 @@
 
 #### 🖼️ 预览
 
-原帖示例 · Grok
+原帖示例
 
 | Before | After |
 | :---: | :---: |
@@ -668,7 +668,7 @@
 保留原人物身份、年龄、表情、服装、背景、构图和年代特征。黑白照片保持黑白，彩色照片保留原有色调。保留细腻胶片颗粒和自然皮肤纹理，不现代化服装、不添加物体，也不进行美颜。对于已完全丢失的细节，采用克制的重建，不虚构确定细节。输出一张干净、忠实于原图的修复照片，保持原取景。
 ```
 
-<sub>提示词：SeeAPI · 图片：[@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420)；原帖使用 Grok，非 Nano Banana 实测，也未经下方提示词复现验证</sub>
+<sub>提示词：SeeAPI · 图片：[@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420)；原帖示例，未经下方提示词复现验证</sub>
 
 <a id="p24-add-text"></a>
 
@@ -678,7 +678,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/add-text/before.jpg"><img src="assets/add-text/before.jpg" width="320" height="320" alt="原图"></a><br>原图 | <a href="assets/add-text/after.png"><img src="assets/add-text/after.png" width="258" height="320" alt="添加文字"></a> |
 
 #### 👇 工作流
 
@@ -702,7 +702,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/remove-object/before.png"><img src="assets/remove-object/before.png" width="320" height="320" alt="原图"></a><br>原图 | <a href="assets/remove-object/after.png"><img src="assets/remove-object/after.png" width="320" height="320" alt="移除人物"></a> |
 
 #### 👇 工作流
 
@@ -726,7 +726,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/relight-image/before.png"><img src="assets/relight-image/before.png" width="320" height="320" alt="原图"></a><br>原图 | <a href="assets/relight-image/after.jpg"><img src="assets/relight-image/after.jpg" width="320" height="320" alt="金色夕阳光线"></a> |
 
 #### 👇 工作流
 
@@ -738,30 +738,6 @@
 使用 [lighting_description] 为上传图片重新布光。保持全部主体、身份、姿势、物体形状、材质、相机透视和构图不变。修改照明，不重新设计场景。
 
 应用统一的光照方向、光源尺寸、色温、强度及衰减。在整个场景中一致地更新高光、阴影、眼神光、反射和接触阴影，并在合适位置加入轻微反弹光。保留自然肤色与材质细节，避免高光过曝、暗部死黑、虚假光晕或平面颜色滤镜。输出一张符合指定光照的写实图片，除非明确要求，否则不新增可见灯具。
-```
-
-<sub>提示词：SeeAPI</sub>
-
-<a id="p27-replace-object"></a>
-
-### 5.5. 替换指定物体
-
-#### 🖼️ 预览
-
-| Before | After |
-| :---: | :---: |
-| 原图 + 可选物体参考<br>原图待补充 | 效果图待补充 |
-
-#### 👇 工作流
-
-`原图 + 新物体 → 物体替换`
-
-#### 📝 完整提示词
-
-```text
-在图 1 中，将 [object_to_replace] 替换为 [replacement_object]。如果提供图 2，则以其作为替换物设计、材质和颜色的视觉参考。完整移除旧物体，让替换物以可信尺度处于相同功能位置。
-
-匹配场景的透视、相机焦点、光照方向、色温、接触阴影、反射和局部遮挡。只补全因替换而露出的背景区域。保留所有未选中的物体、人物、身份及整体取景。不融合新旧物体、不重复替换物，也不重新设计场景其他部分。输出一张无缝融合、照片级真实的编辑图片。
 ```
 
 <sub>提示词：SeeAPI</sub>

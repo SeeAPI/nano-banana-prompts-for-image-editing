@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="../assets/add-text/before.jpg"><img src="../assets/add-text/before.jpg" width="320" height="320" alt="Original image"></a><br>Photo | <a href="../assets/add-text/after.png"><img src="../assets/add-text/after.png" width="258" height="320" alt="Added text"></a> |
 
 ## 👇 Workflow
 

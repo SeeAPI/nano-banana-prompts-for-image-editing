@@ -2,7 +2,7 @@
 
 ## 🖼️ Preview
 
-Original post example · Grok
+Original post example
 
 | Before | After |
 | :---: | :---: |
@@ -20,4 +20,4 @@ Restore the uploaded old photograph carefully. Remove scratches, dust, stains, c
 Preserve the original identities, age, expressions, clothing, background, composition, and historical character. Keep monochrome photos monochrome and retain the original palette of color photos. Preserve fine photographic grain and natural skin texture; do not modernize clothing, add objects, or apply beauty retouching. Where detail is irretrievably missing, use restrained reconstruction rather than fabricated certainty. Output one clean, faithful restoration with the original framing.
 ```
 
-<sub>Prompt by SeeAPI · Images: [@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420); original post uses Grok, not a Nano Banana test or a result verified with the prompt below</sub>
+<sub>Prompt by SeeAPI · Images: [@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420); source-post examples, not verified outputs of the prompt below</sub>

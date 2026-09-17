@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/add-text/before.jpg"><img src="../../assets/add-text/before.jpg" width="320" height="320" alt="原图"></a><br>原图 | <a href="../../assets/add-text/after.png"><img src="../../assets/add-text/after.png" width="258" height="320" alt="添加文字"></a> |
 
 ## 👇 工作流
 

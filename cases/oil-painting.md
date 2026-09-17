@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="../assets/landscape-design/reference-yard.png"><img src="../assets/landscape-design/reference-yard.png" width="320" height="320" alt="Original yard photo"></a><br>Photo | <a href="../assets/oil-painting/result-oil-painting.jpg"><img src="../assets/oil-painting/result-oil-painting.jpg" width="320" height="320" alt="Oil painting"></a> |
 
 ## 👇 Workflow
 

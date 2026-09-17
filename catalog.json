@@ -991,9 +991,9 @@
           "path": "assets/wall-paint/reference-room.jpg",
           "width": 1024,
           "height": 1024,
-          "sha256": "cce7c4472a26f127a75ee115a2df55ec6626b69613f062b175f7ea57636c9018",
+          "sha256": "0f9c89aed61287e0553f8694c6093dc729620aa9b050eea0be798487181504de",
           "provenance": "user-supplied",
-          "original_filename": "Pixomi_ai-2026917105142.jpg",
+          "original_filename": "Pixomi_ai-202691618516.jpg",
           "role": "reference",
           "label": "Original room",
           "label_zh": "原房间"
@@ -1241,7 +1241,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "4.5",
       "readme_anchor": "p22-oil-painting",
@@ -1255,8 +1255,31 @@
         "prompts/oil-painting/prompt.txt": "6083165aa145ef5a1944cf812e7a11d650603c850d75ba6cd731218fcd265c30"
       },
       "case": "cases/oil-painting.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/landscape-design/reference-yard.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "9bf5523598206f3d2ca47ca9f474808cfa0d70bce6fe9d009d899d5aa614c4b6",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026916184750.png",
+          "role": "reference",
+          "label": "Original yard photo",
+          "label_zh": "庭院原图"
+        },
+        {
+          "path": "assets/oil-painting/result-oil-painting.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "82e542b945ae87ef77ed18167af2e76d7e6a0eba6cde39e1de48223d0ed48f1d",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917142525.jpg",
+          "role": "result",
+          "label": "Oil painting",
+          "label_zh": "油画效果"
+        }
+      ],
       "workflow": "Photo → oil painting",
       "workflow_zh": "原图 → 油画"
     },
@@ -1359,8 +1382,8 @@
         "kind": "original",
         "author": "SeeAPI",
         "url": "https://x.com/Noor_ul_ain43/status/2030189593644126420",
-        "media_note": "Images: [@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420); original post uses Grok, not a Nano Banana test or a result verified with the prompt below",
-        "media_note_zh": "图片：[@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420)；原帖使用 Grok，非 Nano Banana 实测，也未经下方提示词复现验证"
+        "media_note": "Images: [@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420); source-post examples, not verified outputs of the prompt below",
+        "media_note_zh": "图片：[@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420)；原帖示例，未经下方提示词复现验证"
       },
       "status": "image-included",
       "tested": false,
@@ -1405,8 +1428,8 @@
       ],
       "workflow": "Old photo → restored photo",
       "workflow_zh": "老照片 → 修复照片",
-      "preview_note": "Original post example · Grok",
-      "preview_note_zh": "原帖示例 · Grok"
+      "preview_note": "Original post example",
+      "preview_note_zh": "原帖示例"
     },
     {
       "id": "P24",
@@ -1420,7 +1443,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "5.2",
       "readme_anchor": "p24-add-text",
@@ -1434,8 +1457,31 @@
         "prompts/add-text/prompt.txt": "975242ad2972e9cfb369c691ba3a8b9a31efb55962248c77804b20a3479f7d2f"
       },
       "case": "cases/add-text.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/add-text/before.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "f79c2cf58299eadff6a335e3d429878b3acd8b1071fe82d770131eba73dd2c97",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917114845.jpg",
+          "role": "reference",
+          "label": "Original image",
+          "label_zh": "原图"
+        },
+        {
+          "path": "assets/add-text/after.png",
+          "width": 928,
+          "height": 1152,
+          "sha256": "1472f12bb519c1d35a096675e760157d08d31c6a7f25bd6e93d3b3583c5de5dd",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917114847.png",
+          "role": "result",
+          "label": "Added text",
+          "label_zh": "添加文字"
+        }
+      ],
       "workflow": "Photo + text + placement → text overlay",
       "workflow_zh": "原图 + 文字 + 位置 → 添加文字"
     },
@@ -1451,7 +1497,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "5.3",
       "readme_anchor": "p25-remove-object",
@@ -1465,8 +1511,31 @@
         "prompts/remove-object/prompt.txt": "80fe7d72170976594c73df075aa9164530e2055ac5653a41af5c7946746d45d5"
       },
       "case": "cases/remove-object.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/remove-object/before.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "46e781bc14dd11b0a7d8b6158cd55611cfe0be25f1790b10792fe1119513ce1d",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917115131.png",
+          "role": "reference",
+          "label": "Original image",
+          "label_zh": "原图"
+        },
+        {
+          "path": "assets/remove-object/after.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "9668e901f3086a083b74c03ab3429ea58f7ef000930bf1fd4b40f8d69b0a77e0",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917115133.png",
+          "role": "result",
+          "label": "Removed person",
+          "label_zh": "移除人物"
+        }
+      ],
       "workflow": "Photo + target object → object removal",
       "workflow_zh": "原图 + 指定物体 → 移除物体"
     },
@@ -1482,7 +1551,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "5.4",
       "readme_anchor": "p26-relight-image",
@@ -1496,41 +1565,33 @@
         "prompts/relight-image/prompt.txt": "286d42813c5e107aa4070941dd0432281088d5b74e0d88d1d0a7b42c0dbb3a5c"
       },
       "case": "cases/relight-image.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/relight-image/before.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "0d127aa70b40e8fee8022c92d616ca50cdedd3c644f629a2c7a95d3327d552de",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691711549.png",
+          "role": "reference",
+          "label": "Original image",
+          "label_zh": "原图"
+        },
+        {
+          "path": "assets/relight-image/after.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "cc1b18b745e2b2eba33588ca1fab307dc1701fe018758cd5218550917efd8eb1",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917115410.jpg",
+          "role": "result",
+          "label": "Golden-hour lighting",
+          "label_zh": "金色夕阳光线"
+        }
+      ],
       "workflow": "Photo + lighting → relit image",
       "workflow_zh": "原图 + 光线描述 → 重新布光"
-    },
-    {
-      "id": "P27",
-      "slug": "replace-object",
-      "category": 5,
-      "title": "Replace an Object",
-      "title_zh": "替换指定物体",
-      "inputs": "Photo + optional object reference",
-      "inputs_zh": "原图 + 可选物体参考",
-      "source": {
-        "kind": "original",
-        "author": "SeeAPI"
-      },
-      "status": "prompt-only",
-      "tested": false,
-      "display_number": "5.5",
-      "readme_anchor": "p27-replace-object",
-      "prompts": [
-        "prompts/replace-object/prompt.txt"
-      ],
-      "prompts_zh": {
-        "prompts/replace-object/prompt.txt": "prompts/replace-object/prompt.zh-CN.txt"
-      },
-      "translation_source_sha256": {
-        "prompts/replace-object/prompt.txt": "9b5510501af73cf8001ae938e442980f9cdc47a46570abada8ef0ad71dfa4d09"
-      },
-      "case": "cases/replace-object.md",
-      "updated": "2026-09-15",
-      "media": [],
-      "workflow": "Photo + replacement object → object swap",
-      "workflow_zh": "原图 + 新物体 → 物体替换"
     }
   ],
   "featured": [

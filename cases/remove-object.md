@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="../assets/remove-object/before.png"><img src="../assets/remove-object/before.png" width="320" height="320" alt="Original image"></a><br>Photo | <a href="../assets/remove-object/after.png"><img src="../assets/remove-object/after.png" width="320" height="320" alt="Removed person"></a> |
 
 ## 👇 Workflow
 

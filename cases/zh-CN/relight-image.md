@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/relight-image/before.png"><img src="../../assets/relight-image/before.png" width="320" height="320" alt="原图"></a><br>原图 | <a href="../../assets/relight-image/after.jpg"><img src="../../assets/relight-image/after.jpg" width="320" height="320" alt="金色夕阳光线"></a> |
 
 ## 👇 工作流
 

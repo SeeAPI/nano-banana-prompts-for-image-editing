@@ -7,7 +7,7 @@
 
 Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room redesign, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
 
-**28 editing prompts · 23 cases with previews · Updated September 17, 2026**
+**27 editing prompts · 27 cases with previews · Updated September 17, 2026**
 
 ⭐ Star this collection to save ideas for your next image edit.
 
@@ -597,7 +597,7 @@ Place the full figurine on a clear round acrylic base on a tidy desk. Behind it,
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="assets/landscape-design/reference-yard.png"><img src="assets/landscape-design/reference-yard.png" width="320" height="320" alt="Original yard photo"></a><br>Photo | <a href="assets/oil-painting/result-oil-painting.jpg"><img src="assets/oil-painting/result-oil-painting.jpg" width="320" height="320" alt="Oil painting"></a> |
 
 #### 👇 Workflow
 
@@ -650,7 +650,7 @@ Beneath the stitched scene, embroider three centered lines: [TITLE], [EDITION], 
 
 #### 🖼️ Preview
 
-Original post example · Grok
+Original post example
 
 | Before | After |
 | :---: | :---: |
@@ -668,7 +668,7 @@ Restore the uploaded old photograph carefully. Remove scratches, dust, stains, c
 Preserve the original identities, age, expressions, clothing, background, composition, and historical character. Keep monochrome photos monochrome and retain the original palette of color photos. Preserve fine photographic grain and natural skin texture; do not modernize clothing, add objects, or apply beauty retouching. Where detail is irretrievably missing, use restrained reconstruction rather than fabricated certainty. Output one clean, faithful restoration with the original framing.
 ```
 
-<sub>Prompt by SeeAPI · Images: [@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420); original post uses Grok, not a Nano Banana test or a result verified with the prompt below</sub>
+<sub>Prompt by SeeAPI · Images: [@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420); source-post examples, not verified outputs of the prompt below</sub>
 
 <a id="p24-add-text"></a>
 
@@ -678,7 +678,7 @@ Preserve the original identities, age, expressions, clothing, background, compos
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="assets/add-text/before.jpg"><img src="assets/add-text/before.jpg" width="320" height="320" alt="Original image"></a><br>Photo | <a href="assets/add-text/after.png"><img src="assets/add-text/after.png" width="258" height="320" alt="Added text"></a> |
 
 #### 👇 Workflow
 
@@ -702,7 +702,7 @@ Make the text clearly legible and aesthetically balanced at the intended size. I
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="assets/remove-object/before.png"><img src="assets/remove-object/before.png" width="320" height="320" alt="Original image"></a><br>Photo | <a href="assets/remove-object/after.png"><img src="assets/remove-object/after.png" width="320" height="320" alt="Removed person"></a> |
 
 #### 👇 Workflow
 
@@ -726,7 +726,7 @@ Preserve every other person, object, edge, and architectural feature. Do not rep
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="assets/relight-image/before.png"><img src="assets/relight-image/before.png" width="320" height="320" alt="Original image"></a><br>Photo | <a href="assets/relight-image/after.jpg"><img src="assets/relight-image/after.jpg" width="320" height="320" alt="Golden-hour lighting"></a> |
 
 #### 👇 Workflow
 
@@ -738,30 +738,6 @@ Preserve every other person, object, edge, and architectural feature. Do not rep
 Relight the uploaded image with [lighting_description]. Keep all subjects, identities, poses, object shapes, materials, camera perspective, and composition unchanged. Modify the illumination rather than redesigning the scene.
 
 Apply a coherent light direction, source size, color temperature, intensity, and falloff. Update highlights, shadows, catchlights, reflections, and contact shadows consistently across the scene, including subtle bounced light where appropriate. Preserve natural skin tones and material detail; avoid clipped highlights, crushed shadows, fake halos, or a flat color filter. Output one photorealistic image with the requested lighting and no added visible light fixtures unless specified.
-```
-
-<sub>Prompt by SeeAPI</sub>
-
-<a id="p27-replace-object"></a>
-
-### 5.5. Replace an Object
-
-#### 🖼️ Preview
-
-| Before | After |
-| :---: | :---: |
-| Photo + optional object reference<br>Input image pending | Result image pending |
-
-#### 👇 Workflow
-
-`Photo + replacement object → object swap`
-
-#### 📝 Full Prompt
-
-```text
-In Image 1, replace [object_to_replace] with [replacement_object]. If Image 2 is supplied, use it as the visual reference for the replacement's design, material, and color. Remove the old object completely and place the replacement in the same functional position at a believable scale.
-
-Match the scene's perspective, camera focus, light direction, color temperature, contact shadows, reflections, and partial occlusions. Reconstruct only background areas revealed by the change. Preserve all unselected objects, people, identities, and the overall framing. Do not blend the old and new objects, duplicate the replacement, or redesign the rest of the scene. Output one seamless, photorealistic edited image.
 ```
 
 <sub>Prompt by SeeAPI</sub>

@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="../assets/relight-image/before.png"><img src="../assets/relight-image/before.png" width="320" height="320" alt="Original image"></a><br>Photo | <a href="../assets/relight-image/after.jpg"><img src="../assets/relight-image/after.jpg" width="320" height="320" alt="Golden-hour lighting"></a> |
 
 ## 👇 Workflow
 
