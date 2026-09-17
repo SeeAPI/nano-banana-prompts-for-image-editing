@@ -23,6 +23,7 @@ Discover what your photos can become. Explore Nano Banana editing prompts for vi
 
 - [✨ Featured Edits](#featured)
 - [🧭 Choose Your Model](#how-to-use)
+- [📄 License](#license)
 
 **Prompt Categories**
 

@@ -7,7 +7,7 @@
 
 让你的照片拥有更多可能。这里收录 Nano Banana 图片编辑提示词，涵盖虚拟试衣、人像合照、产品场景、家居改造与照片修复。每个案例提供独立操作步骤和完整提示词，并逐步补充编辑前后对比，方便你用自己的图片尝试。由 SeeAPI 整理，提供完整中英文版本。
 
-**28 个编辑提示词 · 16 个案例附示例图 · 更新于 2026-09-16**
+**28 个编辑提示词 · 23 个案例附示例图 · 更新于 2026-09-17**
 
 ⭐ Star 收藏这个仓库，为下一次图片编辑寻找灵感。
 
@@ -26,6 +26,7 @@
 
 - [✨ 精选玩法](#featured)
 - [🧭 模型选择](#how-to-use)
+- [📄 许可协议](#license)
 
 **提示词分类**
 
@@ -448,7 +449,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 物体<br>原图待补充 | 效果图待补充 |
+| <a href="assets/material-swap/reference-leather.png"><img src="assets/material-swap/reference-leather.png" width="320" height="320" alt="皮质沙发"></a><br>物体 | <a href="assets/material-swap/result-velvet.jpg"><img src="assets/material-swap/result-velvet.jpg" width="320" height="320" alt="丝绒沙发"></a> |
 
 #### 👇 工作流
 
@@ -472,7 +473,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 房间<br>原图待补充 | 效果图待补充 |
+| <a href="assets/wall-paint/reference-room.jpg"><img src="assets/wall-paint/reference-room.jpg" width="320" height="320" alt="原房间"></a><br>房间 | <a href="assets/wall-paint/result-blue-walls.jpg"><img src="assets/wall-paint/result-blue-walls.jpg" width="320" height="320" alt="蓝色墙面"></a> |
 
 #### 👇 工作流
 
@@ -500,7 +501,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="320" height="320" alt="原照片"></a><br>原图 | <a href="assets/polaroid/result-polaroid.png"><img src="assets/polaroid/result-polaroid.png" width="258" height="320" alt="宝丽来照片"></a> |
 
 #### 👇 工作流
 
@@ -524,7 +525,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/portraits/reference-cat.png"><img src="assets/portraits/reference-cat.png" width="320" height="320" alt="原猫咪照片"></a><br>原图 | <a href="assets/lego-style/result-lego.jpg"><img src="assets/lego-style/result-lego.jpg" width="320" height="320" alt="乐高风格猫咪"></a> |
 
 #### 👇 工作流
 
@@ -548,7 +549,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="assets/portraits/result-pet-selfie.jpg"><img src="assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="原合影"></a><br>原图 | <a href="assets/ghibli-anime/result-anime.jpg"><img src="assets/ghibli-anime/result-anime.jpg" width="179" height="320" alt="吉卜力动画风格"></a> |
 
 #### 👇 工作流
 
@@ -572,7 +573,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 人像 / 角色<br>原图待补充 | 效果图待补充 |
+| <a href="assets/miniature-figurine/reference-toy.png"><img src="assets/miniature-figurine/reference-toy.png" width="320" height="320" alt="角色参考"></a><br>人像 / 角色 | <a href="assets/miniature-figurine/result-figurine.jpg"><img src="assets/miniature-figurine/result-figurine.jpg" width="320" height="320" alt="迷你手办"></a> |
 
 #### 👇 工作流
 
@@ -649,9 +650,11 @@
 
 #### 🖼️ 预览
 
+原帖示例 · Grok
+
 | Before | After |
 | :---: | :---: |
-| 老照片<br>原图待补充 | 效果图待补充 |
+| <a href="assets/old-photo-restoration/source-example-01.webp"><img src="assets/old-photo-restoration/source-example-01.webp" width="255" height="320" alt="原帖：受损照片"></a><br>老照片 | <a href="assets/old-photo-restoration/source-example-02.webp"><img src="assets/old-photo-restoration/source-example-02.webp" width="255" height="320" alt="原帖：修复效果"></a> |
 
 #### 👇 工作流
 
@@ -665,7 +668,7 @@
 保留原人物身份、年龄、表情、服装、背景、构图和年代特征。黑白照片保持黑白，彩色照片保留原有色调。保留细腻胶片颗粒和自然皮肤纹理，不现代化服装、不添加物体，也不进行美颜。对于已完全丢失的细节，采用克制的重建，不虚构确定细节。输出一张干净、忠实于原图的修复照片，保持原取景。
 ```
 
-<sub>提示词：SeeAPI</sub>
+<sub>提示词：SeeAPI · 图片：[@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420)；原帖使用 Grok，非 Nano Banana 实测，也未经下方提示词复现验证</sub>
 
 <a id="p24-add-text"></a>
 
@@ -762,3 +765,11 @@
 ```
 
 <sub>提示词：SeeAPI</sub>
+
+<a id="license"></a>
+
+## 📄 许可协议
+
+SeeAPI 原创提示词与文档采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans) 许可，欢迎复制、转载与改编，包括商业用途。请署名 **SeeAPI**，附上[本仓库](https://github.com/SeeAPI/nano-banana-prompts-for-image-editing)及许可证链接；如有修改，请注明。
+
+引用的第三方提示词与图片仍遵循原作者的许可，标注来源不等于获得转载授权。详见 [LICENSE.md](LICENSE.md)。

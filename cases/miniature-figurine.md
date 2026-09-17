@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Portrait / character<br>Input image pending | Result image pending |
+| <a href="../assets/miniature-figurine/reference-toy.png"><img src="../assets/miniature-figurine/reference-toy.png" width="320" height="320" alt="Character reference"></a><br>Portrait / character | <a href="../assets/miniature-figurine/result-figurine.jpg"><img src="../assets/miniature-figurine/result-figurine.jpg" width="320" height="320" alt="Miniature figurine"></a> |
 
 ## 👇 Workflow
 

@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/reference-cat.png"><img src="../../assets/portraits/reference-cat.png" width="320" height="320" alt="原猫咪照片"></a><br>原图 | <a href="../../assets/lego-style/result-lego.jpg"><img src="../../assets/lego-style/result-lego.jpg" width="320" height="320" alt="乐高风格猫咪"></a> |
 
 ## 👇 工作流
 

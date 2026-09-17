@@ -7,7 +7,7 @@
 
 Discover what your photos can become. Explore Nano Banana editing prompts for virtual try-ons, group photos, product scenes, room redesign, and photo restoration. Each case includes its own workflow and complete prompt, with before-and-after examples added as the collection grows—ready to try with your own images. Curated by SeeAPI in English and Simplified Chinese.
 
-**28 editing prompts · 16 cases with previews · Updated September 16, 2026**
+**28 editing prompts · 23 cases with previews · Updated September 17, 2026**
 
 ⭐ Star this collection to save ideas for your next image edit.
 
@@ -26,6 +26,7 @@ Discover what your photos can become. Explore Nano Banana editing prompts for vi
 
 - [✨ Featured Edits](#featured)
 - [🧭 Choose Your Model](#how-to-use)
+- [📄 License](#license)
 
 **Prompt Categories**
 
@@ -448,7 +449,7 @@ Keep the architecture, windows, doors, camera viewpoint, and all unselected furn
 
 | Before | After |
 | :---: | :---: |
-| Object<br>Input image pending | Result image pending |
+| <a href="assets/material-swap/reference-leather.png"><img src="assets/material-swap/reference-leather.png" width="320" height="320" alt="Leather sofa"></a><br>Object | <a href="assets/material-swap/result-velvet.jpg"><img src="assets/material-swap/result-velvet.jpg" width="320" height="320" alt="Velvet sofa"></a> |
 
 #### 👇 Workflow
 
@@ -472,7 +473,7 @@ Render the new material with physically believable texture scale, grain directio
 
 | Before | After |
 | :---: | :---: |
-| Room<br>Input image pending | Result image pending |
+| <a href="assets/wall-paint/reference-room.jpg"><img src="assets/wall-paint/reference-room.jpg" width="320" height="320" alt="Original room"></a><br>Room | <a href="assets/wall-paint/result-blue-walls.jpg"><img src="assets/wall-paint/result-blue-walls.jpg" width="320" height="320" alt="Blue walls"></a> |
 
 #### 👇 Workflow
 
@@ -500,7 +501,7 @@ Preserve the wall's original texture and architectural details. Show how the cho
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="assets/portraits/result-group-photo-updated.jpg"><img src="assets/portraits/result-group-photo-updated.jpg" width="320" height="320" alt="Original photo"></a><br>Photo | <a href="assets/polaroid/result-polaroid.png"><img src="assets/polaroid/result-polaroid.png" width="258" height="320" alt="Polaroid photo"></a> |
 
 #### 👇 Workflow
 
@@ -524,7 +525,7 @@ Present the image inside a clean off-white instant-photo border with a slightly 
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="assets/portraits/reference-cat.png"><img src="assets/portraits/reference-cat.png" width="320" height="320" alt="Original cat photo"></a><br>Photo | <a href="assets/lego-style/result-lego.jpg"><img src="assets/lego-style/result-lego.jpg" width="320" height="320" alt="LEGO-style cat"></a> |
 
 #### 👇 Workflow
 
@@ -548,7 +549,7 @@ Use coherent brick scale, clean joins, subtle molded-plastic texture, and realis
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="assets/portraits/result-pet-selfie.jpg"><img src="assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="Original selfie"></a><br>Photo | <a href="assets/ghibli-anime/result-anime.jpg"><img src="assets/ghibli-anime/result-anime.jpg" width="179" height="320" alt="Ghibli Anime"></a> |
 
 #### 👇 Workflow
 
@@ -572,7 +573,7 @@ Translate real details into a cohesive illustrated world with lush, carefully ob
 
 | Before | After |
 | :---: | :---: |
-| Portrait / character<br>Input image pending | Result image pending |
+| <a href="assets/miniature-figurine/reference-toy.png"><img src="assets/miniature-figurine/reference-toy.png" width="320" height="320" alt="Character reference"></a><br>Portrait / character | <a href="assets/miniature-figurine/result-figurine.jpg"><img src="assets/miniature-figurine/result-figurine.jpg" width="320" height="320" alt="Miniature figurine"></a> |
 
 #### 👇 Workflow
 
@@ -649,9 +650,11 @@ Beneath the stitched scene, embroider three centered lines: [TITLE], [EDITION], 
 
 #### 🖼️ Preview
 
+Original post example · Grok
+
 | Before | After |
 | :---: | :---: |
-| Old photo<br>Input image pending | Result image pending |
+| <a href="assets/old-photo-restoration/source-example-01.webp"><img src="assets/old-photo-restoration/source-example-01.webp" width="255" height="320" alt="Original post: damaged portrait"></a><br>Old photo | <a href="assets/old-photo-restoration/source-example-02.webp"><img src="assets/old-photo-restoration/source-example-02.webp" width="255" height="320" alt="Original post: restored portrait"></a> |
 
 #### 👇 Workflow
 
@@ -665,7 +668,7 @@ Restore the uploaded old photograph carefully. Remove scratches, dust, stains, c
 Preserve the original identities, age, expressions, clothing, background, composition, and historical character. Keep monochrome photos monochrome and retain the original palette of color photos. Preserve fine photographic grain and natural skin texture; do not modernize clothing, add objects, or apply beauty retouching. Where detail is irretrievably missing, use restrained reconstruction rather than fabricated certainty. Output one clean, faithful restoration with the original framing.
 ```
 
-<sub>Prompt by SeeAPI</sub>
+<sub>Prompt by SeeAPI · Images: [@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420); original post uses Grok, not a Nano Banana test or a result verified with the prompt below</sub>
 
 <a id="p24-add-text"></a>
 
@@ -762,3 +765,11 @@ Match the scene's perspective, camera focus, light direction, color temperature,
 ```
 
 <sub>Prompt by SeeAPI</sub>
+
+<a id="license"></a>
+
+## 📄 License
+
+SeeAPI’s original prompts and documentation are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may copy, share, and adapt them, including commercially. Credit **SeeAPI**, link to [this repository](https://github.com/SeeAPI/nano-banana-prompts-for-image-editing) and the license, and indicate any changes.
+
+Third-party prompts and images remain subject to their original owners’ terms; attribution alone does not grant permission to reuse them. See [LICENSE.md](LICENSE.md).

@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/result-pet-selfie.jpg"><img src="../../assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="原合影"></a><br>原图 | <a href="../../assets/ghibli-anime/result-anime.jpg"><img src="../../assets/ghibli-anime/result-anime.jpg" width="179" height="320" alt="吉卜力动画风格"></a> |
 
 ## 👇 工作流
 

@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="../assets/portraits/reference-cat.png"><img src="../assets/portraits/reference-cat.png" width="320" height="320" alt="Original cat photo"></a><br>Photo | <a href="../assets/lego-style/result-lego.jpg"><img src="../assets/lego-style/result-lego.jpg" width="320" height="320" alt="LEGO-style cat"></a> |
 
 ## 👇 Workflow
 

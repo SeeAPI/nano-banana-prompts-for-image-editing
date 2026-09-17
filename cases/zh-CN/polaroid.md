@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 原图<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/portraits/result-group-photo-updated.jpg"><img src="../../assets/portraits/result-group-photo-updated.jpg" width="320" height="320" alt="原照片"></a><br>原图 | <a href="../../assets/polaroid/result-polaroid.png"><img src="../../assets/polaroid/result-polaroid.png" width="258" height="320" alt="宝丽来照片"></a> |
 
 ## 👇 工作流
 

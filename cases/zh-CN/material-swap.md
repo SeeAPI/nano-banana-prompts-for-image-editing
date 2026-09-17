@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 物体<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/material-swap/reference-leather.png"><img src="../../assets/material-swap/reference-leather.png" width="320" height="320" alt="皮质沙发"></a><br>物体 | <a href="../../assets/material-swap/result-velvet.jpg"><img src="../../assets/material-swap/result-velvet.jpg" width="320" height="320" alt="丝绒沙发"></a> |
 
 ## 👇 工作流
 

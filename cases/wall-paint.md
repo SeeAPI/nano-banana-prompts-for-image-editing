@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Room<br>Input image pending | Result image pending |
+| <a href="../assets/wall-paint/reference-room.jpg"><img src="../assets/wall-paint/reference-room.jpg" width="320" height="320" alt="Original room"></a><br>Room | <a href="../assets/wall-paint/result-blue-walls.jpg"><img src="../assets/wall-paint/result-blue-walls.jpg" width="320" height="320" alt="Blue walls"></a> |
 
 ## 👇 Workflow
 

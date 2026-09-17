@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="../assets/portraits/result-pet-selfie.jpg"><img src="../assets/portraits/result-pet-selfie.jpg" width="179" height="320" alt="Original selfie"></a><br>Photo | <a href="../assets/ghibli-anime/result-anime.jpg"><img src="../assets/ghibli-anime/result-anime.jpg" width="179" height="320" alt="Ghibli Anime"></a> |
 
 ## 👇 Workflow
 

@@ -74,7 +74,9 @@ def preview(c, zh, standalone):
     else:
         before = (c['inputs_zh']+'<br>原图待补充') if zh else (c['inputs']+'<br>Input image pending')
     after = ' '.join(media_tag(m,zh,page_dir) for m in results) if results else ('效果图待补充' if zh else 'Result image pending')
-    return f'| Before | After |\n| :---: | :---: |\n| {before} | {after} |'
+    note = c.get('preview_note_zh' if zh else 'preview_note', '')
+    table = f'| Before | After |\n| :---: | :---: |\n| {before} | {after} |'
+    return (note + '\n\n' if note else '') + table
 
 def featured(data, zh):
     by_id = {c['id']: c for c in data['cases']}
@@ -125,6 +127,8 @@ def outputs(data):
                 blocks += [f'<a id="{c["readme_anchor"]}"></a>', f'### {c["display_number"]}. {title}', body(c, zh)]
                 casepath = ('cases/zh-CN/'+c['slug']+'.md') if zh else c['case']
                 result[casepath] = f'# {c["id"]} · {title}\n\n'+body(c,zh,True)+'\n'
+        footer = 'footer_zh.md' if zh else 'footer.md'
+        blocks.append((ROOT/'templates'/footer).read_text().rstrip())
         result[name] = '\n\n'.join(blocks)+'\n'
     return result
 

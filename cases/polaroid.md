@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Photo<br>Input image pending | Result image pending |
+| <a href="../assets/portraits/result-group-photo-updated.jpg"><img src="../assets/portraits/result-group-photo-updated.jpg" width="320" height="320" alt="Original photo"></a><br>Photo | <a href="../assets/polaroid/result-polaroid.png"><img src="../assets/polaroid/result-polaroid.png" width="258" height="320" alt="Polaroid photo"></a> |
 
 ## 👇 Workflow
 

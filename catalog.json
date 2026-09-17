@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "cases": [
     {
       "id": "P01",
@@ -917,7 +917,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "3.4",
       "readme_anchor": "p16-material-swap",
@@ -931,8 +931,31 @@
         "prompts/material-swap/prompt.txt": "5060df16e521d86b5c5451e7f9df3485986c79dfe76b21f577796c5347f029a5"
       },
       "case": "cases/material-swap.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/material-swap/reference-leather.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "4d1311bde6499406422728d55bc133d2f268f542b3024f872cd3655cae5c13d4",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917105416.png",
+          "role": "reference",
+          "label": "Leather sofa",
+          "label_zh": "皮质沙发"
+        },
+        {
+          "path": "assets/material-swap/result-velvet.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "ce772478316450fa4388ffd8fb31003a1db4f99f074720c3ef7781fac1def1d8",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917105414.jpg",
+          "role": "result",
+          "label": "Velvet sofa",
+          "label_zh": "丝绒沙发"
+        }
+      ],
       "workflow": "Object + material → material swap",
       "workflow_zh": "物体 + 材质 → 材质替换"
     },
@@ -948,7 +971,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "3.5",
       "readme_anchor": "p17-wall-paint",
@@ -962,8 +985,31 @@
         "prompts/wall-paint/prompt.txt": "cdd2cab0236d2b0af35f7055dec0fc1f811564872d6a54be0dbef3b014d28e32"
       },
       "case": "cases/wall-paint.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/wall-paint/reference-room.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "cce7c4472a26f127a75ee115a2df55ec6626b69613f062b175f7ea57636c9018",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917105142.jpg",
+          "role": "reference",
+          "label": "Original room",
+          "label_zh": "原房间"
+        },
+        {
+          "path": "assets/wall-paint/result-blue-walls.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "f3305ff75d3f9a6b3867c12935f6c7aacaecea2eaee27474f9869aea77fa33ae",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917105143.jpg",
+          "role": "result",
+          "label": "Blue walls",
+          "label_zh": "蓝色墙面"
+        }
+      ],
       "workflow": "Wall + paint color → wall recolor",
       "workflow_zh": "墙面 + 颜色 → 墙漆改色"
     },
@@ -979,7 +1025,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "4.1",
       "readme_anchor": "p18-polaroid",
@@ -993,8 +1039,31 @@
         "prompts/polaroid/prompt.txt": "b6558725f9197c7081340ec7573a90ab98b2acf10bc4e2eff580d8a4907f2f3a"
       },
       "case": "cases/polaroid.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/portraits/result-group-photo-updated.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "b65b5b9e6a1779f0796c0ce69f35c6a865f2c745fa659ff30c927c29ed3bce2d",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026915183658.jpg",
+          "role": "reference",
+          "label": "Original photo",
+          "label_zh": "原照片"
+        },
+        {
+          "path": "assets/polaroid/result-polaroid.png",
+          "width": 928,
+          "height": 1152,
+          "sha256": "c510d2c588b886b07f022252cf43a35a006509e862a44eef98a5df03a4d1623d",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917112259.png",
+          "role": "result",
+          "label": "Polaroid photo",
+          "label_zh": "宝丽来照片"
+        }
+      ],
       "workflow": "Photo → Polaroid look",
       "workflow_zh": "原图 → 宝丽来风格"
     },
@@ -1010,7 +1079,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "4.2",
       "readme_anchor": "p19-lego-style",
@@ -1024,8 +1093,31 @@
         "prompts/lego-style/prompt.txt": "0b9ae66f7024bbe376cf2e4912b93b4a0e2ac523a82258f711a5e4af78a93c9d"
       },
       "case": "cases/lego-style.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/portraits/reference-cat.png",
+          "width": 1254,
+          "height": 1254,
+          "sha256": "1a59a004a55af0d33430bdbb092d5d04992be9271f4360690acf3c653db97542",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-20269151846.png",
+          "role": "reference",
+          "label": "Original cat photo",
+          "label_zh": "原猫咪照片"
+        },
+        {
+          "path": "assets/lego-style/result-lego.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "6423e40f52de42c8ff3b27590022cff6d54b681ab3f3734d5ce8b8f32e8ec54d",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691711235.jpg",
+          "role": "result",
+          "label": "LEGO-style cat",
+          "label_zh": "乐高风格猫咪"
+        }
+      ],
       "workflow": "Photo → LEGO world",
       "workflow_zh": "原图 → 乐高世界"
     },
@@ -1041,7 +1133,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "4.3",
       "readme_anchor": "p20-ghibli-anime",
@@ -1055,8 +1147,31 @@
         "prompts/ghibli-anime/prompt.txt": "a19e4af2056b038ca3c0bbb20386ff60e755dec303399d2d7248ad6fd4316270"
       },
       "case": "cases/ghibli-anime.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/portraits/result-pet-selfie.jpg",
+          "width": 768,
+          "height": 1376,
+          "sha256": "8b711b72483a8b37c2119e81b2ebcf59d4037fb7d525ed63578397e796ee93a3",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-202691518513.jpg",
+          "role": "reference",
+          "label": "Original selfie",
+          "label_zh": "原合影"
+        },
+        {
+          "path": "assets/ghibli-anime/result-anime.jpg",
+          "width": 768,
+          "height": 1376,
+          "sha256": "30ad0d99dd5ee320b9845014d89096187c3c0c413dc97f800f3182f7f2901e61",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917112338.jpg",
+          "role": "result",
+          "label": "Ghibli Anime",
+          "label_zh": "吉卜力动画风格"
+        }
+      ],
       "workflow": "Photo → Ghibli anime",
       "workflow_zh": "原图 → 吉卜力动漫"
     },
@@ -1072,7 +1187,7 @@
         "kind": "original",
         "author": "SeeAPI"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "4.4",
       "readme_anchor": "p21-miniature-figurine",
@@ -1086,8 +1201,31 @@
         "prompts/miniature-figurine/prompt.txt": "a379726e5e61dabac32624ef5539f6b7d9e650588019f051c1cdb9119e9a7bcc"
       },
       "case": "cases/miniature-figurine.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/miniature-figurine/reference-toy.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "576b2f348103c86c3de6c08d16cd7846a803c419aaba99d821f127e1f14f3580",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917112343.png",
+          "role": "reference",
+          "label": "Character reference",
+          "label_zh": "角色参考"
+        },
+        {
+          "path": "assets/miniature-figurine/result-figurine.jpg",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "19a24fdf79a0f09c6c7a4f7fe2382845e1974d8bc4555c70f9f89d242818513a",
+          "provenance": "user-supplied",
+          "original_filename": "Pixomi_ai-2026917112344.jpg",
+          "role": "result",
+          "label": "Miniature figurine",
+          "label_zh": "迷你手办"
+        }
+      ],
       "workflow": "Character → collectible figurine",
       "workflow_zh": "角色 → 收藏手办"
     },
@@ -1219,9 +1357,12 @@
       "inputs_zh": "老照片",
       "source": {
         "kind": "original",
-        "author": "SeeAPI"
+        "author": "SeeAPI",
+        "url": "https://x.com/Noor_ul_ain43/status/2030189593644126420",
+        "media_note": "Images: [@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420); original post uses Grok, not a Nano Banana test or a result verified with the prompt below",
+        "media_note_zh": "图片：[@Noor_ul_ain43 · X](https://x.com/Noor_ul_ain43/status/2030189593644126420)；原帖使用 Grok，非 Nano Banana 实测，也未经下方提示词复现验证"
       },
-      "status": "prompt-only",
+      "status": "image-included",
       "tested": false,
       "display_number": "5.1",
       "readme_anchor": "p23-old-photo-restoration",
@@ -1235,10 +1376,37 @@
         "prompts/old-photo-restoration/prompt.txt": "ca71cfc8ccbf3eadd1a6db5ffb63aab85dac2a2b70912a9f2d24b9723e0ef5d4"
       },
       "case": "cases/old-photo-restoration.md",
-      "updated": "2026-09-15",
-      "media": [],
+      "updated": "2026-09-17",
+      "media": [
+        {
+          "path": "assets/old-photo-restoration/source-example-01.webp",
+          "width": 415,
+          "height": 520,
+          "sha256": "e890d5a4a8774ee7d70caedf9edd71bf0cfec6750f5c2f63a7054d182df864f4",
+          "provenance": "source-example",
+          "role": "reference",
+          "label": "Original post: damaged portrait",
+          "label_zh": "原帖：受损照片",
+          "source_url": "https://x.com/Noor_ul_ain43/status/2030189593644126420",
+          "download_url": "https://pbs.twimg.com/media/HCyurAcaoAALxOP?format=webp&name=medium"
+        },
+        {
+          "path": "assets/old-photo-restoration/source-example-02.webp",
+          "width": 919,
+          "height": 1152,
+          "sha256": "b93e43ec20d113a14e010ac03efec5fe0e451f8bca4643d68753eeb716aca12f",
+          "provenance": "source-example",
+          "role": "result",
+          "label": "Original post: restored portrait",
+          "label_zh": "原帖：修复效果",
+          "source_url": "https://x.com/Noor_ul_ain43/status/2030189593644126420",
+          "download_url": "https://pbs.twimg.com/media/HCyuq-yagAAczi0?format=webp&name=medium"
+        }
+      ],
       "workflow": "Old photo → restored photo",
-      "workflow_zh": "老照片 → 修复照片"
+      "workflow_zh": "老照片 → 修复照片",
+      "preview_note": "Original post example · Grok",
+      "preview_note_zh": "原帖示例 · Grok"
     },
     {
       "id": "P24",

@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 人像 / 角色<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/miniature-figurine/reference-toy.png"><img src="../../assets/miniature-figurine/reference-toy.png" width="320" height="320" alt="角色参考"></a><br>人像 / 角色 | <a href="../../assets/miniature-figurine/result-figurine.jpg"><img src="../../assets/miniature-figurine/result-figurine.jpg" width="320" height="320" alt="迷你手办"></a> |
 
 ## 👇 工作流
 

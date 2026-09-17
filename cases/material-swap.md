@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| Object<br>Input image pending | Result image pending |
+| <a href="../assets/material-swap/reference-leather.png"><img src="../assets/material-swap/reference-leather.png" width="320" height="320" alt="Leather sofa"></a><br>Object | <a href="../assets/material-swap/result-velvet.jpg"><img src="../assets/material-swap/result-velvet.jpg" width="320" height="320" alt="Velvet sofa"></a> |
 
 ## 👇 Workflow
 

@@ -4,7 +4,7 @@
 
 | Before | After |
 | :---: | :---: |
-| 房间<br>原图待补充 | 效果图待补充 |
+| <a href="../../assets/wall-paint/reference-room.jpg"><img src="../../assets/wall-paint/reference-room.jpg" width="320" height="320" alt="原房间"></a><br>房间 | <a href="../../assets/wall-paint/result-blue-walls.jpg"><img src="../../assets/wall-paint/result-blue-walls.jpg" width="320" height="320" alt="蓝色墙面"></a> |
 
 ## 👇 工作流
 
